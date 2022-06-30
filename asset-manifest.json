@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/getir-clone/static/css/main.cca56678.css",
+    "main.js": "/getir-clone/static/js/main.eed31b4d.js",
+    "index.html": "/getir-clone/index.html",
+    "main.cca56678.css.map": "/getir-clone/static/css/main.cca56678.css.map",
+    "main.eed31b4d.js.map": "/getir-clone/static/js/main.eed31b4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cca56678.css",
+    "static/js/main.eed31b4d.js"
+  ]
+}
