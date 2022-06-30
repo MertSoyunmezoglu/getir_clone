@@ -1,0 +1,115 @@
+[
+    {
+      "id": 1,
+      "title": "Lay's Mevsim Yeşillikli",
+      "image": "https://cdn.getir.com/product/5bc97aabb137fb001d751ac7_tr_1609123518121.jpeg",
+      "alt": "96 g",
+      "price": 11
+    },
+    {
+      "id": 2,
+      "title": "Eti Canga",
+      "image": "https://cdn.getir.com/product/5f3538dc71a71226677fba17_tr_1624437105104.jpeg",
+      "alt": "45 g",
+      "price": 4.75
+    },
+    {
+      "id": 3,
+      "title": "Kuzeyden",
+      "image": "https://cdn.getir.com/product/5a7b20fd8e19da0004bb27f8_tr_1615375864268.jpeg",
+      "alt": "1.5 L",
+      "price": 3.95
+    },
+    {
+      "id": 4,
+      "title": "Kızılay Erzincan",
+      "image": "https://cdn.getir.com/product/60018c5bca2126d84459c47f_tr_1610788125046.jpeg",
+      "alt": "6 x 200 ml",
+      "price": 8.90
+    },
+    {
+      "id": 5,
+      "title": "Ülker Napoliten",
+      "image": "https://cdn.getir.com/product/574b2219dee8a90300f18d24_tr_1599938278519.jpeg",
+      "alt": "33 g",
+      "price": 5.50
+    },
+    {
+      "id": 6,
+      "title": "Kavrulmuş Siyah Ay Çekirdeği",
+      "image": "https://cdn.getir.com/product/5ccaf4ff1a1763000175a869_tr_1580904995656.jpeg",
+      "alt": "180 g",
+      "price": 14.95
+    },
+    {
+      "id": 7,
+      "title": "Magnum Badem",
+      "image": "https://cdn.getir.com/product/559fec01f462100c00461d5c_tr_1618323765236.jpeg",
+      "alt": "100 ml",
+      "price": 13.50
+    },
+    {
+      "id": 8,
+      "title": "İçim %3 Yağlı Süt",
+      "image": "https://cdn.getir.com/product/5ced482d4a8a2a000137da6d_tr_1623652387464.jpeg",
+      "alt": "1 L",
+      "price": 12.95
+    },
+    {
+      "id": 9,
+      "title": "Tadım Antep Fıstıklı",
+      "image": "https://cdn.getir.com/product/58247e50daab3d00044a1fb3_tr_1609904538035.jpeg",
+      "alt": "27 g",
+      "price": 9.99
+    },
+    {
+      "id": 9,
+      "title": "Tadım Fındıklı",
+      "image": "https://cdn.getir.com/product/5f7473a911fb9741c1c31be7_tr_1609904565266.jpeg",
+      "alt": "30 g",
+      "price": 4.99
+    },
+    {
+      "id": 10,
+      "title": "CP M Boy Yumurta",
+      "image": "https://cdn.getir.com/product/5baa13ad1bcb7c7a0da5e802_tr_1599938695492.jpeg",
+      "alt": "15 adet",
+      "price": 22.99
+    },
+    {
+      "id": 11,
+      "title": "Fellas Protein Bar",
+      "image": "https://cdn.getir.com/product/59c27f8aa1478b0004fe6c1a_tr_1609404154110.png",
+      "alt": "40 g",
+      "price": 22.99
+    },
+    {
+      "id": 12,
+      "title": "Pürsu Cam",
+      "image": "https://cdn.getir.com/product/5fb6856eb9a056d1647ed885_tr_1608222523381.jpeg",
+      "alt": "0.5 L",
+      "price": 14.99
+    },
+    {
+      "id": 13,
+      "title": "Pepsi",
+      "image": "https://cdn.getir.com/product/56ee322ed6122903008f4bb9_tr_1624461748719.jpeg",
+      "alt": "0.33 L",
+      "price": 8.99
+    },
+    {
+      "id": 14,
+      "title": "Lipton 25'li Çay",
+      "image": "https://cdn.getir.com/product/559831ecb1dc700c006a71b4_tr_1584028750154.jpeg",
+      "alt": "400 g",
+      "price": 42.99
+    },
+    {
+      "id": 15,
+      "title": "Etli Kuru Fasulye",
+      "image": "https://cdn.getir.com/product/603ccabfdeedd2237a4937b4_tr_1614678269220.jpeg",
+      "alt": "500 g",
+      "price": 27.99
+    }
+
+  ]
