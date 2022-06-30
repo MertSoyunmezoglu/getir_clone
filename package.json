@@ -2,7 +2,7 @@
   "name": "getir-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MertSoyunmezoglu.github.io/getir-clone",
+  "homepage":"https://MertSoyunmezoglu.github.io/getir_clone",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -20,8 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
