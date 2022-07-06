@@ -24,17 +24,32 @@ export default function Campaigns() {
     dots: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay:true,
     autoplaySpeed:4000,
-    cssEase:'linear',
-    nextArrow: <NextBtn /> ,
-    prevArrow: <PrevBtn />
+    responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2, 
+        }
+      }
+    ],
+
+    nextArrow: <PrevBtn />  ,
+    prevArrow: <NextBtn />  ,
+  
     
   };
-  return (
-    <div className=" container bg-slate-100">
+  return ( 
+    <div className=" container mx-auto bg-slate-100">
     <h3 className='text-sm font-semibold ml-6 py-6'>Kampanyalar</h3>
         <Slider {...settings} className="mx-2">
           {banners.length && banners.map((banner,index)=>(

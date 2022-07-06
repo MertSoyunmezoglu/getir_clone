@@ -16,8 +16,8 @@ export default function HeroSection() {
     cssEase:'linear'
   };
   return (
-    <div className="relative h-[500px] overflow-hidden before:w-full before:h-full before:z-10 before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 ">
-    <Slider {...settings}>
+    <div className="relative mx-auto items-center h-auto overflow-hidden before:w-full before:h-full before:z-10 before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 ">
+    <Slider className="h-full hidden sm:block" {...settings}>
           <div>
             <img className='w-full object-cover h-[500px]' src ='https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg'/>
           </div>
@@ -34,13 +34,15 @@ export default function HeroSection() {
             <img className='w-full object-cover h-[500px]' src ='https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg'/>
           </div>
        </Slider>
-        <div className=" ml-20 container absolute top-0 w-full flex items-center justify-between h-full z-20  "> 
-          <div >
+        <div className="relative sm:absolute inset-0 px-0 sm:px-8 z-[40] flex items-center"> 
+          <div className="w-full sm:container flex mx-auto justify-between items-center" >
+             <div className='gap-y-10 flex-col hidden sm:flex'>
            <img src='https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg'/>
-            <h3 className=" text-3xl mt-8 text-white font-semibold ">Dakikalar içinde <br/> kapınızda!</h3> 
-          </div>
+            <h3 className=" text-2xl gap-4 xl:text-3xl  mt-8 text-white font-semibold ">Dakikalar içinde <br/> kapınızda!</h3> 
+            </div>
+          
 
-          <div className="  w-80 h-44 rounded-lg text-center w-full h-full  bg-gray-50 mr-32  ">
+          <div className="  ml-12  rounded-lg text-center sm:w-80 sm:h-44  bg-gray-50  ">
             <h4 className="text-primary-brand-color font-semibold text-center mt-4  text-sm ">Giriş Yap veya Kayıt Ol</h4>
               <div className='flex mt-4'> <ReactFlagsSelect
                 countries={["US", "GB","TR", "FR", "DE", "IT"]}
@@ -57,7 +59,7 @@ export default function HeroSection() {
               </div>
             <button type='submit' className=' bg-brand-yellow h-12 text-primary-brand-color hover:text-brand-yellow hover:bg-primary-brand-color  w-72 ml-4 flex items-center justify-center rounded-md font-semibold text-sm font-sans'>Telefon numarası ile devam et</button>
           </div>
-        
+          </div>
         </div>
     
       </div>
