@@ -3,7 +3,7 @@ function MobileApp() {
 
 	return (
 		<>
-			<div className="bg-primary-brand-color flex flex-col sm:flex-row items-center sm:pl-12 justify-between bg-mobile-app rounded-lg">
+			<div className="bg-primary-brand-color mb-12 flex flex-col sm:flex-row items-center sm:pl-12 justify-between bg-mobile-app rounded-lg">
 				<div className="text-white p-5 sm:p-0 text-sm text-center sm:text-left">
 					<h3 className="	tracking-tighter font-bold md:text-3xl md:mt-6 sm:text-xl">Getir'i indirin!</h3>
 					<p className="font-semibold text-md  md:text-xl sm:text- mt-3">

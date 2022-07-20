@@ -1,7 +1,10 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut} from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword,onAuthStateChanged, sendEmailVerification, signOut} from "firebase/auth";
 import toast from 'react-hot-toast';
+import store from './store';
+import {login as loginHandle, logout as logoutHandle } from './store/auth';
+
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
@@ -42,4 +45,19 @@ export const logout = async () =>{
     toast.error(error.message);
   }
 }
+ export const emailVerification = async () =>{
+  
+   await  sendEmailVerification(auth.currentUser).then(()=>{ toast.message("Hata")
+  }).catch(success=>{toast.success(`E-Posta onay kodu ${auth.currentUser.email} adresine gönderildi.`)})
+ }
+
+onAuthStateChanged(auth, (user) => {
+  if (user) {
+   
+    store.dispatch(loginHandle(user))
+  } else {
+    store.dispatch(logoutHandle())
+  }
+});
+
 export default app;

@@ -17,7 +17,7 @@ export default function HeroSection() {
   };
   return (
     <div className="relative mx-auto items-center h-auto overflow-hidden before:w-full before:h-full before:z-10 before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 ">
-    <Slider className="h-full hidden sm:block" {...settings}>
+    <Slider className="h-full hidden sm:block -mb-2" {...settings}>
           <div>
             <img className='w-full object-cover h-[500px]' src ='https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg'/>
           </div>
@@ -34,7 +34,7 @@ export default function HeroSection() {
             <img className='w-full object-cover h-[500px]' src ='https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg'/>
           </div>
        </Slider>
-        <div className="relative sm:absolute inset-0 px-0 sm:px-8 z-[40] flex items-center"> 
+        <div className="relative sm:absolute inset-0  sm:px-8 z-[40] flex items-center"> 
           <div className="w-full sm:container flex mx-auto justify-between items-center" >
              <div className='gap-y-10 flex-col hidden sm:flex'>
            <img src='https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg'/>

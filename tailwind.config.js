@@ -16,6 +16,7 @@ module.exports = {
     extend: {      backgroundImage: {
       'mobile-app': "url(https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png)",
       'mobile-phone': "url(https://getir.com/_next/static/images/phoneLanding-88c033545710c4808054072689e187d7.png)",
+      'restaurant-bg':"url(https://getir.com/_next/static/images/partners-background-e516806adcf95650572224b0c2e681f3.jpg)",
     },
       colors: {
         'brand-color': '#4d3398',

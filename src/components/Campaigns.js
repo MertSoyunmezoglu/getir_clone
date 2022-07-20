@@ -40,6 +40,12 @@ export default function Campaigns() {
         settings: {
           slidesToShow: 2, 
         }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1, 
+        }
       }
     ],
 
@@ -49,12 +55,12 @@ export default function Campaigns() {
     
   };
   return ( 
-    <div className=" container mx-auto bg-slate-100">
-    <h3 className='text-sm font-semibold ml-6 py-6'>Kampanyalar</h3>
-        <Slider {...settings} className="mx-2">
+    <div className="  bg-slate-100">
+    <h3 className='text-sm font-semibold  py-6'>Kampanyalar</h3>
+        <Slider {...settings} >
           {banners.length && banners.map((banner,index)=>(
             <div key={banner.id}>
-            <div className="px-4 w-full h-full">
+            <div className="px-1 w-full h-full">
             <img src={banner.image} className="rounded-lg"/>
             </div>
 

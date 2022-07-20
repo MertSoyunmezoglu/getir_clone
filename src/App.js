@@ -15,10 +15,12 @@ import Yemek from "pages/Yemek";
 import Su from "pages/Su";
 import Carsi from "pages/Carsi";
 import Buyuk from "pages/Buyuk";
+import Modal from "components/Modal";
+import { useSelector } from "react-redux";
 
 
 function App() {
-
+    const {open, data} = useSelector(state=>state.modal)
 
   
   return (
@@ -35,17 +37,9 @@ function App() {
    <Route path="/buyuk" element={<Buyuk/>}/>
    </Routes>
 
-
-   <Header/>
-    <HeroSection/>
-   <div className="container mx-auto"> 
-   <Categories/>
-   <Campaigns/>
-   <Favorites/>
-   <MobileApp/>
-   <Cards/>
-   </div>
-    <Footer/>
+    {open && <Modal name={open} data={data}/>}
+   
+ 
 
    </> 
   );
