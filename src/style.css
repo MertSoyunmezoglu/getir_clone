@@ -27,8 +27,16 @@
     height: 100vh;
 
 }
+
+   
 video{
     width:100%;
     height: 100%;
     object-fit: cover;
+}
+.nav-item:active {
+    @apply bg-purple-500;
+}
+.map-container {
+    @apply w-full h-96 rounded-lg;
 }

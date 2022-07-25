@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import categoryData from 'api/categories.json'
 import Category from './ui/Category';
+import Title from './ui/Title';
 
 export default function Categories() {
 
@@ -11,9 +12,9 @@ export default function Categories() {
   }, [])
   
   return (
-    <div className="bg-white py-4">
+    <div className="bg-white py-1">
       <div className="container mx-auto">
-        <h3 className='text-sm font-semibold gap-2 '>Kategoriler</h3>
+      <Title>Kategoriler</Title>
         <div className=' grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-8 xl:grid-cols-10 2xl:grid-cols-12 '>
           { categories && categories.map((category,index)=> <Category key={index} category={category}/>)
           }

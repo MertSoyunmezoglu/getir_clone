@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import  { useEffect, useState } from "react";
 import Kitchen from "api/kitchens.json";
 import {MdOutlineArrowBackIos, MdOutlineArrowForwardIos} from "react-icons/md";
+import Title from "./ui/Title";
 
 export default function Kitchens() {
 
@@ -26,7 +27,7 @@ export default function Kitchens() {
     speed: 600,
     slidesToShow: 8,
     slidesToScroll: 3,
-    autoplay:true,
+    autoplay:false,
     autoplaySpeed:4000,
     responsive: [
       {
@@ -57,7 +58,7 @@ export default function Kitchens() {
   return ( 
     <div  className=" bg-gray-100 ">
     <div className=" container mx-auto">
-    <h3 className='text-sm font-semibold ml-6 py-6'>Mutfaklar</h3>
+    <Title>Mutfaklar</Title>
         <Slider {...settings} className="mx-2 ">
           {kitchens.length && kitchens.map((kitchen,index)=>(
             <div className=" gap-x-1 px-2 w-full h-full ">

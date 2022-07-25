@@ -2,6 +2,7 @@ import Slider from "react-slick";
 import  { useEffect, useState } from "react";
 import Banners from "api/banners.json";
 import {MdOutlineArrowBackIos, MdOutlineArrowForwardIos} from "react-icons/md";
+import Title from "./ui/Title";
 
 export default function Campaigns() {
 
@@ -56,11 +57,11 @@ export default function Campaigns() {
   };
   return ( 
     <div className="  bg-slate-100">
-    <h3 className='text-sm font-semibold  py-6'>Kampanyalar</h3>
+    <Title>Kampanyalar</Title>
         <Slider {...settings} >
           {banners.length && banners.map((banner,index)=>(
             <div key={banner.id}>
-            <div className="px-1 w-full h-full">
+            <div className="px-2 mb-6 w-full h-full">
             <img src={banner.image} className="rounded-lg"/>
             </div>
 

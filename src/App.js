@@ -6,7 +6,7 @@ import MobileApp from "./components/MobileApp";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Cards from "./components/Cards";
-import { Route,Routes } from "react-router-dom";
+import { NavLink, Route,Routes } from "react-router-dom";
 import {Toaster} from "react-hot-toast";
 import Home from "pages/Home";
 import Register from "pages/Register";
@@ -17,17 +17,21 @@ import Carsi from "pages/Carsi";
 import Buyuk from "pages/Buyuk";
 import Modal from "components/Modal";
 import { useSelector } from "react-redux";
+import Page404 from "components/404";
+import { useState } from "react";
 
 
 function App() {
     const {open, data} = useSelector(state=>state.modal)
-
+    const [lost, setLost] = useState("false")
   
   return (
    <> 
-
+   
    <Toaster position="top-right"/>
+   {setLost===true ? null: <Header/>}
    <Routes>
+   
    <Route path="/" element={<Home/>}/>
    <Route path="/register" element={<Register/>}/>
    <Route path="/login" element={<Login/>}/>
@@ -35,11 +39,12 @@ function App() {
    <Route path="/su" element={<Su/>}/>
    <Route path="/carsi" element={<Carsi/>}/>
    <Route path="/buyuk" element={<Buyuk/>}/>
+   <Route path="*" element={<Page404/>}/>
    </Routes>
-
+   
     {open && <Modal name={open} data={data}/>}
    
- 
+    
 
    </> 
   );

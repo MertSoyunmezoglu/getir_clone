@@ -2,22 +2,46 @@
     {
      " id":1,
       "image":"https://getir.com/_next/static/images/intro-in-minutes-a7a9238a73013642a6597c4db06653c1.svg",
+      "imageBig":"https://getir.com/_next/static/images/intro-market-fee-586c3e4c701b44396ac99828259e9d7f.svg" ,
+      "imageWater":"https://getir.com/_next/static/images/intro-water-change-05d8f4c369edbc0b5d9ac178ae7892c8.svg",
+      "imageBazaar":"https://getir.com/_next/static/images/intro-locals-delivery-8848a13049e8b793216223fd63e2adbe.png",
       "title":"Her siparişinize bir kampanya",
       "titlefood":"Binlerce restorandan yemeğinizi görerek seçin!",
-      "description":"Getir’de vereceğiniz her siparişe uygun bir kampanya bulabilirsiniz."
+      "titleBig":"Kapınıza Teslimat",
+      "titleWater":"Damacana değişim ücreti yok ",
+      "titleBazaar":"İhtiyacınız olan ürünler, gramajı, lezzeti ve tazeliği tam istediğiniz şekilde çarşıdan kapınıza ulaşır! ",
+      "description":"Getir’de vereceğiniz her siparişe uygun bir kampanya bulabilirsiniz.",
+      "descriptionBig":"Kasaptan manava, ev bakım ürünlerinden kişisel bakım ürünlerine binlerce çeşidi kolayca bulabilirsiniz.",
+      "descriptionWater":"Siparişlerinizde elinizde Kuzeyden ya da başka bir marka damacana bulunması durumunda damacana değişimi ücretsizdir."
     },
     {
      " id":2,
       "image":"https://getir.com/_next/static/images/intro-market-courier-34cd8b0ca1d547580d506566edfacf8d.svg",
+      "imageBig":"https://getir.com/_next/static/images/intro-market-delivery-86c4407609c24bbdf92feb222d7baca0.svg" ,
+      "imageWater":"https://getir.com/_next/static/images/intro-water-all-days-1714ab40588b3e39076584f5465f41b9.svg",
+      "imageBazaar":"https://getir.com/_next/static/images/intro-locals-all-types-6481a9b850de64ef62a2eb95fe66b04a.png",
       "title":"Dakikalar içinde kapınızda",
       "titlefood":"Haftanın her günü bulabileceğiniz yüzlerce kampanya ile indirimli fiyatlardan yararlanın!",
-      "description":"Getir’le siparişiniz dakikalar içinde kapınıza gelir."
+      "titleBig":"Uygun fiyatlı ürünler",
+      "titleWater":"7 gün 08.00-24.00 arası hizmet",
+      "titleBazaar":"GetirÇarşı ile manavdan, kasaba, marketten, pet shopa  100 binlerce ürün sipariş edebilirsiniz!",
+      "description":"Getir’le siparişiniz dakikalar içinde kapınıza gelir.",
+      "descriptionBig":"GetirBüyük’te binlerce ürünü uygun fiyata sipariş verirsiniz.",
+      "descriptionWater":"GetirSu hafta içi hafta sonu demeden gece 24.00'e kadar suyunuzu kapınıza getirir."
     },
     {
      " id":3,
       "image":"https://getir.com/_next/static/images/intro-discount-6248544cb695830a2e25debd3c0f3d29.svg",
+      "imageBig":"https://getir.com/_next/static/images/intro-market-basket-8ca56a5e5a21b80ccb71403d77df83d8.svg" ,
+      "imageWater":"https://getir.com/_next/static/images/intro-water-fee-a8a5868d3c7a8dc9dd11b9a97de34c30.svg",
+      "imageBazaar":"https://getir.com/_next/static/images/intro-locals-in-minutes-1a2f4a07d1bf73b074e6fc23935aaf2b.png",
       "title":"Binlerce çeşit mutluluk",
       "titlefood":"Kredi kartı, kapıda ya da yemek kartları ile hızlı ve güvenli ödeme yapın!",
-      "description":"Getir’de binlerce çeşit arasından seçiminizi yapabilirsiniz."
+      "titleBig":"Binlerce çeşit",
+      "titleWater":"Teslimat ücreti yok",
+      "titleBazaar":"Siparişiniz getir güvencesi ile dakikalar içerisinde teslim edilir!",
+      "description":"Getir’de binlerce çeşit arasından seçiminizi yapabilirsiniz.",
+      "descriptionBig":"Siparişleriniz kapınıza kadar gelir.",
+      "descriptionWater":"GetirSu’da siparişiniz için teslimat ücreti ödemezsiniz."
     }
   ]

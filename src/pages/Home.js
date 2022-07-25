@@ -11,14 +11,15 @@ import Favorites from 'components/Favorites';
 import MobileApp from 'components/MobileApp';
 import Cards from 'components/Cards';
 import Footer from 'components/Footer';
+import {Helmet} from 'react-helmet';
+import { useState } from 'react';
 
-
-export default function Home() {
-
+export default function Home( ) {
+  const [homeCard, setHomeCard] = useState(true);
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const { user } = useSelector(state=>state.auth)
-
+ 
 
    const handleLogout = async ()=>{
         await logout()
@@ -45,18 +46,19 @@ export default function Home() {
 
 
   return (
+
     <div>
+    <Helmet><title>Getir - Dakikalar içinde Kapınızda</title></Helmet>
     <Link to="/register" > Kayıt ol</Link>
     <Link to="/login" > Giriş yap</Link>
-    <Header/>
    <HeroSection/>
    <Categories/>
    <div className="container mx-auto"> 
  
    <Campaigns/>
-   <Favorites/>
+
    <MobileApp/>
-   <Cards/>
+   <Cards homeCard={homeCard} />
    </div>
     <Footer/>
     </div>
