@@ -4,15 +4,17 @@ import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { modalClose } from 'helper'
 
-export default function Modal({name,data}) {
+ function Modal({name,data,foodCard,setFoodCard}) {
     const currentModal=modals.find(m=> m.name === name)
     const [isOpen, setIsOpen] = useState(true)
     const closeModal = () => {
       setIsOpen(false)
       modalClose()
+      setFoodCard(true)
     }
 
 
+ 
   return (
     <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -20,9 +22,9 @@ export default function Modal({name,data}) {
             as={Fragment}
             enter="ease-out duration-300"
             enterFrom="opacity-0"
-            enterTo="opacity-50"
+            enterTo="opacity-100"
             leave="transition duraiton-500"
-            leaveFrom="opacity-50"
+            leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
             <div className="fixed inset-0 bg-black bg-opacity-25" />
@@ -30,22 +32,17 @@ export default function Modal({name,data}) {
 
           <div className="fixed inset-0 overflow-y-auto">
             <div className="flex min-h-full items-center justify-center p-4 text-center">
-              <Transition.Child
-                as={Fragment}
-                enter="ease-out duration-300"
-                enterFrom="opacity-0 scale-95"
-                enterTo="opacity-100 scale-100"
-                leave="ease-in duration-200"
-                leaveFrom="opacity-100 scale-100"
-                leaveTo="opacity-0 scale-95"
-              >
-                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                  <currentModal.element/>
+      
+                <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-lg bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <label  className='  relative block group text-xs font-semibold  my-2 pb-4 text-primary-brand-color justify-between items-center mx-32'> {!foodCard ? "Teslimat Adresi Ekleyin" :"Giriş Yap veya Kayıt Ol"} 
+<a ><button  onClick={closeModal} className=' ml-28 absolute text-lg text-black font-normal bg-slate-100 px-2 -my-1 rounded '>x</button></a> </label>
+                <currentModal.element/>
                 </Dialog.Panel>
-              </Transition.Child>
+         
             </div>
           </div>
         </Dialog>
       </Transition>
   )
 }
+export default Modal;

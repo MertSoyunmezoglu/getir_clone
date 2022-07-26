@@ -16,6 +16,8 @@ import { useState } from 'react';
 
 export default function Home( ) {
   const [homeCard, setHomeCard] = useState(true);
+  const [homeBanner, setHomeBanner] = useState(true);
+  const [homeSection, setHomeSection] = useState(true);
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const { user } = useSelector(state=>state.auth)
@@ -51,11 +53,11 @@ export default function Home( ) {
     <Helmet><title>Getir - Dakikalar içinde Kapınızda</title></Helmet>
     <Link to="/register" > Kayıt ol</Link>
     <Link to="/login" > Giriş yap</Link>
-   <HeroSection/>
+   <HeroSection homeSection={homeSection}/>
    <Categories/>
    <div className="container mx-auto"> 
  
-   <Campaigns/>
+   <Campaigns homeBanner={homeBanner}/>
 
    <MobileApp/>
    <Cards homeCard={homeCard} />

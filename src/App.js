@@ -29,7 +29,7 @@ function App() {
    <> 
    
    <Toaster position="top-right"/>
-   {setLost===true ? null: <Header/>}
+   {setLost===true ? null: <Header lost={lost}/>}
    <Routes>
    
    <Route path="/" element={<Home/>}/>

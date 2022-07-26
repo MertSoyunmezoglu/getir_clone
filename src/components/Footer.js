@@ -1,7 +1,9 @@
 import React from 'react'
 import Menu from 'components/ui/Menu'
-import {BsFacebook,BsTwitter,BsInstagram} from 'react-icons/bs'
+import {BsFacebook,BsTwitter,BsInstagram, BsGlobe} from 'react-icons/bs'
+import { useWindowWidth } from '@react-hook/window-size'
 export default function Footer() {
+  const windowWidth=useWindowWidth()
   const menus = [
     {
       title:'Getir\'i keşfedin! ',
@@ -44,10 +46,10 @@ export default function Footer() {
   return (
     <div className="bg-white  pt-5 ">
       <div className='container mx-auto'>
-          <div className=' grid md:grid-cols-2 md:justify-center gap-y-4 lg:grid-cols-4  -pt-5'>
+          <div className=' grid sm:grid-cols-2 md:justify-center md:grid-cols-4 gap-x-2 pl-4 -mx-4 lg:grid-cols-4 xl:grid-cols-5  -pt-5'>
             <section>
-              <nav className='grid gap-y-2 '>
-              <h6 className=' text-md text-secondary-brand-color  gap-x-2'>Getir'i indirin</h6>
+              <nav className='grid gap-y-4 '>
+              <h6 className=' text-lg text-secondary-brand-color'>Getir'i indirin</h6>
                <a href="https://www.apple.com/tr/app-store/"><img src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg" alt="App Store" /></a> 
                <a href="https://play.google.com/store/games?hl=tr&gl=US"><img src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg" alt="Google Play" />
                </a>
@@ -57,7 +59,10 @@ export default function Footer() {
             </section>
               {menus.map((menu,index)=>(
                 <Menu key={index} {...menu} />
-              ))}
+              ))} {windowWidth>1280 && <div className=' flex items-center w-28 border-2 rounded-lg shadow-md ml-8 h-28 px-18'>
+              <a href="https://www.eticaret.gov.tr/siteprofil/A8C52359B2F14075B6829557FC4306B1/getircom"><img className='w-20 mx-3 pl-1 ' src="https://getir.com/_next/static/images/etbis-33c159729adc8b4e2b946310f038d2f4.png" alt="Etbis"/> </a>
+              </div>  }
+              
           </div>
       <div className='flex flex-col md:flex-row items-center justify-start xs:justify-center   border-t border-gray-200 mt-6 pt-2'>
           <div className=' container  md:-ml-16 xl:-ml-24  text-md  py-6  flex gap-x-2 '>© 2022 Getir  |  
@@ -65,15 +70,18 @@ export default function Footer() {
    
           </div>
             <div >
-            <nav className=' flex gap-x-4 pr-2'>
-            <div className=' hover:bg-slate-100 px-2 py-2 rounded-lg'>
-            <a className=' hover:text-secondary-brand-color opacity-60 hover:opacity-90'  href="https://www.facebook.com/"><BsFacebook size={28}/></a>
+            <nav className=' flex gap-x-2 pr-2'>
+            <div className='  hover:bg-purple-50 px-2 py-2 rounded-lg'>
+            <a className=' hover:text-secondary-brand-color opacity-60 hover:opacity-90'  href="https://www.facebook.com/"><BsFacebook size={20}/></a>
             </div>
-            <div className=' hover:bg-slate-100 px-2 py-2 rounded-lg'>
-            <a className=' hover:text-secondary-brand-color opacity-60 hover:opacity-90' href="https://twitter.com/login?lang=tr"><BsTwitter size={28}/></a>
+            <div className=' hover:bg-purple-50 px-2 py-2 rounded-lg'>
+            <a className=' hover:text-secondary-brand-color opacity-60 hover:opacity-90' href="https://twitter.com/login?lang=tr"><BsTwitter size={20}/></a>
             </div>
-            <div className=' hover:bg-slate-100 px-2 py-2 rounded-lg'>
-            <a className=' hover:text-secondary-brand-color opacity-60 hover:opacity-90' href="https://www.instagram.com"><BsInstagram size={28}/></a>
+            <div className=' hover:bg-purple-50 px-2 py-2 rounded-lg'>
+            <a className=' hover:text-secondary-brand-color opacity-60 hover:opacity-90' href="https://www.instagram.com"><BsInstagram size={20}/></a>
+            </div>
+            <div className=' hover:bg-purple-50  w-32  px-2 py-2  border-x-2 shadow-sm rounded-lg'>
+            <a className='flex items-center hover:text-secondary-brand-color opacity-60 hover:opacity-90' href="#"><BsGlobe size={18}/> <span className='ml-2 text-sm'>Türkçe (TR)</span>  </a>
             </div>
             </nav>
             </div>

@@ -10,7 +10,7 @@ export default function Menu({title, items}) {
 
   const windowWidth=useWindowWidth()
   const  toggleCollapse = ()=>{
-        if(windowWidth < 768 ) {
+        if(windowWidth < 640 ) {
           setIsOpen(!isOpen);
         } 
   }
@@ -27,17 +27,17 @@ export default function Menu({title, items}) {
   return (
       
   <section>
-    <nav className=' grid gap-y-4 '>
+    <nav className='-px-4  grid gap-y-4  '>
 
-        <h6 onClick={toggleCollapse} className=' text-md text-secondary-brand-color flex justify-between  items-center'>{title}
+        <h6 onClick={toggleCollapse} className=' text-lg -pr-2 text-secondary-brand-color flex justify-between  items-center'>{title}
         <span className={`transition-all transform ${isOpen ? ' rotate-180 ' : ''}`}>
-           <button className='w-5 h-6 items-center grid md:hidden  hover:bg-primary-brand-color hover:opacity-20 hover:text-white rounded-lg  text-primary-brand-color'><IoIosArrowDown size={18 }/></button>
+           <button className='w-5 h-6 gap-x-4 items-center grid md:hidden  hover:bg-primary-brand-color hover:opacity-20 hover:text-white rounded-lg  text-primary-brand-color'><IoIosArrowDown size={18 }/></button>
         </span> 
         </h6>       
        <Collapse isOpened={isOpen}>
 
           <nav>
-            <ul className=' grid gap-y-2'> 
+            <ul className=' grid gap-y-4 '> 
               {items.map((item,key)=>(
                   <li key={key} className="text-sm ">
                   <a href="#">{item.title} </a>
@@ -45,8 +45,12 @@ export default function Menu({title, items}) {
               ))}
             </ul>
           </nav>
+       
         </Collapse>
+        
     </nav>
+    
   </section>
+  
   )
 }

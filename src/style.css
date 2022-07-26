@@ -14,17 +14,22 @@
     }
 }
 .flag-select button {
-@apply h-12 border-2 border-gray-300 md:pl-1 md:ml-4 font-medium bg-white md:-mr-4 transition-colors  hover:border-secondary-brand-color
+@apply h-14 border-2 border-gray-300 md:pl-1 md:ml-4 font-medium bg-white md:-mr-4 transition-colors  hover:border-secondary-brand-color
 }
-.flag-language button {
-    @apply h-12   bg-brand-color border-2  md:mt-1 font-medium transition-colors !text-white text-xs opacity-80 border-opacity-20 md:pl-1 md:ml-4 font-light md:-mr-4
-    }
+
     .ReactCollapse--collapse {
         @apply transition-all
     }
 .yemek{
     width:100%;
     height: 100vh;
+
+}
+.border-x-y{
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
 
 }
 

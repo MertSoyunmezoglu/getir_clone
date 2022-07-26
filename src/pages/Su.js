@@ -7,21 +7,23 @@ import Header from 'components/Header'
 import HeroSection from 'components/HeroSection'
 import MobileApp from 'components/MobileApp'
 import React from 'react'
-import HeroWater from 'components/HeroWater'
+import WaterContent from 'components/ui/content/WaterContent'
 import {Helmet} from 'react-helmet'
 import { useState } from 'react'
 
 export default function Su() {
   const [waterCard, setWaterCard] = useState(true)
+  const [waterBanner, setWaterBanner] = useState(true)
+  const [waterSection, setWaterSection] = useState(true)
   return (
     <div>
     <Helmet><title>GetirSu - Haftanın her günü kapınızda </title></Helmet>
 
-    <HeroWater/>
+    <HeroSection waterSection={waterSection}/>
     <div className="container mx-auto"> 
 
 
-    <Campaigns />
+    <Campaigns waterBanner={waterBanner}/>
     <div className=' mt-4'>
     <MobileApp/>
     </div>

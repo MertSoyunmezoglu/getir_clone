@@ -1,29 +1,35 @@
-import Campaigns from 'components/Campaigns'
+import ApplyNow from 'components/ApplyNow'
 import Cards from 'components/Cards'
-import Categories from 'components/Categories'
-import Favorites from 'components/Favorites'
+
 import Footer from 'components/Footer'
-import Header from 'components/Header'
-import HeroSection from 'components/HeroSection'
-import MobileApp from 'components/MobileApp'
+
 import React from 'react'
 import { useState } from 'react'
 import {Helmet} from 'react-helmet'
+import HeroSection from 'components/HeroSection'
 
-export default function Carsi() {
-  const [bazaarCard, setBazaarCard] = useState(true)
+
+export default function Yemek() {
+
+  const [bazaarSection, setBazaarSection] = useState(true);
+  const[bazaarCard, setBazaarCard] = useState(true);
+
+ 
+  
   return (
-    <div>
-    <Helmet><title>GetirÇarşı - Haftanın her günü kapınızda </title></Helmet>
-    <HeroSection/>
-    <div className="container mx-auto"> 
-    <Categories/>
-    <Campaigns/>
-    <Favorites/>
-    <MobileApp/>
-    <Cards bazaarCard={bazaarCard}/>
+    <div  >
+    <Helmet><title>GetirYemek - Haftanın her günü kapınızda</title></Helmet>
+        <HeroSection bazaarSection={bazaarSection}/>
+   
+
+          <div className='container mx-auto bg-gray-100  '>
+
+          <Cards bazaarCard={bazaarCard} />
+          <ApplyNow/>
+          </div>
+          <Footer/>
+
+       
     </div>
-     <Footer/>
-     </div>
   )
 }

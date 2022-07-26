@@ -17,6 +17,7 @@ import { createSlice } from "@reduxjs/toolkit";
          closeModal:(state)=>{
             state.open= false
             state.data= false
+            state.foodCard= true
         }
     }
     })
