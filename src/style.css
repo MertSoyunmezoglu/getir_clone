@@ -10,7 +10,9 @@
 @layer base{
     html,body{
         font-family:'Open Sans', sans-serif;
+        
         @apply antialiased
+        
     }
 }
 .flag-select button {

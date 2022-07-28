@@ -18,6 +18,7 @@ export default function Home( ) {
   const [homeCard, setHomeCard] = useState(true);
   const [homeBanner, setHomeBanner] = useState(true);
   const [homeSection, setHomeSection] = useState(true);
+  const [homeCategory, setHomeCategory] = useState(true);
   const navigate = useNavigate()
   const dispatch = useDispatch()
   const { user } = useSelector(state=>state.auth)
@@ -54,7 +55,7 @@ export default function Home( ) {
     <Link to="/register" > Kayıt ol</Link>
     <Link to="/login" > Giriş yap</Link>
    <HeroSection homeSection={homeSection}/>
-   <Categories/>
+   <Categories homeCategory={homeCategory}/>
    <div className="container mx-auto"> 
  
    <Campaigns homeBanner={homeBanner}/>

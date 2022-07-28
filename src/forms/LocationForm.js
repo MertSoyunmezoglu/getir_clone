@@ -20,7 +20,7 @@ import store from 'store';
 import {CgDanger} from 'react-icons/cg'
 
 
-export default function LocationForm() {
+export default function LocationForm({show}) {
     const [selected, setSelected] = useState("TR");
     const handleMapsModal = ()=>{
         store.dispatch(openModal({name:'maps'}))
@@ -46,8 +46,8 @@ export default function LocationForm() {
     <div className=' absolute inset-0  sm:px-8 justify-end mr-16 flex items-center'>
         <div className="   rounded-lg text-center w-[395px] pt-5  h-[365px] mx-12 bg-gray-50  ">
             <div>
-                <h4 className="text-primary-brand-color font-semibold tracking-normal text-center mb-4  text-md">Adresine getiren restoranları gör </h4>
-                <label  className='  relative block group '><button onClick={handleMapsModal}  >
+              {show===true ?null : <h4 className="text-primary-brand-color font-semibold tracking-normal text-center mb-4  text-md">Adresine getiren restoranları gör </h4>}  
+                <label  className='  relative block group mt-8 '><button onClick={handleMapsModal}  >
                 <input required  type="text" className='border-2 peer  border-gray-300  rounded-md h-16  w-[355px] group-focus:border-primary-brand-color peer-focus:border-primary-brand-color group-hover:border-secondary-brand-color ' />
                 <span className=' absolute -top-1 left-0 h-full px-4 ml-6 text-sm text-gray-500 flex items-center text-md gap-x-3 transition-all mt-1'><BsSearch color='#5c3cbb' size={16}/> Örn. Etiler Mah.</span>
                 <a href='#' onClick={handleMapsModal}  className=' absolute -top-1 right-0 h-10 mr-10  font-semibold   text-primary-brand-color px-2 rounded-lg  bg-secondary-brand-color bg-opacity-10 gap-x-1  flex items-center text-sm transition-all mt-4'><BiCrosshair size={20}/>Konumumu Bul</a>

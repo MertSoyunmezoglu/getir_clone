@@ -1,7 +1,9 @@
 import LocationForm from 'forms/LocationForm'
 import React from 'react'
+import { useState } from 'react'
 
 export default function BazaarContent() {
+  const [show, setShow] = useState(true)
   return (
     <div><div className="relative mx-auto items-center h-auto overflow-hidden  ">
       
@@ -14,7 +16,7 @@ export default function BazaarContent() {
      
     
     
-    <LocationForm/>
+    <LocationForm show={show}/>
     </div>
     </div>
     

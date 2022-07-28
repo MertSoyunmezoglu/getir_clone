@@ -15,7 +15,7 @@ export default function Buyuk() {
   const [bigSection, setBigSection] = useState(true)
   return (
     <div>
-    <Helmet><title>GetirBüyük- Binlerce Ürün Uygun Fiyata </title></Helmet>
+    <Helmet><title>GetirBüyük - Binlerce Ürün Uygun Fiyata </title></Helmet>
     <HeroSection bigSection={bigSection}/>
 
    <Categories/>

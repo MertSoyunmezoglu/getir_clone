@@ -6,7 +6,7 @@ export default function WaterContent() {
 
 
   return (
-    <div className="relative mx-auto items-center h-auto overflow-hidden before:w-full before:h-full before:z-10 before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 ">
+    <div className="relative mx-auto items-center h-auto overflow-hidden  ">
       
           <div>
             <img className='w-full object-cover h-[500px]' src ='https://getir.com/_next/static/images/water-1-293b9ae905fc9a13bd597a5512813e31.jpg'/>
