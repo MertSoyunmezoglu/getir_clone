@@ -24,27 +24,7 @@ export default function Home( ) {
   const { user } = useSelector(state=>state.auth)
  
 
-   const handleLogout = async ()=>{
-        await logout()
-        dispatch(logoutHandle())
-        navigate('/login', {
-          replace:true
-        })
-    }
-    const handleVerification = async () =>{
 
-      await emailVerification()
-    }
-  
-
-  if(user){
-   return ( <div>
-      Oturum açık {user.email}
-      <button type='submit' onClick={handleLogout} className=' bg-brand-yellow h-12 mt-2 mb-5 text-primary-brand-color hover:text-brand-yellow hover:bg-primary-brand-color  w-20  flex items-center justify-center rounded-md font-semibold text-sm font-sans'>Çıkış Yap</button>
-      {!user.emailVerified && 
-      <button type='submit' onClick={handleVerification} className=' bg-brand-yellow h-12 mt-2 mb-5 text-primary-brand-color hover:text-brand-yellow hover:bg-primary-brand-color  w-20  flex items-center justify-center rounded-md font-semibold text-sm font-sans'>E-Posta Onayla</button>}
-    </div>)
-  }
 
 
 
@@ -52,8 +32,7 @@ export default function Home( ) {
 
     <div>
     <Helmet><title>Getir - Dakikalar içinde Kapınızda</title></Helmet>
-    <Link to="/register" > Kayıt ol</Link>
-    <Link to="/login" > Giriş yap</Link>
+
    <HeroSection homeSection={homeSection}/>
    <Categories homeCategory={homeCategory}/>
    <div className="container mx-auto"> 
