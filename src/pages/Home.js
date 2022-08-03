@@ -1,8 +1,7 @@
 import React from 'react'
 import {Link, useNavigate} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout , emailVerification} from '../firebase';
-import { logout as logoutHandle } from '../store/auth';
+
 import Header from 'components/Header';
 import HeroSection from 'components/HeroSection';
 import Categories from 'components/Categories';
@@ -32,7 +31,7 @@ export default function Home( ) {
 
     <div>
     <Helmet><title>Getir - Dakikalar içinde Kapınızda</title></Helmet>
-
+    <Header />
    <HeroSection homeSection={homeSection}/>
    <Categories homeCategory={homeCategory}/>
    <div className="container mx-auto"> 

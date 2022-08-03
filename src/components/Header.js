@@ -82,9 +82,9 @@ export default function Header() {
     </div>
     <nav className=" hidden sm:flex   gap-x-8 ml-8">
       
-      <a href="#" className=" text-white  text-opacity-80 flex items-center gap-1  xl:text-base font-medium transition-all  transition hover:text-opacity-100" ><BiGlobe size={22}/> {windowWidth>1024 && "Türkçe (TR)"}</a>  
-      <a href="#" onClick={handleLoginModal} fo className=" text-white  text-opacity-80 flex  xl:text-base font-semibold items-center gap-1  transition-all  transition hover:text-opacity-100" ><FaUser size={16}/> {windowWidth>1024 && " Giriş Yap"}</a>  
-      <a href="#" onClick={handleRegisterModal}  className=" text-white  text-opacity-80 flex  xl:text-base font-semibold items-center gap-1   transition-all transition hover:text-opacity-100" ><HiUserAdd size={22}/> {windowWidth>1024 && " Kayıt Ol"}</a>  
+      <button className=" text-white  text-opacity-80 flex items-center gap-1  xl:text-base font-medium transition-all  transition hover:text-opacity-100" ><BiGlobe size={22}/> {windowWidth>1024 && "Türkçe (TR)"}</button>  
+      <button onClick={handleLoginModal}  className=" text-white  text-opacity-80 flex  xl:text-base font-semibold items-center gap-1  transition-all  transition hover:text-opacity-100" ><FaUser size={16}/> {windowWidth>1024 && " Giriş Yap"}</button>  
+      <button onClick={handleRegisterModal}  className=" text-white  text-opacity-80 flex  xl:text-base font-semibold items-center gap-1    hover:text-opacity-100" ><HiUserAdd size={22}/> {windowWidth>1024 && " Kayıt Ol"}</button>  
     </nav>
     </div>
     

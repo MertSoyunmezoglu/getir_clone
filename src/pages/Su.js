@@ -18,7 +18,7 @@ export default function Su() {
   return (
     <div>
     <Helmet><title>GetirSu - Haftanın her günü kapınızda </title></Helmet>
-
+    <Header />
     <HeroSection waterSection={waterSection}/>
     <div className="container mx-auto"> 
 

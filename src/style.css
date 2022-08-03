@@ -14,9 +14,10 @@
         @apply antialiased
         
     }
+   
 }
 .flag-select button {
-@apply h-14 border-2 border-gray-300 md:pl-1 md:ml-4 font-medium bg-white md:-mr-4 transition-colors  hover:border-secondary-brand-color
+@apply h-14 border-2 border-gray-300 md:pl-1 md:ml-4 gap-y-1 font-medium bg-white md:-mr-4 transition-colors  hover:border-secondary-brand-color
 }
 
     .ReactCollapse--collapse {
@@ -27,6 +28,7 @@
     height: 100vh;
 
 }
+
 .border-x-y{
     border-left-width: 1px;
     border-right-width: 1px;
@@ -34,7 +36,9 @@
     border-bottom-width: 1px;
 
 }
-
+#phone-input-container {
+    @apply h-16 w-[350px] flex border-2 hover:border-primary-brand-color transition-all  border-gray-200 rounded-md flex-col items-center justify-center
+}
    
 video{
     width:100%;

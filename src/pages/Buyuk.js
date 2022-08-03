@@ -16,6 +16,7 @@ export default function Buyuk() {
   return (
     <div>
     <Helmet><title>GetirBüyük - Binlerce Ürün Uygun Fiyata </title></Helmet>
+    <Header />
     <HeroSection bigSection={bigSection}/>
 
    <Categories/>

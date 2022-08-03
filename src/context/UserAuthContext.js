@@ -4,8 +4,7 @@ import {
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
-  GoogleAuthProvider,
-  signInWithPopup,
+
   RecaptchaVerifier,
   signInWithPhoneNumber,
 } from "firebase/auth";
@@ -25,10 +24,7 @@ export function UserAuthContextProvider({ children }) {
   function logOut() {
     return signOut(auth);
   }
-  function googleSignIn() {
-    const googleAuthProvider = new GoogleAuthProvider();
-    return signInWithPopup(auth, googleAuthProvider);
-  }
+  
 
   function setUpRecaptha(number) {
     const recaptchaVerifier = new RecaptchaVerifier(
@@ -58,7 +54,6 @@ export function UserAuthContextProvider({ children }) {
         logIn,
         signUp,
         logOut,
-        googleSignIn,
         setUpRecaptha,
       }}
     >

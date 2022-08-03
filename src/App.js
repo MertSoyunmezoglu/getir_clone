@@ -19,20 +19,24 @@ import PhoneSignUp from "authentication/PhoneSignUp";
 import Signup from "authentication/Signup";
 import Yemek from "pages/Yemek";
 import { UserAuthContextProvider } from "context/UserAuthContext";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
     const {open, data} = useSelector(state=>state.modal)
-    const [lost, setLost] = useState("false")
-  
+
+
   return (
    <> 
+   <ToastContainer  />
+  
    
-   <Toaster position="top-right"/>
-   {setLost===true ? null: <Header lost={lost}/>}
 
    <Link to="signup">Kayıt Ol </Link>
    <Link to="login">Giriş Yap </Link> 
    <UserAuthContextProvider>
+   
+   {open && <Modal name={open} data={data}/>}
    <Routes>
     <Route
     path="/home"
@@ -47,7 +51,6 @@ function App() {
  <Route path="/login" element={<Login />} />
  <Route path="/phonesignup" element={<PhoneSignUp />} />
  <Route path="/signup" element={<Signup />} />
-   <Route path="/" element={<Home/>}/>
 
    <Route path="/login" element={<Login/>}/>
    <Route path="/yemek" element={<Yemek/>}/>
@@ -57,7 +60,7 @@ function App() {
    <Route path="*" element={<Page404/>}/>
    </Routes>
    </UserAuthContextProvider>
-    {open && <Modal name={open} data={data}/>}
+  
    
     
 

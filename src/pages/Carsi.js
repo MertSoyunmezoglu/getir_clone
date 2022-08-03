@@ -8,6 +8,7 @@ import { useState } from 'react'
 import {Helmet} from 'react-helmet'
 import HeroSection from 'components/HeroSection'
 import Categories from 'components/Categories'
+import Header from 'components/Header'
 
 
 export default function Yemek() {
@@ -21,6 +22,7 @@ export default function Yemek() {
   return (
     <div  >
     <Helmet><title>GetirYemek - Haftanın her günü kapınızda</title></Helmet>
+    <Header />
         <HeroSection bazaarSection={bazaarSection}/>
    
           <Categories bazaarCategory={bazaarCategory}/>

@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Form, Alert } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+import { Form } from "react-bootstrap";
+
 
 import { useUserAuth } from "../context/UserAuthContext";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const Login = () => {
+function Login  () {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const { logIn, googleSignIn } = useUserAuth();
+  const [loginTitle, setLoginTitle] = useState(true);
+  const { logIn} = useUserAuth();
+
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -20,59 +24,89 @@ const Login = () => {
       navigate("/home");
     } catch (err) {
       setError(err.message);
-    }
-  };
-
-  const handleGoogleSignIn = async (e) => {
-    e.preventDefault();
-    try {
-      await googleSignIn();
-      navigate("/home");
-    } catch (error) {
-      console.log(error.message);
+      {
+        error &&
+          toast.error(error, {
+            position: "top-right",
+            autoClose: 1000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+          });
+      }
     }
   };
 
   return (
     <>
-      <div className="p-4 box">
-        <h2 className="mb-3">Firebase Auth Login</h2>
-        {error && <Alert variant="danger">{error}</Alert>}
-        <Form onSubmit={handleSubmit}>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Control
-              type="email"
-              placeholder="Email address"
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </Form.Group>
+      <div className="    rounded-lg text-center w-[550px] h-[400px]  bg-white  ">
+        <div className="p-4 ">
+ 
+          <Form onSubmit={handleSubmit}>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <label className=" mx-3 relative block group">
+                <input
+                  required
+                  type="email"
+                  className=" border-2 peer  border-gray-300  rounded-md h-14  w-full  hover:border-primary-brand-color "
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+                <span className=" absolute -top-1  h-full px-2 text-md text-gray-500 flex items-center peer-focus:text-primary-brand-color  text-md peer-focus:h-5 mt-1 peer-focus:text-xs transition-all peer-valid:h-5 ml-2 peer-valid:text-xs peer-valid:text-secondary-brand-color">
+                  E-Posta
+                </span>
+              </label>
+            </Form.Group>
 
-          <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Control
-              type="password"
-              placeholder="Password"
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </Form.Group>
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+              <label className=" mx-3 relative block group">
+                <input
+                  required
+                  type="password"
+                  className=" border-2 peer  border-gray-300  rounded-md h-14  w-full  hover:border-primary-brand-color "
+                  onChange={(e) => setPassword(e.target.value)}
+                />
+                <span className=" absolute -top-1  h-full px-2 text-md text-gray-500 flex items-center peer-focus:text-primary-brand-color  text-md peer-focus:h-5 mt-1 peer-focus:text-xs transition-all peer-valid:h-5 ml-2 peer-valid:text-xs peer-valid:text-secondary-brand-color">
+                  Şifre
+                </span>
+              </label>
+            </Form.Group>
 
-          <div className="d-grid gap-2">
-            <Button variant="primary" type="Submit">
-              Log In
-            </Button>
+            <div className="d-grid gap-2">
+              <button
+                type="Submit"
+                className=" bg-brand-yellow mt-1 h-14 text-primary-brand-color hover:bg-secondary-brand-color hover:text-brand-yellow w-full flex items-center transition-all justify-center rounded-xl font-semibold text-lg font-sans"
+              >
+                Giriş Yap
+              </button>
+            </div>
+          </Form>
+
+          <div className="justify-between absolute flex flex-row -mt-10   ">
+            <div className=" flex   border-t-2 border-primary-brand-color opacity-10 w-44 -ml-4 mt-3 "></div>
+            <div className=" font-semibold text-sm opacity-60 mx-2 mt-1">
+              veya
+            </div>
+            <div className=" flex border-t-2 border-primary-brand-color opacity-10  w-44   mt-3 "></div>
           </div>
-        </Form>
-        <hr />
-
-        <Link to="/phonesignup">
-          <div className="d-grid gap-2 mt-3">
-            <Button variant="success" type="Submit">
-              Sign in with Phone
-            </Button>
-          </div>
-        </Link>
-      </div>
-      <div className="p-4 box mt-3 text-center">
-        Don't have an account? <Link to="/signup">Sign up</Link>
+          <Link to="/phonesignup">
+            <div className=" mt-12">
+              <button
+                type="Submit"
+                className=" bg-brand-yellow mt-1 h-14 text-primary-brand-color hover:bg-secondary-brand-color hover:text-brand-yellow w-full flex items-center transition-all justify-center rounded-xl font-semibold text-lg font-sans"
+              >
+                Telefon numarası ile devam et
+              </button>
+            </div>
+          </Link>
+        </div>
+        <div className="p-4 box mt-3 text-center bg-slate-100">
+          Hala kayıt olmadınız mı?{" "}
+          <Link to="/signup" className=" text-primary-brand-color">
+            Kayıt Ol
+          </Link>
+        </div>
       </div>
     </>
   );

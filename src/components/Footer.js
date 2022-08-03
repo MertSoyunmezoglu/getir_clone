@@ -65,8 +65,11 @@ export default function Footer() {
               
           </div>
       <div className='flex flex-col md:flex-row items-center justify-start xs:justify-center   border-t border-gray-200 mt-6 pt-2'>
-          <div className=' container  md:-ml-16 xl:-ml-24  text-md  py-6  flex gap-x-2 '>© 2022 Getir  |  
-          <a className=' text-secondary-brand-color' href="https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/18806" >Bilgi Toplum Hizmetleri</a>
+          <div className=' container  md:-ml-16 xl:-ml-24  text-md  py-6  flex  '>© 2022 Getir 
+          <span className="relative before:w-1 ml-5 before:h-1   before:rounded-3xl before:bg-primary-brand-color before:absolute before:-left-3 before:top-1/2 before:-translate-y-1/2 ">
+          {" "}
+        </span>  
+          <a className=' text-primary-brand-color  text-sm mt-0.5' href="https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/18806" >Bilgi Toplumu Hizmetleri</a>
    
           </div>
             <div >

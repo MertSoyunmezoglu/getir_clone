@@ -12,6 +12,7 @@ import burgervid from '../assets/burgervid.mp4'
 import {Helmet} from 'react-helmet'
 
 import LocationForm from 'forms/LocationForm'
+import Header from 'components/Header'
 
 
 export default function Yemek() {
@@ -23,6 +24,7 @@ export default function Yemek() {
   return (
     <div className='yemek' >
     <Helmet><title>GetirYemek - Yemek siparişi artık Getir farkıyla!</title></Helmet>
+    <Header />
         <div className= ' sm:block w-full  object-cover h-[600px] relative mx-auto  overflow-hidden '>
           <video src={burgervid} autoPlay loop muted >
         

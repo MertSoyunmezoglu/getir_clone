@@ -2,6 +2,7 @@ import RegisterModal from "components/modals/RegisterModal";
 import LoginModal from "components/modals/LoginModal";
 import MapsModal from "components/modals/MapsModal";
 
+
 const modals = [
   
 
@@ -11,6 +12,7 @@ const modals = [
     },
     {
         name:'login',
+        data:'data',
         element: LoginModal
     },
     {
