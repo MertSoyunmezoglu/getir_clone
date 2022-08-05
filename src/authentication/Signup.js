@@ -17,8 +17,21 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [rule, setRule] = useState(false);
   const [inputValue, setInputValue] = useState("");
+  const pathname = window.location.pathname 
+
   // const [number, setNumber] = useState("");
   const { signUp } = useUserAuth();
+  const paths = [
+
+    {path:"/", subPath: 'kategoriler'},
+    {path: "/yemek", subPath: '/restoranlar'},
+    {path: "/buyuk", subPath: '/kategoriler'},
+    {path: "/su", subPath: '/kategoriler'},
+    {path: "/carsi", subPath: '/isletmeler'},
+  ];
+  
+  const found =  paths.find(path => path.path === pathname);
+  console.log("found: ", found.subPath);
   let navigate = useNavigate();
 
   const handleInput = (e) => {
@@ -33,7 +46,7 @@ const Signup = () => {
       return phoneNumber;
     }
     if (phoneNumberLength < 12) {
-      return `${phoneNumber.slice(0, 3)}-${phoneNumber.slice(4)}`;
+      return `${phoneNumber.slice(0, 3)} ${phoneNumber.slice(4)}`;
     }
   }
   const { value } = formatPhoneNumber;
@@ -42,7 +55,9 @@ const Signup = () => {
     setError("");
     try {
       await signUp(email, password, name, value);
-      navigate("/home");
+      if(pathname===found.path)
+      { navigate(found.path + found.subPath);}
+      else{navigate("kategoriler");}
       console.log(name);
       console.log(value);
       modalClose();
@@ -65,7 +80,7 @@ const Signup = () => {
 
   return (
     <>
-      <div className="    rounded-lg text-center w-[500px] h-[630px]  bg-white overflow-visible ">
+      <div className="    rounded-lg text-center w-[500px] h-[630px]  bg-white  ">
         <div className="p-4 box">
 
 

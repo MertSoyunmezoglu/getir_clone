@@ -16,7 +16,20 @@ const PhoneSignUp = () => {
   const [result, setResult] = useState("");
   const { setUpRecaptha } = useUserAuth();
   const navigate = useNavigate();
+  const pathname = window.location.pathname 
 
+  const paths = [
+
+    {path:"/", subPath: 'kategoriler'},
+    {path: "/yemek", subPath: '/restoranlar'},
+    {path: "/buyuk", subPath: '/kategoriler'},
+    {path: "/su", subPath: '/kategoriler'},
+    {path: "/carsi", subPath: '/isletmeler'},
+  ];
+
+  const found =  paths.find(path => path.path === pathname);
+  console.log("found: ", found.subPath);
+  
   const getOtp = async (e) => {
     e.preventDefault();
     console.log(number);
@@ -50,7 +63,9 @@ const PhoneSignUp = () => {
     if (otp === "" || otp === null) return;
     try {
       await result.confirm(otp);
-      navigate("/home");
+      if(pathname===found.path)
+      { navigate(found.path + found.subPath);}
+      else{navigate("kategoriler");}
       modalClose();
     } catch (err) {
       setError(err.message);

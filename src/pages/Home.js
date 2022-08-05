@@ -13,7 +13,7 @@ import Footer from 'components/Footer';
 import {Helmet} from 'react-helmet';
 import { useState } from 'react';
 
-export default function Home( ) {
+export default function Home() {
   const [homeCard, setHomeCard] = useState(true);
   const [homeBanner, setHomeBanner] = useState(true);
   const [homeSection, setHomeSection] = useState(true);

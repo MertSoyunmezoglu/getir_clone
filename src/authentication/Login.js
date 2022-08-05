@@ -12,7 +12,7 @@ function Login  () {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [loginTitle, setLoginTitle] = useState(true);
-  const { logIn} = useUserAuth();
+  const { logIn } = useUserAuth();
 
   const navigate = useNavigate();
 
@@ -21,7 +21,11 @@ function Login  () {
     setError("");
     try {
       await logIn(email, password);
-      navigate("/home");
+
+     { navigate("/kategoriler");
+    ;}
+ 
+    
     } catch (err) {
       setError(err.message);
       {

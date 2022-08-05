@@ -4,7 +4,6 @@ import {
   signInWithEmailAndPassword,
   onAuthStateChanged,
   signOut,
-
   RecaptchaVerifier,
   signInWithPhoneNumber,
 } from "firebase/auth";
@@ -24,7 +23,6 @@ export function UserAuthContextProvider({ children }) {
   function logOut() {
     return signOut(auth);
   }
-  
 
   function setUpRecaptha(number) {
     const recaptchaVerifier = new RecaptchaVerifier(
