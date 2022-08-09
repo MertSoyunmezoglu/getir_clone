@@ -7,6 +7,7 @@ import { useUserAuth } from "../context/UserAuthContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { modalClose } from "helper";
+import { ContextProvider } from "context/GlobalContext";
 
 const PhoneSignUp = () => {
   const [error, setError] = useState("");
@@ -16,20 +17,9 @@ const PhoneSignUp = () => {
   const [result, setResult] = useState("");
   const { setUpRecaptha } = useUserAuth();
   const navigate = useNavigate();
-  const pathname = window.location.pathname 
 
-  const paths = [
+  const {  pathname, found } = ContextProvider();
 
-    {path:"/", subPath: 'kategoriler'},
-    {path: "/yemek", subPath: '/restoranlar'},
-    {path: "/buyuk", subPath: '/kategoriler'},
-    {path: "/su", subPath: '/kategoriler'},
-    {path: "/carsi", subPath: '/isletmeler'},
-  ];
-
-  const found =  paths.find(path => path.path === pathname);
-  console.log("found: ", found.subPath);
-  
   const getOtp = async (e) => {
     e.preventDefault();
     console.log(number);

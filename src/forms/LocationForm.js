@@ -2,7 +2,7 @@ import ApplyNow from "components/ApplyNow";
 import Campaigns from "components/Campaigns";
 import Cards from "components/Cards";
 import Categories from "components/Categories";
-import Favorites from "components/Favorites";
+import Favorites from "components/ProductItems";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import HeroSection from "components/HeroSection";

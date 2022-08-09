@@ -2,16 +2,16 @@ import React, { useEffect, useState } from "react";
 import Products from "api/products.json";
 import ProductItem from "./ui/ProductItem";
 
-export default function Favorites() {
+export default function ProductItems() {
   const [products, setProducts] = useState([]);
   useEffect(() => {
     setProducts(Products);
   }, []);
 
   return (
-    <div className=" bg-slate-100 text-sm font-semibold gap-2 pt-6">
-      <span className=" flex items-center">Favoriler</span>
-      <div className=" grid grid-cols-2 md:text-xs sm:grid-cols-3 md:grid-cols-5 xl:grid-cols-8 2xl:grid-cols-10 2xl:gap-x-1 gap-y-1 pt-6 rounded-lg overflow-hidden ">
+    <div className=" bg-slate-100 text-sm font-semibold gap-2 ">
+
+      <div className=" grid grid-cols-1 md:text-xs sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  gap-x-0.5 gap-y-0.5 pt-6 rounded-lg overflow-hidden ">
         {products.length &&
           products.map((product, index) => (
             <ProductItem product={product} key={index} />

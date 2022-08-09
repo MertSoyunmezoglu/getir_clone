@@ -22,6 +22,7 @@ import "react-toastify/dist/ReactToastify.css";
 import Kategoriler from "pages/subPages/Kategoriler";
 import Isletmeler from "pages/subPages/Isletmeler";
 import Restoranlar from "pages/subPages/Restoranlar";
+import { GlobalContextProvider } from "context/GlobalContext";
 
 function App() {
   const { open, data } = useSelector((state) => state.modal);
@@ -32,15 +33,16 @@ function App() {
 
       <Link to="signup">Kayıt Ol </Link>
       <Link to="login">Giriş Yap </Link>
+      <GlobalContextProvider>
       <UserAuthContextProvider>
         {open && <Modal name={open} data={data} />}
         <Routes>
           <Route
             path="/kategoriler"
             element={
-             // <ProtectedRoute>
-                <Kategoriler />
-           //   </ProtectedRoute>
+              // <ProtectedRoute>
+              <Kategoriler />
+              //   </ProtectedRoute>
             }
           />
 
@@ -93,6 +95,7 @@ function App() {
           <Route path="*" element={<Page404 />} />
         </Routes>
       </UserAuthContextProvider>
+      </GlobalContextProvider>
     </>
   );
 }

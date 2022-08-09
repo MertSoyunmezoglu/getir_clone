@@ -6,6 +6,7 @@ import { Form } from "react-bootstrap";
 import { useUserAuth } from "../context/UserAuthContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { ContextProvider } from "context/GlobalContext";
 
 function Login  () {
   const [email, setEmail] = useState("");
@@ -13,7 +14,7 @@ function Login  () {
   const [error, setError] = useState("");
   const [loginTitle, setLoginTitle] = useState(true);
   const { logIn } = useUserAuth();
-
+  const { paths, pathname, found } = ContextProvider();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -22,7 +23,9 @@ function Login  () {
     try {
       await logIn(email, password);
 
-     { navigate("/kategoriler");
+     {      if(pathname===found.path)
+      { navigate(found.path + found.subPath);}
+      else{navigate("kategoriler");}
     ;}
  
     

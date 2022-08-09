@@ -11,12 +11,16 @@ import BigCampaigns from "./ui/campaigns/BigCampaigns";
 import WaterCampaigns from "./ui/campaigns/WaterCampaigns";
 import FoodKitchen from "./ui/campaigns/FoodKitchen";
 import Kitchens from "api/kitchens.json";
+import VHomeCampaigns from "./ui/campaigns/validcampaigns/VHomeCampaigns";
 
 export default function Campaigns({
   bigBanner,
   homeBanner,
   waterBanner,
   foodBanner,
+  validHomeBanner,
+  validMallsBanner,
+  validFoodBanner,
 }) {
   function NextBtn({ className, onClick }) {
     return (
@@ -140,6 +144,18 @@ export default function Campaigns({
           banners.map((banner, index) => (
             <WaterCampaigns banner={banner} index={index} />
           ))}
+          
+        {banners.length &&
+          waterBanner === true &&
+          banners.map((banner, index) => (
+            <WaterCampaigns banner={banner} index={index} />
+          ))}
+          {banners.length &&
+            validHomeBanner === true &&
+            banners.map((banner, index) => (
+              <VHomeCampaigns banner={banner} index={index} />
+            ))}
+
       </Slider>
 
       <>

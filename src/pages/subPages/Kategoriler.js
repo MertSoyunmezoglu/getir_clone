@@ -7,7 +7,7 @@ import Header from "components/Header";
 import HeroSection from "components/HeroSection";
 import Categories from "components/Categories";
 import Campaigns from "components/Campaigns";
-import Favorites from "components/Favorites";
+import Favorites from "components/ProductItems";
 import MobileApp from "components/MobileApp";
 import Cards from "components/Cards";
 import Footer from "components/Footer";
@@ -17,13 +17,11 @@ import { useState } from "react";
 import { useUserAuth } from "../../context/UserAuthContext";
 import Search from "components/Search";
 import PriceBar from "components/PriceBar";
+import MainGrid from "components/MainGrid";
 
  function Kategoriler () {
 
-  const [homeCard, setHomeCard] = useState(true);
-  const [homeBanner, setHomeBanner] = useState(true);
-  const [homeSection, setHomeSection] = useState(true);
-  const [homeCategory, setHomeCategory] = useState(true);
+const [validHomeBanner, setvalidHomeBanner] = useState(true)
 
 
 
@@ -52,8 +50,10 @@ import PriceBar from "components/PriceBar";
     </Helmet>
     <Header />
     <Search/>
-    <PriceBar/>
-    Kategoriler
+    <PriceBar/><div className=" container mx-auto">
+   <Campaigns  validHomeBanner={validHomeBanner}/>
+   </div>
+   <MainGrid/>
     
     
   </div>

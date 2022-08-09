@@ -1,45 +1,144 @@
 [
     {
+      "id":21,
+      "title":"İndirimler",
+      "image":"https://market-product-images-cdn.getirapi.com/category/5e4fe791-0c07-4087-8523-4cafccda7d01.jpg",
+      "items": [
+        { "subTitle": "Su & İçecek" },
+        { "subTitle": "Meyve & Sebze" },
+        { "subTitle": "Fırından" },
+        { "subTitle": "Temel Gıda" },
+        { "subTitle": "Atıştırmalık" },
+        { "subTitle": "Dondurma" },
+        { "subTitle": "Süt Ürünleri" },
+        { "subTitle": "Yiyecek" }
+ 
+      ]
+    },
+    {
+      "id":2,
+      "title":"Yaza Özel",
+      "image":"https://market-product-images-cdn.getirapi.com/category/1f3b2230-e9fd-4592-81b9-a8531820ab49.jpg",
+      "items": [
+        { "subTitle": "Öne Çıkanlar" },
+        { "subTitle": "Serinleten İçecekler" },
+        { "subTitle": "Yazın Tazeleri" },
+        { "subTitle": "Yazlık Atıştırmalıklar" },
+        { "subTitle": "Buz Gibi Dondurmalar" },
+        { "subTitle": "Yaz Bakım Ürünleri" },
+        { "subTitle": "Plaj Ürünleri" }
+
+      ]
+    },
+  
+    {
       "id": 1,
       "title": " Et, Tavuk & Balık",
-      "image": "https://market-product-images-cdn.getirapi.com/category/03124570-30ce-43ca-a90d-4603e501cf70.jpeg"
+      "image": "https://market-product-images-cdn.getirapi.com/category/03124570-30ce-43ca-a90d-4603e501cf70.jpeg",
+      "items": [
+        { "subTitle": "Öne Çıkanlar" },
+        { "subTitle": "Serinleten İçecekler" },
+        { "subTitle": "Yazın Tazeleri" },
+        { "subTitle": "Yazlık Atıştırmalıklar" },
+        { "subTitle": "Buz Gibi Dondurmalar" },
+        { "subTitle": "Yaz Bakım Ürünleri" },
+        { "subTitle": "Plaj Ürünleri" }
+
+      ]
     
     },
    
     {
       "id": 3,
       "title": "Su & İçecek",
-      "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5e_1619242669958_1619242670038.jpeg"
+      "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5e_1619242669958_1619242670038.jpeg",
+      "items": [
+        { "subTitle": "Su" },
+        { "subTitle": "Gazlı İçecek" },
+        { "subTitle": "Maden Suyu" },
+        { "subTitle": "Ayran & Kefir" },
+        { "subTitle": "Soğuk Çay & Kahve" },
+        { "subTitle": "Meyve Suyu" },
+        { "subTitle": "Enerji İçeceği" }
+      ]
     },
     {
       "id": 4,
       "title": "Meyve & Sebze",
-      "image": "http://cdn.getir.com/cat/5928113e616cab00041ec6de_1619242870968_1619242871055.jpeg"
+      "image": "http://cdn.getir.com/cat/5928113e616cab00041ec6de_1619242870968_1619242871055.jpeg",
+      "items": [
+        { "subTitle": "Meyve" },
+        { "subTitle": "Sebze" },
+        { "subTitle": "Yeşillik" }
+      ]
     },
     {
       "id": 5,
       "title": "Fırından",
-      "image": "http://cdn.getir.com/cat/566eeb85f9facb0f00b1cb16_1619242817768_1619242817849.jpeg"
+      "image": "http://cdn.getir.com/cat/566eeb85f9facb0f00b1cb16_1619242817768_1619242817849.jpeg",
+      "items": [
+        { "subTitle": "Paketli Ürünler" },
+        { "subTitle": "Donuk Fırın" },
+        { "subTitle": "Glutensiz" }
+      ]
     },
     {
       "id": 6,
       "title": "Temel Gıda",
-      "image": "http://cdn.getir.com/cat/56dfcfba86004203000a870d_1619242834654_1619242834734.jpeg"
+      "image": "http://cdn.getir.com/cat/56dfcfba86004203000a870d_1619242834654_1619242834734.jpeg",
+      "items": [
+        { "subTitle": "Et" },
+        { "subTitle": "Makarna" },
+        { "subTitle": "Bulgur" },
+        { "subTitle": "Bakliyat" },
+        { "subTitle": "Salça" },
+        { "subTitle": "Konserve" },
+        { "subTitle": "Sos" },
+        { "subTitle": "Un" },
+        { "subTitle": "Sıvı Yağ" },
+        { "subTitle": "Zeytinyağı" }
+      ]
     },
     {
       "id": 7,
       "title": "Atıştırmalık",
-      "image": "http://cdn.getir.com/cat/56dfe03cf82055030022cdc0_1619242841966_1619242842053.jpeg"
+      "image": "http://cdn.getir.com/cat/56dfe03cf82055030022cdc0_1619242841966_1619242842053.jpeg",
+      "items": [
+        { "subTitle": "Cips" },
+        { "subTitle": "Kola" },
+        { "subTitle": "Çikolata" },
+        { "subTitle": "Kuruyemiş" },
+        { "subTitle": "Fitbar" },
+        { "subTitle": "Gofret" },
+        { "subTitle": "Kek" },
+        { "subTitle": "Bisküvi" },
+        { "subTitle": "Kraker" },
+        { "subTitle": "Sakız" }
+      ]
     },
     {
       "id": 8,
       "title": "Dondurma",
-      "image": "http://cdn.getir.com/cat/55bca8484dcda90c00e3aa80_1619242741382_1619242741482.jpeg"
+      "image": "http://cdn.getir.com/cat/55bca8484dcda90c00e3aa80_1619242741382_1619242741482.jpeg",
+      "items": [
+        { "subTitle": "Çubuk" },
+        { "subTitle": "Bar" },
+        { "subTitle": "Külah" },
+        { "subTitle": "Kutu" }
+
+      ]
     },
     {
-      "id": 2,
+      "id": 20,
       "title": "Süt Ürünleri",
-      "image": "https://market-product-images-cdn.getirapi.com/category/afee33f9-93fe-4b87-8094-6e5c7f13c064.jpeg"
+      "image": "https://market-product-images-cdn.getirapi.com/category/afee33f9-93fe-4b87-8094-6e5c7f13c064.jpeg",
+      "items": [
+        { "subTitle": "Süt" },
+        { "subTitle": "Peynir" },
+        { "subTitle": "Yoğurt" },
+        { "subTitle": "Tereyağ" }
+
+      ]
     },
     {
       "id": 9,

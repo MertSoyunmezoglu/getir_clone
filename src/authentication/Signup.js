@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Form, Alert } from "react-bootstrap";
 import { Button } from "react-bootstrap";
@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 import ReactFlagsSelect from "react-flags-select";
 import { CgDanger } from "react-icons/cg";
 import { modalClose } from "helper";
+import { ContextProvider } from "../context/GlobalContext";
 
 const Signup = () => {
   const [selected, setSelected] = useState("TR");
@@ -17,49 +18,39 @@ const Signup = () => {
   const [name, setName] = useState("");
   const [rule, setRule] = useState(false);
   const [inputValue, setInputValue] = useState("");
-  const pathname = window.location.pathname 
 
-  // const [number, setNumber] = useState("");
+
+
   const { signUp } = useUserAuth();
-  const paths = [
-
-    {path:"/", subPath: 'kategoriler'},
-    {path: "/yemek", subPath: '/restoranlar'},
-    {path: "/buyuk", subPath: '/kategoriler'},
-    {path: "/su", subPath: '/kategoriler'},
-    {path: "/carsi", subPath: '/isletmeler'},
-  ];
+ const {  pathname, found, formatPhoneNumber,setPhoneCheck,phoneCheck } = ContextProvider();
   
-  const found =  paths.find(path => path.path === pathname);
-  console.log("found: ", found.subPath);
   let navigate = useNavigate();
-
+console.log(pathname);
   const handleInput = (e) => {
     const formattedPhoneNumber = formatPhoneNumber(e.target.value);
     setInputValue(formattedPhoneNumber);
+    
   };
-  function formatPhoneNumber(value) {
-    if (!value) return value;
-    const phoneNumber = value.replace(/[^\0-9]/g, "");
-    const phoneNumberLength = phoneNumber.length;
-    if (phoneNumberLength < 4) {
-      return phoneNumber;
+  
+  useEffect(() => {
+    if( inputValue.length >=1 && inputValue.length < 11  ){
+      setPhoneCheck(true)
+    }else{
+      setPhoneCheck(false)
     }
-    if (phoneNumberLength < 12) {
-      return `${phoneNumber.slice(0, 3)} ${phoneNumber.slice(4)}`;
-    }
-  }
-  const { value } = formatPhoneNumber;
+
+  }, [inputValue])
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
     try {
-      await signUp(email, password, name, value);
+      await signUp(email, password, name, );
       if(pathname===found.path)
       { navigate(found.path + found.subPath);}
       else{navigate("kategoriler");}
       console.log(name);
-      console.log(value);
+   
       modalClose();
     } catch (err) {
       setError(err.message);
@@ -112,10 +103,10 @@ const Signup = () => {
                   value={inputValue}
                   onChange={handleInput}
                   className={` flex-nowrap border-2 peer  hover:border-primary-brand-color   border-gray-300  rounded-md h-14 w-[322px]    ${
-                    inputValue.length < 11 ? "focus:border-red-400 " : "null"
+                    phoneCheck === true ? "focus:border-red-400 " : "null"
                   } `}
                 />
-                {inputValue.length >= 1 && inputValue.length < 11 ? (
+                {phoneCheck === true  ? (
                   <span className=" absolute text-red-600 top-4 right-0 h-full px-4">
                     <CgDanger size={24} />
                   </span>
@@ -123,6 +114,11 @@ const Signup = () => {
                 <span className=" absolute -top-1 left-0 h-full px-2 text-md text-gray-500 flex items-center text-md peer-focus:h-5  ml-2 peer-focus:mt-1 peer-valid:mt-1 peer-focus:text-xs transition-all peer-valid:h-5 peer-valid:text-xs peer-valid:text-secondary-brand-color">
                   Telefon Numarası
                 </span>
+                {phoneCheck === true  ? (
+                  <span className=" text-xs  text-red-600">
+                    Lütfen geçerli bir telefon numarası giriniz.
+                  </span>
+                ) : null}
               </label>
             </Form.Group>
 
@@ -132,7 +128,7 @@ const Signup = () => {
                   required
                   type="text"
                   className={` border-2 peer  border-gray-300  rounded-md h-14  w-full  hover:border-primary-brand-color  ${
-                    inputValue.length < 11 ? "focus:border-red-400 " : "null"
+                    phoneCheck === true ? "focus:border-red-400 " : "null"
                   } `}
                   onChange={(e) => setName(e.target.value)}
                 />
