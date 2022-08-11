@@ -1,16 +1,13 @@
 import React from "react";
 
 import { Link, useNavigate } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+
 
 import Header from "components/Header";
-import HeroSection from "components/HeroSection";
-import Categories from "components/Categories";
+
 import Campaigns from "components/Campaigns";
-import Favorites from "components/ProductItems";
-import MobileApp from "components/MobileApp";
-import Cards from "components/Cards";
-import Footer from "components/Footer";
+
+
 import { Helmet } from "react-helmet";
 import { useState } from "react";
 
@@ -48,8 +45,10 @@ const [validHomeBanner, setvalidHomeBanner] = useState(true)
     <Helmet>
       <title>Getir - Dakikalar içinde Kapınızda</title>
     </Helmet>
+   
     <Header />
     <Search/>
+  
     <PriceBar/><div className=" container mx-auto">
    <Campaigns  validHomeBanner={validHomeBanner}/>
    </div>
