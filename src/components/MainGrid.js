@@ -1,7 +1,8 @@
 import React from 'react'
 import Basket from './Basket'
-import ProductItems from './ProductItems'
+
 import SideBar from './SideBar'
+import ProductItem from './ui/ProductItem'
 import Title from './ui/Title'
 
 
@@ -19,7 +20,7 @@ export default function MainGrid() {
        
         <main class="col-span-8 md:col-span-3 h-96 mr-20 bg-gray-100">
         <Title>Yeni Ürünler</Title> 
-            <ProductItems/>
+            <ProductItem/>
         </main>
 
        

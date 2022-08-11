@@ -1,17 +1,18 @@
 [
-    {
-      "id": 1,
-      "title": "Lay's Mevsim Yeşillikli",
-      "image": "https://cdn.getir.com/product/5bc97aabb137fb001d751ac7_tr_1609123518121.jpeg",
-      "alt": "96 g",
-      "price": 11
-    },
+   
     {
       "id": 2,
       "title": "Eti Canga",
       "image": "https://cdn.getir.com/product/5f3538dc71a71226677fba17_tr_1624437105104.jpeg",
       "alt": "45 g",
       "price": 4.75
+    },
+    {
+      "id": 1,
+      "title": "Lay's Mevsim Yeşillikli",
+      "image": "https://cdn.getir.com/product/5bc97aabb137fb001d751ac7_tr_1609123518121.jpeg",
+      "alt": "96 g",
+      "price": 10
     },
     {
       "id": 3,
@@ -56,7 +57,7 @@
       "price": 12.95
     },
     {
-      "id": 9,
+      "id": 16,
       "title": "Tadım Antep Fıstıklı",
       "image": "https://cdn.getir.com/product/58247e50daab3d00044a1fb3_tr_1609904538035.jpeg",
       "alt": "27 g",

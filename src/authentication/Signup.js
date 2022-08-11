@@ -23,7 +23,7 @@ const Signup = () => {
 
   const { signUp } = useUserAuth();
  const {  pathname, found, formatPhoneNumber,setPhoneCheck,phoneCheck } = ContextProvider();
-  
+
   let navigate = useNavigate();
 console.log(pathname);
   const handleInput = (e) => {
