@@ -15,14 +15,14 @@ const Signup = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
-  const [name, setName] = useState("");
+
   const [rule, setRule] = useState(false);
   const [inputValue, setInputValue] = useState("");
 
 
 
   const { signUp } = useUserAuth();
- const {  pathname, found, formatPhoneNumber,setPhoneCheck,phoneCheck } = ContextProvider();
+ const {  pathname, found, formatPhoneNumber,setPhoneCheck,phoneCheck,name, setName } = ContextProvider();
 
   let navigate = useNavigate();
 console.log(pathname);

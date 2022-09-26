@@ -16,7 +16,7 @@ export default function PastOrders() {
     <>
       <Title>Geçmiş Siparilerim</Title>
 
-      <div className=" mx-4      container h-[350px] bg-white border-2    rounded-lg ">
+      <div className=" mx-4      container h-[240px] bg-white border-2    rounded-lg ">
         {order && <div className="grid grid-cols-1  md:text-xs w-60 -ml-10 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-4  gap-y-0.5 pt-6 rounded-lg overflow-hidden ">
         <span className="border-t rounded-full border-gra-500 w-10 h-10">
           <FcHome className="    m-1" size={24} />

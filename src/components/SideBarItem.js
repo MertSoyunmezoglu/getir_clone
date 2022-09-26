@@ -1,56 +1,90 @@
+import React, { useState } from "react";
+import { Collapse } from "react-collapse";
 
-import React, { useEffect, useState } from 'react'
-import {Collapse} from 'react-collapse';
+import { IoIosArrowDown } from "react-icons/io";
+import { NavLink } from "react-router-dom";
+import SideBarSubItem from "./SideBarSubItem";
 
-import {IoIosArrowDown,IoIosArrowUp} from 'react-icons/io'
+export default function SideBarItem({
+  category: { title, image, items, pathTitle },
+}) {
+  const [isOpen, setIsOpen] = useState(false);
 
-export default function SideBarItem({category:{ title,image,subTitle,items}}) {
-    const [isOpen, setIsOpen] = useState(false);
+  const toggleCollapse = () => {
+    setIsOpen(!isOpen);
+  };
+  const pathname = window.location.pathname.split("/")[1];
+  console.log(pathname);
+  const pathname2 = window.location.pathname.split("/")[2];
+  const pathname3 = window.location.pathname.split("/")[3];
+  console.log(pathname3);
 
-    const  toggleCollapse = ()=>{
-          
-            setIsOpen(!isOpen);
-          
-    }
-   
 
-   console.log("items",items, "subTitle",subTitle);
-  
-    return (
-        <section>
-        <nav className=' block   rounded-lg  '>
-     
-      
-      <button onClick={toggleCollapse} className="  flex    transition w-60 gap-x-2 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-center p-0.5 m-0.5  ">
-      <img src={image} alt={title}  className=" w-8 h-8  border-x-y border-opacity-30 rounded-lg "/>
+  return (
+    <section>
+      <nav className=" block   rounded-lg ">
+        {pathname === "kategoriler" ? (
+          <NavLink to={`/${pathname}/${pathTitle.toLowerCase()}`}>
+            <button
+              onClick={toggleCollapse}
+              className="   grid grid-cols-3   items-start  transition w-64 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-center p-0.5 m-0.5  "
+            >
+              <span className="  justify-between    tracking-normal">
+                <img
+                  src={image}
+                  alt={title}
+                  className=" w-8 h-8  border-x-y border-opacity-30 rounded-lg "
+                />
+              </span>
+              <span className="  font-semibold  mt-1 text-md ">{title}</span>
 
-       <span className=" mt-1.5 inline-block text-sm font-semibold tracking-normal "> 
-          {title} 
-    
-       </span>
-       <span className={`transition-all absolute  left-80   mt-2 mx-auto transform text-gray-400 ${isOpen ? ' rotate-180 ' : ''}`}>
-       <IoIosArrowDown size={18 }/></span>
+              <span
+                className={`transition-all    ml-12 flex mt-2 mx-auto transform text-gray-400 ${
+                  isOpen ? " rotate-180 " : ""
+                }`}
+              >
+                <IoIosArrowDown size={18} />
+              </span>
+            </button>
+          </NavLink>
+        ) : (
+          <NavLink to={`/${pathname}/${pathname2}/${pathTitle.toLowerCase()}`}>
+            <button
+              onClick={toggleCollapse}
+              className="   grid grid-cols-3   items-start  transition w-64 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-center p-0.5 m-0.5  "
+            >
+              <span className="  justify-between    tracking-normal">
+                <img
+                  src={image}
+                  alt={title}
+                  className=" w-8 h-8  border-x-y border-opacity-30 rounded-lg "
+                />
+              </span>
+              <span className="  font-semibold  mt-1 text-md ">{title}</span>
+
+              <span
+                className={`transition-all    ml-12 flex mt-2 mx-auto transform text-gray-400 ${
+                  isOpen ? " rotate-180 " : ""
+                }`}
+              >
+                <IoIosArrowDown size={18} />
+              </span>
+            </button>
+          </NavLink>
+        )}
+        <Collapse isOpened={isOpen}>
+        <nav>
+   <ul className=" bg-slate-50 -mr-6 transition-all  ">
+     {items &&
+       items.map((item ,key ) => (   
          
-    
-     </button> 
-     <Collapse isOpened={isOpen}>
+        <SideBarSubItem pathname={pathname} key={key} pathname2={pathname2} pathname3={pathname3} category={{ item, pathTitle }} />
 
-     <nav>
-       <ul className=' bg-slate-50  '> 
-         {items && items.map((item,key)=>(
-             <li key={key} className="text-sm  py-1 px-8 transition-all cursor-pointer hover:bg-white">
-             <a href="#">{item.subTitle} </a>
-             </li>
-         ))}
-       </ul>
-     </nav>
-  
-   </Collapse>
- 
-
-
-        </nav>
-        
-      </section>
-    )
-  }
+       ))}
+   </ul>
+ </nav>
+        </Collapse>
+      </nav>
+    </section>
+  );
+}

@@ -9,9 +9,9 @@ export default function ProductItems() {
   }, []);
 
   return (
-    <div className=" bg-slate-100 text-sm font-semibold gap-2 ">
+    <div className=" bg-slate-100 text-sm  font-semibold ">
 
-      <div className=" grid grid-cols-1 md:text-xs sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  gap-x-0.5 gap-y-0.5 pt-6 rounded-lg overflow-hidden ">
+      <div className=" grid grid-cols-1 md:text-xs  sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  gap-x-0.5 gap-y-0.5 pt-6 rounded-lg overflow-hidden ">
         {products.length &&
           products.map((product, index) => (
             <ProductItem product={product} key={index} />

@@ -10,7 +10,8 @@
 @layer base{
     html,body{
         font-family:'Open Sans', sans-serif;
-        
+
+        overflow-x: hidden;
         @apply antialiased
         
     }
@@ -51,3 +52,8 @@ video{
 .map-container {
     @apply w-full h-96 rounded-lg;
 }
+.dropdown:focus-within .dropdown-menu {
+    opacity:1;
+    transform: translate(0) scale(1);
+    visibility: visible;
+  }

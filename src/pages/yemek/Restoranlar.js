@@ -9,7 +9,7 @@ export default function Restoranlar() {
 
   return (
     <div>
-    <Header/>
+  
     <Search/>
 <Campaigns validFoodBanner={validFoodBanner}/>
     Restoranlar

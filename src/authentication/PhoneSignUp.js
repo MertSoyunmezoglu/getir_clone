@@ -11,14 +11,14 @@ import { ContextProvider } from "context/GlobalContext";
 
 const PhoneSignUp = () => {
   const [error, setError] = useState("");
-  const [number, setNumber] = useState("");
+
   const [flag, setFlag] = useState(false);
   const [otp, setOtp] = useState("");
   const [result, setResult] = useState("");
   const { setUpRecaptha } = useUserAuth();
   const navigate = useNavigate();
 
-  const {  pathname, found } = ContextProvider();
+  const {  pathname, found,number,setNumber } = ContextProvider();
 
   const getOtp = async (e) => {
     e.preventDefault();

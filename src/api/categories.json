@@ -1,7 +1,8 @@
-[
+[ 
     {
       "id":21,
       "title":"İndirimler",
+      "pathTitle":"indirimler",
       "image":"https://market-product-images-cdn.getirapi.com/category/5e4fe791-0c07-4087-8523-4cafccda7d01.jpg",
       "items": [
         { "subTitle": "Su & İçecek" },
@@ -11,13 +12,22 @@
         { "subTitle": "Atıştırmalık" },
         { "subTitle": "Dondurma" },
         { "subTitle": "Süt Ürünleri" },
-        { "subTitle": "Yiyecek" }
+        { "subTitle": "Yiyecek" },
+        { "subPathTitle": "su-icecek" },
+        { "subPathTitle": "meyve-sebze" },
+        { "subPathTitle": "firindan" },
+        { "subPathTitle": "temel-gida" },
+        { "subPathTitle": "atistirmalik" },
+        { "subPathTitle": "dondurma" },
+        { "subPathTitle": "sut-urunleri" },
+        { "subPathTitle": "yiyecek" }
  
       ]
     },
     {
       "id":2,
       "title":"Yaza Özel",
+      "pathTitle":"yaza-ozel",
       "image":"https://market-product-images-cdn.getirapi.com/category/1f3b2230-e9fd-4592-81b9-a8531820ab49.jpg",
       "items": [
         { "subTitle": "Öne Çıkanlar" },
@@ -26,7 +36,14 @@
         { "subTitle": "Yazlık Atıştırmalıklar" },
         { "subTitle": "Buz Gibi Dondurmalar" },
         { "subTitle": "Yaz Bakım Ürünleri" },
-        { "subTitle": "Plaj Ürünleri" }
+        { "subTitle": "Plaj Ürünleri" },
+        { "subPathTitle": "one-cikanlar" },
+        { "subPathTitle": "serinleten-icecekler" },
+        { "subPathTitle": "yazin-tazeleri" },
+        { "subPathTitle": "yazlik-atistirmaliklar" },
+        { "subPathTitle": "buz-gibi-dondurmalar" },
+        { "subPathTitle": "yaz-bakim-urunleri" },
+        { "subPathTitle": "plaj-urunleri" }
 
       ]
     },
@@ -34,6 +51,7 @@
     {
       "id": 1,
       "title": " Et, Tavuk & Balık",
+      "pathTitle":"et-tavuk-balik",
       "image": "https://market-product-images-cdn.getirapi.com/category/03124570-30ce-43ca-a90d-4603e501cf70.jpeg",
       "items": [
         { "subTitle": "Öne Çıkanlar" },
@@ -42,8 +60,14 @@
         { "subTitle": "Yazlık Atıştırmalıklar" },
         { "subTitle": "Buz Gibi Dondurmalar" },
         { "subTitle": "Yaz Bakım Ürünleri" },
-        { "subTitle": "Plaj Ürünleri" }
-
+        { "subTitle": "Plaj Ürünleri" },
+        { "subPathTitle": "one-cikanlar" },
+        { "subPathTitle": "serinleten-icecekler" },
+        { "subPathTitle": "yazin-tazeleri" },
+        { "subPathTitle": "yazlik-atistirmaliklar" },
+        { "subPathTitle": "buz-gibi-dondurmalar" },
+        { "subPathTitle": "yaz-bakim-urunleri" },
+        { "subPathTitle": "plaj-urunleri" }
       ]
     
     },
@@ -51,6 +75,7 @@
     {
       "id": 3,
       "title": "Su & İçecek",
+      "pathTitle":"su-icecek",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5e_1619242669958_1619242670038.jpeg",
       "items": [
         { "subTitle": "Su" },
@@ -59,32 +84,48 @@
         { "subTitle": "Ayran & Kefir" },
         { "subTitle": "Soğuk Çay & Kahve" },
         { "subTitle": "Meyve Suyu" },
-        { "subTitle": "Enerji İçeceği" }
+        { "subTitle": "Enerji İçeceği" },
+        { "subPathTitle": "su"},
+        { "subPathTitle": "gazli-icecek"},
+        { "subPathTitle": "maden-suyu"},
+        { "subPathTitle": "ayran-kefir"},
+        { "subPathTitle": "soguk-cay-kahve"},
+        { "subPathTitle": "meyve-suyu"},
+        { "subPathTitle": "enerji-icecegi"}
       ]
     },
     {
       "id": 4,
       "title": "Meyve & Sebze",
+      "pathTitle":"meyve-sebze",
       "image": "http://cdn.getir.com/cat/5928113e616cab00041ec6de_1619242870968_1619242871055.jpeg",
       "items": [
         { "subTitle": "Meyve" },
         { "subTitle": "Sebze" },
-        { "subTitle": "Yeşillik" }
+        { "subTitle": "Yeşillik" },
+        { "subPathTitle": "meyve"},
+        { "subPathTitle": "sebze"},
+        { "subPathTitle": "yesillik"}
       ]
     },
     {
       "id": 5,
       "title": "Fırından",
+      "pathTitle":"firindan",
       "image": "http://cdn.getir.com/cat/566eeb85f9facb0f00b1cb16_1619242817768_1619242817849.jpeg",
       "items": [
         { "subTitle": "Paketli Ürünler" },
         { "subTitle": "Donuk Fırın" },
-        { "subTitle": "Glutensiz" }
+        { "subTitle": "Glutensiz" },
+        { "subPathTitle": "paketli-urunler"},
+        { "subPathTitle": "donuk-firin"},
+        { "subPathTitle": "glutensiz"}
       ]
     },
     {
       "id": 6,
       "title": "Temel Gıda",
+      "pathTitle":"temel-gida",
       "image": "http://cdn.getir.com/cat/56dfcfba86004203000a870d_1619242834654_1619242834734.jpeg",
       "items": [
         { "subTitle": "Et" },
@@ -96,12 +137,23 @@
         { "subTitle": "Sos" },
         { "subTitle": "Un" },
         { "subTitle": "Sıvı Yağ" },
-        { "subTitle": "Zeytinyağı" }
+        { "subTitle": "Zeytinyağı" },
+        { "subPathTitle":"et"},
+        { "subPathTitle":"makarna"},
+        { "subPathTitle":"bulgur"},
+        { "subPathTitle":"bakliyat"},
+        { "subPathTitle":"salca"},
+        { "subPathTitle":"konserve"},
+        { "subPathTitle":"sos"},
+        { "subPathTitle":"un"},
+        { "subPathTitle":"sivi-yag"},
+        { "subPathTitle":"zeytinyagi"}
       ]
     },
     {
       "id": 7,
       "title": "Atıştırmalık",
+      "pathTitle":"atistirmalik",
       "image": "http://cdn.getir.com/cat/56dfe03cf82055030022cdc0_1619242841966_1619242842053.jpeg",
       "items": [
         { "subTitle": "Cips" },
@@ -113,86 +165,117 @@
         { "subTitle": "Kek" },
         { "subTitle": "Bisküvi" },
         { "subTitle": "Kraker" },
-        { "subTitle": "Sakız" }
+        { "subTitle": "Sakız" },
+        { "subPathTitle":"cips"},
+        { "subPathTitle":"kola"},
+        { "subPathTitle":"cikolata"},
+        { "subPathTitle":"kuruyemis"},
+        { "subPathTitle":"fitbar"},
+        { "subPathTitle":"gofret"},
+        { "subPathTitle":"kek"},
+        { "subPathTitle":"biskuvi"},
+        { "subPathTitle":"kraker"},
+        { "subPathTitle":"sakiz"}
       ]
     },
     {
       "id": 8,
       "title": "Dondurma",
+      "pathTitle":"dondurma",
       "image": "http://cdn.getir.com/cat/55bca8484dcda90c00e3aa80_1619242741382_1619242741482.jpeg",
       "items": [
         { "subTitle": "Çubuk" },
         { "subTitle": "Bar" },
         { "subTitle": "Külah" },
-        { "subTitle": "Kutu" }
+        { "subTitle": "Kutu" },
+        { "subPathTitle":"cubuk"},
+        { "subPathTitle":"bar"},
+        { "subPathTitle":"kulah"},
+        { "subPathTitle":"kutu"}
 
       ]
     },
     {
       "id": 20,
       "title": "Süt Ürünleri",
+      "pathTitle":"sut-urunleri",
       "image": "https://market-product-images-cdn.getirapi.com/category/afee33f9-93fe-4b87-8094-6e5c7f13c064.jpeg",
       "items": [
         { "subTitle": "Süt" },
         { "subTitle": "Peynir" },
         { "subTitle": "Yoğurt" },
-        { "subTitle": "Tereyağ" }
+        { "subTitle": "Tereyağ" },
+        { "subPathTitle":"sut"},
+        { "subPathTitle":"peynir"},
+        { "subPathTitle":"yogurt"},
+        { "subPathTitle":"tereyag"}
 
       ]
     },
     {
       "id": 9,
       "title": "Yiyecek",
+      "pathTitle":"yiyecek",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5d_1619242660025_1619242660107.jpeg"
     },
     {
       "id": 10,
       "title": "Kahvaltılık",
+      "pathTitle":"kahvaltilik",
       "image": "http://cdn.getir.com/cat/56dfed05ab747f03008d9379_1619242850313_1619242850394.jpeg"
     },
     {
       "id": 11,
       "title": "Fit & Form",
+      "pathTitle":"fit-form",
       "image": "http://cdn.getir.com/cat/57e2996551f3ee030027e28b_1619242858559_1619242858642.jpeg"
     },
     {
       "id": 12,
       "title": "Kişisel Bakım",
+      "pathTitle":"kisisel-bakim",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5c_1619242651249_1619242651335.jpeg"
     },
     {
       "id": 13,
       "title": "Ev Bakım",
+      "pathTitle":"ev-bakim",
       "image": "http://cdn.getir.com/cat/55449fdf02632e11003c2da8_1619242719523_1619242719602.jpeg"
     },
     {
       "id": 14,
       "title": "Ev & Yaşam",
+      "pathTitle":"ev-yasam",
       "image": "http://cdn.getir.com/cat/5b06b056b883b700044e3e4c_1619242916956_1619242917048.jpeg"
     },
     {
       "id": 15,
       "title": "Teknoloji",
+      "pathTitle":"teknoloji",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c62_1619242697597_1619242697702.jpeg"
     },
     {
       "id": 16,
       "title": "Evcil Hayvan",
+      "pathTitle":"evcil-hayvan",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c63_1619242711604_1619242711687.jpeg"
     },
     {
       "id": 17,
       "title": "Bebek",
+      "pathTitle":"bebek",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5b_1619242620186_1619242620271.jpeg"
     },
     {
       "id": 18,
       "title": "Cinsel Sağlık",
+      "pathTitle":"cinsel-saglik",
       "image": "http://cdn.getir.com/cat/559c07b093be370c0063dd29_1619242727735_1619242727816.jpeg"
     },
     {
       "id": 19,
       "title": "Giyim",
+      "pathTitle":"giyim",
       "image": "http://cdn.getir.com/cat/551430043427d5010a3a5c5f_1619242679723_1619242679822.jpeg"
       
     }

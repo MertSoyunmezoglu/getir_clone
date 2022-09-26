@@ -1,10 +1,14 @@
 import { createContext, React, useContext, useState } from "react";
 import products from "api/products.json";
+
 export const GlobalContext = createContext();
 
 export function GlobalContextProvider({ children }) {
   const [phoneCheck, setPhoneCheck] = useState(false);
   const [order, setOrder] = useState("")
+  const [name, setName] = useState("");
+  const [number, setNumber] = useState("");
+  
   const [state, setState] = useState({
     productList: products,
     cart: [],
@@ -68,21 +72,12 @@ export function GlobalContextProvider({ children }) {
     }
   }
 
-  const paths = [
-    { path: "/", subPath: "kategoriler" },
-    { path: "/yemek", subPath: "/restoranlar" },
-    { path: "/buyuk", subPath: "/kategoriler" },
-    { path: "/su", subPath: "/kategoriler" },
-    { path: "/carsi", subPath: "/isletmeler" },
-  ];
-  const pathname = window.location.pathname;
-  const found = paths.find((path) => path.path === pathname);
+
 
   return (
     <GlobalContext.Provider
       value={{
-        pathname,
-        found,
+       
         formatPhoneNumber,
         phoneCheck,
         setPhoneCheck,
@@ -90,7 +85,7 @@ export function GlobalContextProvider({ children }) {
         addToCart,
         increase,
         decrease,
-        removeFromCart,setOrder,order
+        removeFromCart,setOrder,order,number,setNumber,name,setName
       }}
     >
       {children}
