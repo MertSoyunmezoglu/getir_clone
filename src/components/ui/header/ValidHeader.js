@@ -14,7 +14,7 @@ export default function ValidHeader() {
   const { logOut, user } = useUserAuth();
   const [click, setClick] = useState(false)
   const navigate = useNavigate();
-  console.log(user);
+
 
   const toggleClick = () => {
 setClick(!click)  

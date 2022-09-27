@@ -1,8 +1,7 @@
 import { ContextProvider } from "context/GlobalContext";
-import React, { useState } from "react";
+import React from "react";
 import { FiTrash2, FiPlus, FiMinus } from "react-icons/fi";
-import { IoRemoveOutline } from "react-icons/io";
-
+ 
 export default function Cart() {
   const { state, increase, decrease, removeFromCart,setOrder } = ContextProvider();
 
@@ -10,7 +9,7 @@ export default function Cart() {
   const totalCartAmount = state.cart
     .reduce((total, price) => total + price.count * price.price, 0)
     .toFixed(2);
-  console.log("dsadasdasdasdasd", totalCartAmount);
+
   return (
     <div className="  mt-5 mx-auto  ">
     {totalCartAmount <1 &&

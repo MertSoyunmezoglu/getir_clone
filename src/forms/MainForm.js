@@ -1,12 +1,15 @@
+
 import React from "react";
 import { useState } from "react";
 import ReactFlagsSelect from "react-flags-select";
 import { CgDanger } from "react-icons/cg";
 
+
 export default function MainForm() {
   const [selected, setSelected] = useState("TR");
   const [inputValue, setInputValue] = useState("");
 
+  
   const handleInput = (e) => {
     const formattedPhoneNumber = formatPhoneNumber(e.target.value);
     setInputValue(formattedPhoneNumber);
@@ -46,6 +49,7 @@ export default function MainForm() {
         />
         <label className=" mx-5 relative block group">
           <input
+
             required
             type="text"
             maxLength={11}

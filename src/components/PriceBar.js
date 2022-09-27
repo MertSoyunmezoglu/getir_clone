@@ -9,7 +9,7 @@ export default function PriceBar() {
 
 
   const pathname = window.location.pathname 
-  console.log(pathname);
+
   if (pathname === "/kategoriler") {
     return <PriceBarHome />;
   }

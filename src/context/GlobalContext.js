@@ -1,18 +1,32 @@
-import { createContext, React, useContext, useState } from "react";
+import { createContext, React, useContext, useEffect, useState } from "react";
 import products from "api/products.json";
 
 export const GlobalContext = createContext();
 
 export function GlobalContextProvider({ children }) {
   const [phoneCheck, setPhoneCheck] = useState(false);
-  const [order, setOrder] = useState("")
+  const [order, setOrder] = useState("");
   const [name, setName] = useState("");
   const [number, setNumber] = useState("");
-  
+  const [pathes, setPathes] = useState("");
+  const [location, setLocation] = useState("");
   const [state, setState] = useState({
     productList: products,
     cart: [],
+    list: [],
   });
+
+  useEffect(() => {
+    if (window.location.pathname.split("/")[1] === "kategoriler") {
+      setPathes(window.location.pathname.split("/")[2]);
+    } else if (window.location.pathname.split("/")[2] === "kategoriler") {
+      setPathes(window.location.pathname.split("/")[3]);
+    }
+  }, [location]);
+
+  const handleClick = () => {
+    setLocation(window.location.pathname);
+  };
 
   const addToCart = (product) =>
     setState({
@@ -52,11 +66,12 @@ export function GlobalContextProvider({ children }) {
       ),
     });
   };
-  const removeFromCart =  id => setState({
-    ...state,
-    cart: state.cart.filter(cartItem => cartItem.id !== id)
+  const removeFromCart = (id) =>
+    setState({
+      ...state,
+      cart: state.cart.filter((cartItem) => cartItem.id !== id),
+    });
 
-  })
 
 
   function formatPhoneNumber(value) {
@@ -72,12 +87,9 @@ export function GlobalContextProvider({ children }) {
     }
   }
 
-
-
   return (
     <GlobalContext.Provider
       value={{
-       
         formatPhoneNumber,
         phoneCheck,
         setPhoneCheck,
@@ -85,7 +97,15 @@ export function GlobalContextProvider({ children }) {
         addToCart,
         increase,
         decrease,
-        removeFromCart,setOrder,order,number,setNumber,name,setName
+        removeFromCart,
+        setOrder,
+        order,
+        number,
+        setNumber,
+        name,
+        pathes,
+        setName,
+        handleClick,
       }}
     >
       {children}

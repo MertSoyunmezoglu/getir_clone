@@ -3,8 +3,8 @@ import React, { useState } from "react";
 
 
  
- export default function SideBarSubItem({pathname,pathname2,pathname3,category: { title, image, item,key, pathTitle }}) {
-  console.log(item.subTitle);
+ export default function SideBarSubItem({pathname,pathname2,category: { title, image, item,key, pathTitle }}) {
+ 
    return (
    <>{pathname === "kategoriler" ? <NavLink
    to={`/${pathname}/${pathTitle.toLowerCase()}/${item.subTitle}`}

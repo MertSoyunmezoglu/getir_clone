@@ -1,116 +1,2801 @@
 [
    
     {
-      "id": 2,
+      "id": 1,
       "title": "Eti Canga",
       "image": "https://cdn.getir.com/product/5f3538dc71a71226677fba17_tr_1624437105104.jpeg",
       "alt": "45 g",
-      "price": 4.75
+      "price": 4.75,
+      "category":"indirimler"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "Lay's Mevsim Yeşillikli",
       "image": "https://cdn.getir.com/product/5bc97aabb137fb001d751ac7_tr_1609123518121.jpeg",
       "alt": "96 g",
-      "price": 10
+      "price": 10,
+      "category":"indirimler"
     },
     {
       "id": 3,
       "title": "Kuzeyden",
       "image": "https://cdn.getir.com/product/5a7b20fd8e19da0004bb27f8_tr_1615375864268.jpeg",
       "alt": "1.5 L",
-      "price": 3.95
+      "price": 3.95,
+      "category":"indirimler"
     },
     {
       "id": 4,
       "title": "Kızılay Erzincan",
       "image": "https://cdn.getir.com/product/60018c5bca2126d84459c47f_tr_1610788125046.jpeg",
       "alt": "6 x 200 ml",
-      "price": 8.90
+      "price": 8.90,
+      "category":"indirimler"
     },
     {
       "id": 5,
       "title": "Ülker Napoliten",
       "image": "https://cdn.getir.com/product/574b2219dee8a90300f18d24_tr_1599938278519.jpeg",
       "alt": "33 g",
-      "price": 5.50
+      "price": 5.50,
+      "category":"indirimler"
     },
     {
       "id": 6,
       "title": "Kavrulmuş Siyah Ay Çekirdeği",
       "image": "https://cdn.getir.com/product/5ccaf4ff1a1763000175a869_tr_1580904995656.jpeg",
       "alt": "180 g",
-      "price": 14.95
+      "price": 14.95,
+      "category":"indirimler"
     },
     {
       "id": 7,
       "title": "Magnum Badem",
       "image": "https://cdn.getir.com/product/559fec01f462100c00461d5c_tr_1618323765236.jpeg",
       "alt": "100 ml",
-      "price": 13.50
+      "price": 13.50,
+      "category":"indirimler"
     },
     {
       "id": 8,
       "title": "İçim %3 Yağlı Süt",
       "image": "https://cdn.getir.com/product/5ced482d4a8a2a000137da6d_tr_1623652387464.jpeg",
       "alt": "1 L",
-      "price": 12.95
-    },
-    {
-      "id": 16,
-      "title": "Tadım Antep Fıstıklı",
-      "image": "https://cdn.getir.com/product/58247e50daab3d00044a1fb3_tr_1609904538035.jpeg",
-      "alt": "27 g",
-      "price": 9.99
+      "price": 12.95,
+      "category":"indirimler"
     },
     {
       "id": 9,
-      "title": "Tadım Fındıklı",
-      "image": "https://cdn.getir.com/product/5f7473a911fb9741c1c31be7_tr_1609904565266.jpeg",
-      "alt": "30 g",
-      "price": 4.99
+      "title": "Tadım Antep Fıstıklı",
+      "image": "https://cdn.getir.com/product/58247e50daab3d00044a1fb3_tr_1609904538035.jpeg",
+      "alt": "27 g",
+      "price": 9.99,
+      "category":"su-icecek"
     },
     {
       "id": 10,
-      "title": "CP M Boy Yumurta",
-      "image": "https://cdn.getir.com/product/5baa13ad1bcb7c7a0da5e802_tr_1599938695492.jpeg",
-      "alt": "15 adet",
-      "price": 22.99
+      "title": "Tadım Fındıklı",
+      "image": "https://cdn.getir.com/product/5f7473a911fb9741c1c31be7_tr_1609904565266.jpeg",
+      "alt": "30 g",
+      "price": 4.99,
+      "category":"su-icecek"
     },
     {
       "id": 11,
-      "title": "Fellas Protein Bar",
-      "image": "https://cdn.getir.com/product/59c27f8aa1478b0004fe6c1a_tr_1609404154110.png",
-      "alt": "40 g",
-      "price": 22.99
+      "title": "CP M Boy Yumurta",
+      "image": "https://cdn.getir.com/product/5baa13ad1bcb7c7a0da5e802_tr_1599938695492.jpeg",
+      "alt": "15 adet",
+      "price": 22.99,
+      "category":"et-tavuk-balik"
     },
+    
     {
       "id": 12,
       "title": "Pürsu Cam",
       "image": "https://cdn.getir.com/product/5fb6856eb9a056d1647ed885_tr_1608222523381.jpeg",
       "alt": "0.5 L",
-      "price": 14.99
+      "price": 14.99,
+      "category":"et-tavuk-balik"
     },
     {
       "id": 13,
       "title": "Pepsi",
       "image": "https://cdn.getir.com/product/56ee322ed6122903008f4bb9_tr_1624461748719.jpeg",
       "alt": "0.33 L",
-      "price": 8.99
+      "price": 8.99,
+      "category":"et-tavuk-balik"
     },
     {
       "id": 14,
       "title": "Lipton 25'li Çay",
       "image": "https://cdn.getir.com/product/559831ecb1dc700c006a71b4_tr_1584028750154.jpeg",
       "alt": "400 g",
-      "price": 42.99
+      "price": 42.99,
+      "category":"et-tavuk-balik"
     },
     {
       "id": 15,
       "title": "Etli Kuru Fasulye",
       "image": "https://cdn.getir.com/product/603ccabfdeedd2237a4937b4_tr_1614678269220.jpeg",
       "alt": "500 g",
-      "price": 27.99
+      "price": 27.99,
+      "category":"et-tavuk-balik"
+    },{
+      "id": 16,
+      "title": "Fellas Protein Bar",
+      "image": "https://cdn.getir.com/product/59c27f8aa1478b0004fe6c1a_tr_1609404154110.png",
+      "alt": "40 g",
+      "price": 22.99,
+      "category":"et-tavuk-balik"
+    },
+    {  "id":	17,
+      "title":	"Ülker Dido",
+      "image":	"https://cdn.getir.com/product/63160c0c2ce725ec54ea124b_tr_1662453913986.jpeg",
+      "alt":	"12x36",
+      "price":	48,
+      "category":	"indirimler"
+    },
+ 
+    {  "id":	18,
+    "title":	"Eti Alaska Frigo"       ,
+    "image":	"https://market-product-images-cdn.getirapi.com/product/bc7975ef-060f-472d-bf5c-3d27e239cdb6.jpg",
+    "alt":	"5x46",
+    "price":	40,
+    "category":	"indirimler"
+    },   {
+      "id": 19,
+      "title": "Sana Margarin",
+      "image": "https://cdn.getir.com/product/63185d1a2bba19dac9bf0225_tr_1662553873204.jpeg",
+      "alt": "500x4",
+      "price": 32.99,
+      "category":"indirimler"
+    },   {
+      "id": 15,
+      "title": "Lavanta Sabun 3'lü",
+      "image": "https://cdn.getir.com/product/62f250271e101d50d8fc40d1_tr_1660634531612.jpeg",
+      "alt": "3 ader",
+      "price": 52.99,
+      "category":"indirimler"
+    },   {
+      "id": 16,
+      "title": "Rexona Deodorant",
+      "image": "https://cdn.getir.com/product/620bf4c068f32674931f6cd4_tr_1651241746652.jpeg",
+      "alt": "2 adet",
+      "price": 66.99,
+      "category":"indirimler"
+    },   {
+      "id": 17,
+      "title": "Eker Ayran",
+      "image": "https://market-product-images-cdn.getirapi.com/product/6388da11-b0c6-431d-bb0b-6495a501f07f.jpeg",
+      "alt": "200 ml",
+      "price": 12.99,
+      "category":"indirimler"
+    },   {
+      "id": 18,
+      "title": "Erikli Su",
+      "image": "https://cdn.getir.com/product/6304c187a3a9db67ff436dd2_tr_1661332473935.jpeg",
+      "alt": "12x500 ml",
+      "price": 44.99,
+      "category":"indirimler"
+    },   {
+      "id": 19,
+      "title": "Fruko & Pepsi Max",
+      "image": "https://cdn.getir.com/product/62c4248285a2e6eada155308_tr_1657110257323.jpeg",
+      "alt": "2x1 Lt",
+      "price": 25.99,
+      "category":"indirimler"
+    },   {
+      "id": 20,
+      "title": "Coca Cola Marshmello",
+      "image": "https://market-product-images-cdn.getirapi.com/product/8debf1c0-34ff-48c9-9007-a33735dc1264.jpg",
+      "alt": "2 adet",
+      "price": 18.99,
+      "category":"indirimler"
+    },   {
+      "id": 21,
+      "title": "Peynirli Poğaca",
+      "image": "https://cdn.getir.com/product/609a66ebfc26f0816aae8ba5_tr_1637858678858.jpeg",
+      "alt": "2x75 gr",
+      "price": 8.99,
+      "category":"indirimler"
+    },   {
+      "id": 22,
+      "title": "Uno Çavdarlı Ekmek",
+      "image": "https://cdn.getir.com/product/5c879a671f5acb000125e774_tr_1649144837124.jpeg",
+      "alt": "350 g",
+      "price": 14.99,
+      "category":"indirimler"
+    },   {
+      "id": 21,
+      "title": "Uno Sandviç Ekmeği",
+      "image": "https://cdn.getir.com/product/5e3180c9ebb3a7e97fae5d99_tr_1580382191977.jpeg",
+      "alt": "40x6",
+      "price": 32.99,
+      "category":"indirimler"
+    },   {
+      "id": 22,
+      "title": "Hamburger Ekmeği",
+      "image": "https://cdn.getir.com/product/5ab3856d008f3b0004eeeea3.jpeg?v=1521732211236",
+      "alt": "6 adet",
+      "price": 18.99,
+      "category":"indirimler"
+    },   {
+      "id": 23,
+      "title": "Tat Ketçap & Mayonez",
+      "image": "https://cdn.getir.com/product/5d03bb6789c5f10001c36b2f_tr_1654705977620.jpeg",
+      "alt": "2 adet",
+      "price": 42.99,
+      "category":"indirimler"
+    },   {
+      "id": 24,
+      "title": "Yayla Baldo Pirinç",
+      "image": "https://market-product-images-cdn.getirapi.com/product/4fa3fe4d-abef-4f7f-91f6-3d2bee3275c9.jpg",
+      "alt": "2 kg",
+      "price": 24.99,
+      "category":"indirimler"
+    },   {
+      "id": 25,
+      "title": "Eriş Un",
+      "image": "https://cdn.getir.com/product/619de330a9030d3631b7080f_tr_1638435275377.jpeg",
+      "alt": "2 kg",
+      "price": 18.99,
+      "category":"indirimler"
+    },   {
+      "id": 26,
+      "title": "Orkide Yağ",
+      "image": "https://cdn.getir.com/product/5ce65815fd9b330001c4a81f_tr_1634639743046.jpeg",
+      "alt": "2 lt",
+      "price": 52.99,
+      "category":"indirimler"
+    },   {
+      "id": 27,
+      "title": "Nar Toz Şeker",
+      "image": "https://cdn.getir.com/product/6328734b8faaa23efde7e06c_tr_1663843109181.jpeg",
+      "alt": "5 kg",
+      "price": 69.99,
+      "category":"indirimler"
+    },   {
+      "id": 28,
+      "title": "Browni Intense",
+      "image": "https://cdn.getir.com/product/630a15800c43e4d00782b2b5_tr_1661787491981.jpeg",
+      "alt": "1 adet",
+      "price": 3.99,
+      "category":"indirimler"
+    },   {
+      "id": 29,
+      "title": "Eti Topkek",
+      "image": "https://cdn.getir.com/product/630b728faad7b3ae4d33c5a8_tr_1661761270428.jpeg",
+      "alt": "1 adet",
+      "price": 2.99,
+      "category":"indirimler"
+    },   {
+      "id": 30,
+      "title": "Eti Popkek",
+      "image": "https://cdn.getir.com/product/630c9d3483a76a9fc24e4e2e_tr_1662362985657.jpeg",
+      "alt": "1 adet",
+      "price": 4.99,
+      "category":"indirimler"
+    },   {
+      "id": 31,
+      "title": "Eti Tutku",
+      "image": "https://cdn.getir.com/product/630a12dcf04d9b4ebc70002d_tr_1661786870217.jpeg",
+      "alt": "1 adet",
+      "price": 7.99,
+      "category":"indirimler"
+    },   {
+      "id": 32,
+      "title": "Milka Oreo",
+      "image": "https://cdn.getir.com/product/566fc639f9facb0f00b201d8_tr_1622701966114.jpeg",
+      "alt": "1 adet",
+      "price": 18.99,
+      "category":"indirimler"
+    },   {
+      "id": 33,
+      "title": "Golf Bravo 3'lü",
+      "image": "https://market-product-images-cdn.getirapi.com/product/a36d1dfa-2ebf-4587-b21a-672185627160.jpg",
+      "alt": "3 adet",
+      "price": 44.99,
+      "category":"indirimler"
+    },   {
+      "id": 34,
+      "title": "Magnum Beyaz Paketi",
+      "image": "https://market-product-images-cdn.getirapi.com/product/a36d1dfa-2ebf-4587-b21a-672185627160.jpg",
+      "alt": "3 adet",
+      "price": 47.99,
+      "category":"indirimler"
+    },   {
+      "id": 35,
+      "title": "Pela Dondurma",
+      "image": "https://market-product-images-cdn.getirapi.com/product/193fdf71-36bb-4a51-b138-a7903395557e.jpg",
+      "alt": "2 adet",
+      "price": 32.99,
+      "category":"indirimler"
+    },   {
+      "id": 36,
+      "title": "Mr No Sandviç",
+      "image": "https://market-product-images-cdn.getirapi.com/product/c8148e7a-c50a-49c5-86fe-aa25b9180cc2.jpeg",
+      "alt": "2 adet",
+      "price": 55.99,
+      "category":"indirimler"
+    },   {
+      "id": 37,
+      "title": "Tat Etli Fasulye",
+      "image": "https://cdn.getir.com/product/627cb8aa77514c671b17ce8f_tr_1652705766755.png",
+      "alt": "1 adet",
+      "price": 18.99,
+      "category":"indirimler"
+    },   {
+      "id": 38,
+      "title": "Dardanel Ton Zeytinyağlı",
+      "image": "https://cdn.getir.com/product/5e9d569eca76537bc73182b9_tr_1604781892181.jpeg",
+      "alt": "200 gr",
+      "price": 26.99,
+      "category":"indirimler"
+    },   {
+      "id": 39,
+      "title": "Turşu",
+      "image": "https://cdn.getir.com/product/63186a6d0759dcc889a9c462_tr_1662549517816.jpeg",
+      "alt": "1 kg adet",
+      "price": 18.99,
+      "category":"indirimler"
+    },   {
+      "id": 40,
+      "title": "Fellas Fındıklı",
+      "image": "https://cdn.getir.com/product/611a484005c4cd8b75d1ef77_tr_1662552540180.jpeg",
+      "alt": "3 adet",
+      "price": 28.99,
+      "category":"indirimler"
+    },   {
+      "id": 41,
+      "title": "Lifalif",
+      "image": "https://cdn.getir.com/product/624edfd59a9195c0b8699870_tr_1649940164243.jpeg",
+      "alt": "1 kg",
+      "price": 14.99,
+      "category":"indirimler"
+    },   {
+      "id": 41,
+      "title": "Kuzeyden Su",
+      "image": "https://cdn.getir.com/product/5d6d25506deb8b00011f6027_tr_1660319098839.jpeg",
+      "alt": "0.5x12",
+      "price": 35.99,
+      "category":"su-icecek"
+    },   {
+      "id": 42,
+      "title": "Erikli 5 lt",
+      "image": "https://cdn.getir.com/product/5981ec31e97e8b000484eb96_tr_1617811848867.jpeg",
+      "alt": "5 lt",
+      "price": 14.99,
+      "category":"su-icecek"
+    },   {
+      "id": 43,
+      "title": "Saka Su",
+      "image": "https://cdn.getir.com/product/60a665514cdd597f7d60b6b3_tr_1621955092175.jpeg",
+      "alt": "5 lt",
+      "price": 13.99,
+      "category":"su-icecek"
+    },   {
+      "id": 44,
+      "title": "Coca Cola Zero",
+      "image": "https://cdn.getir.com/product/59024d406532a700044604c0_tr_1622105399863.jpeg",
+      "alt": "1 lt",
+      "price": 14.99,
+      "category":"su-icecek"
+    },   {
+      "id": 45,
+      "title": "Coca Cola",
+      "image": "https://cdn.getir.com/product/565c0571762af60c00783d45_tr_1633010252864.jpeg",
+      "alt": "330 ml",
+      "price": 12.99,
+      "category":"su-icecek"
+    },   {
+      "id": 46,
+      "title": "Pepsi",
+      "image": "https://cdn.getir.com/product/56ee322ed6122903008f4bb9_tr_1624461748719.jpeg",
+      "alt": "330 ml",
+      "price": 12.99,
+      "category":"su-icecek"
+    },   {
+      "id": 47,
+      "title": "Sprite",
+      "image": "https://cdn.getir.com/product/56ee399fd593b20300846b12_tr_1655123373133.jpeg",
+      "alt": "330 ml",
+      "price": 12.99,
+      "category":"su-icecek"
+    },   {
+      "id": 48,
+      "title": "Schweppes Limon",
+      "image": "https://cdn.getir.com/product/599e79bc921efb0004da198a_tr_1608222622530.jpeg",
+      "alt": "1 lt",
+      "price": 18.99,
+      "category":"su-icecek"
+    },   {
+      "id": 49,
+      "title": "Red Bull Limon",
+      "image": "https://cdn.getir.com/product/62ecdc43bf4a7166a5648a64_tr_1659964465921.jpeg",
+      "alt": "500 ml",
+      "price": 14.99,
+      "category":"su-icecek"
+    },   {
+      "id": 50,
+      "title": "Kızılay Erzincan",
+      "image": "https://cdn.getir.com/product/60018c5bca2126d84459c47f_tr_1661336793029.jpeg",
+      "alt": "6x200",
+      "price": 22.99,
+      "category":"su-icecek"
+    },   {
+      "id": 51,
+      "title": "Kızılay Afyon",
+      "image": "https://cdn.getir.com/product/5bbdbbbaa6e9de25524a27fc_tr_1661336720944.jpeg",
+      "alt": "6x200",
+      "price": 22.99,
+      "category":"su-icecek"
+    },   {
+      "id": 52,
+      "title": "Kınık Sade",
+      "image": "https://cdn.getir.com/product/5e5646777e380e676900f2d7_tr_1661337108333.jpeg",
+      "alt": "6x200",
+      "price": 18.99,
+      "category":"su-icecek"
+    },   {
+      "id": 53,
+      "title": "İçim Ayran",
+      "image": "https://cdn.getir.com/product/62bc24c33d7fab406ee56a2e_tr_1656619892468.jpeg",
+      "alt": "2 lt",
+      "price": 20.99,
+      "category":"su-icecek"
+    },   {
+      "id": 54,
+      "title": "Kefir",
+      "image": "https://cdn.getir.com/product/586211c7eda3df000454f7c0_tr_1601151758730.jpeg",
+      "alt": "1 lt",
+      "price": 25.99,
+      "category":"su-icecek"
+    },   {
+      "id": 55,
+      "title": "Fuse Tea",
+      "image": "https://market-product-images-cdn.getirapi.com/product/e7e8dfa3-c19f-47bb-8359-9ae76f8455a0.jpeg",
+      "alt": "330 ml",
+      "price": 13.99,
+      "category":"su-icecek"
+    },   {
+      "id": 56,
+      "title": "Fuse Tea Karpuz",
+      "image": "https://market-product-images-cdn.getirapi.com/product/627246b9-14f9-47a6-9e2d-b5942d0481fc.jpeg",
+      "alt": "330 ml",
+      "price": 13.99,
+      "category":"su-icecek"
+    },   {
+      "id": 57,
+      "title": "Fuse Tea Limon",
+      "image": "https://cdn.getir.com/product/590259ab6532a700044607c1_tr_1597516532496.jpeg",
+      "alt": "1 lt",
+      "price": 14.99,
+      "category":"su-icecek"
+    },   {
+      "id": 58,
+      "title": "Lipton Şeftali",
+      "image": "https://cdn.getir.com/product/5598325cb1dc700c006a71c0_tr_1579533494831.jpeg",
+      "alt": "330 ml",
+      "price": 13.99,
+      "category":"su-icecek"
+    },   {
+      "id": 59,
+      "title": "Fuse Tea ",
+      "image": "https://cdn.getir.com/product/590259ab6532a700044607c1_tr_1597516532496.jpeg",
+      "alt": "1 lt",
+      "price": 14.99,
+      "category":"su-icecek"
+    },   {
+      "id": 55,
+      "title": "Cappy Şeftali",
+      "image": "https://cdn.getir.com/product/6150b383a3a0da11009e7d08_tr_1632813804767.png",
+      "alt": "1 lt",
+      "price": 12.99,
+      "category":"su-icecek"
+    },   {
+      "id": 56,
+      "title": "Exotic Portakal",
+      "image": "https://cdn.getir.com/product/567803e4b232ae0f00f4c70a_tr_1599939978950.jpeg",
+      "alt": "1 lt",
+      "price": 15.99,
+      "category":"su-icecek"
+    },   {
+      "id": 57,
+      "title": "Tropicana",
+      "image": "https://cdn.getir.com/product/5ce65821a72a950001cc8877_tr_1604659278270.jpeg",
+      "alt": "1 lt",
+      "price": 18.99,
+      "category":"su-icecek"
+    },   {
+      "id": 58,
+      "title": "Türk Kahvesi",
+      "image": "https://cdn.getir.com/product/55e6bdd04ef8d40c00d1f91d_tr_1604492371848.jpeg",
+      "alt": "500 gr",
+      "price": 27.99,
+      "category":"su-icecek"
+    },   {
+      "id": 59,
+      "title": "Powerade",
+      "image": "https://cdn.getir.com/product/5752d53fd3a2060300ae5ec5_tr_1644228042107.jpeg",
+      "alt": "500 ml",
+      "price": 17.99,
+      "category":"su-icecek"
+    },   {
+      "id": 60,
+      "title": "İçim Süt",
+      "image": "https://cdn.getir.com/product/61e8023ea6670197ddcea49b_tr_1652192489127.jpeg",
+      "alt": "1 lt",
+      "price": 17.99,
+      "category":"su-icecek"
+    },   {
+      "id": 61,
+      "title": "Sek Süt",
+      "image": "https://cdn.getir.com/product/59b14d42b573340004d1a143_tr_1643353155945.jpeg",
+      "alt": "1 lt",
+      "price": 14.99,
+      "category":"su-icecek"
+    },   {
+      "id": 62,
+      "title": "Sütaş Süt",
+      "image": "https://cdn.getir.com/product/58230def5b31d60004487d4d_tr_1641902525485.jpeg",
+      "alt": "1 lt",
+      "price": 17.99,
+      "category":"su-icecek"
+    },   {
+      "id": 63,
+      "title": "İçim Fit",
+      "image": "https://cdn.getir.com/product/5ced48314a8a2a000137dab7_tr_1626180225967.jpeg",
+      "alt": "1 kg",
+      "price": 21.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 64,
+      "title": "Muz",
+      "image": "https://cdn.getir.com/product/5cac8d0b03c5fd0001497976_tr_1579677305629.jpeg",
+      "alt": "1 kg",
+      "price": 28.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 65,
+      "title": "Şeftali",
+      "image": "https://cdn.getir.com/product/5ebc0038e21653445d462556_tr_1622449885921.jpeg",
+      "alt": "1 kg",
+      "price": 16.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 66,
+      "title": "Kavun",
+      "image": "https://cdn.getir.com/product/5b30d66eaf0f9f0004813c16_tr_1594649003405.jpeg",
+      "alt": "3 kg",
+      "price": 24.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 67,
+      "title": "Erik",
+      "image": "https://cdn.getir.com/product/5bbb70bc7d94b06c8bb8e0ee_tr_1594649064426.jpeg",
+      "alt": "1 kg",
+      "price": 11.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 68,
+      "title": "Üzüm",
+      "image": "https://cdn.getir.com/product/5f2162a356b9b125791d57ba_tr_1596543638749.jpeg",
+      "alt": "1 kg",
+      "price": 22.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 69,
+      "title": "Kırmızı Üzüm",
+      "image": "https://cdn.getir.com/product/5f453b0ab2146531ef7ac034_tr_1598447366883.jpeg",
+      "alt": "1 kg",
+      "price": 21.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 70,
+      "title": "Elma",
+      "image": "https://cdn.getir.com/product/5f75e61bb45c4e49dc581f30_tr_1601620686605.jpeg",
+      "alt": "1 kg",
+      "price": 16.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 71,
+      "title": "Starkin Elma",
+      "image": "https://cdn.getir.com/product/5ced48324a8a2a000137dad2_tr_1643811775443.jpeg",
+      "alt": "1 kg",
+      "price": 22.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 72,
+      "title": "Kivi",
+      "image": "https://cdn.getir.com/product/5ced48324a8a2a000137dad2_tr_1643811775443.jpeg",
+      "alt": "1 kg",
+      "price": 32.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 72,
+      "title": "Kivi",
+      "image": "https://cdn.getir.com/product/5ced48324a8a2a000137dad2_tr_1643811775443.jpeg",
+      "alt": "1 kg",
+      "price": 32.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 73,
+      "title": "Domates",
+      "image": "https://cdn.getir.com/product/5cac8d93ec184600019a38e5_1554919453758.jpeg?v=1554919457044",
+      "alt": "1 kg",
+      "price": 12.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 74,
+      "title": "Salatalık",
+      "image": "https://cdn.getir.com/product/5cac8c9503c5fd00014978d0_tr_1609396490685.png",
+      "alt": "1 kg",
+      "price": 12.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 75,
+      "title": "Limon",
+      "image": "https://cdn.getir.com/product/5ced482f4a8a2a000137da80_tr_1622450574941.jpeg",
+      "alt": "1 kg",
+      "price": 13.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 76,
+      "title": "Mısır",
+      "image": "https://cdn.getir.com/product/62acbc5a961e3932de1d56ee_tr_1655811055442.jpeg",
+      "alt": "1 kg",
+      "price": 32.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 77,
+      "title": "Soğan",
+      "image": "https://cdn.getir.com/product/5e720ad975574662e6ecbbb5_tr_1644228608654.jpeg",
+      "alt": "1 kg",
+      "price": 8.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 78,
+      "title": "Kabak",
+      "image": "https://cdn.getir.com/product/5ced48314a8a2a000137dab3_tr_1585735591261.jpeg",
+      "alt": "1 kg",
+      "price": 13.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 79,
+      "title": "Patlıcan",
+      "image": "https://cdn.getir.com/product/5ced482a4a8a2a000137da47_tr_1564989399368.jpeg",
+      "alt": "1 kg",
+      "price": 23.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 80,
+      "title": "Maydonoz",
+      "image": "https://cdn.getir.com/product/5dd23b88f48a0747be83bd38_tr_1610632862257.jpeg",
+      "alt": "1 kg",
+      "price": 5.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 81,
+      "title": "Marul",
+      "image": "https://cdn.getir.com/product/5f9fb0660fe24060183fa80f_tr_1625547989786.jpeg",
+      "alt": "1 kg",
+      "price": 13.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 82,
+      "title": "Roka",
+      "image": "https://cdn.getir.com/product/5dce84edfd28bcf98f0ad00c_tr_1611125116647.jpeg",
+      "alt": "1 kg",
+      "price": 10.99,
+      "category":"meyve-sebze"
+    },   {
+      "id": 83,
+      "title": "Ekmek",
+      "image": "https://cdn.getir.com/product/60d1a1e53de03fe30887c1f9_tr_1637857926696.jpeg",
+      "alt": "1 adet",
+      "price": 4.99,
+      "category":"firindan"
+    },   {
+      "id": 84,
+      "title": "Açma",
+      "image": "https://cdn.getir.com/product/61de03d9a40a590203640592_tr_1642598648024.jpeg",
+      "alt": "1 adet",
+      "price": 4.99,
+      "category":"firindan"
+    },   {
+      "id": 85,
+      "title": "Peynirli Poğaca",
+      "image": "https://market-product-images-cdn.getirapi.com/product/761c26c7-dda9-412e-851d-66d6cbff7aa4.jpg",
+      "alt": "1 adet",
+      "price": 4.99,
+      "category":"firindan"
+    },   {
+      "id": 86,
+      "title": "Uno Tam Buğday",
+      "image": "https://cdn.getir.com/product/5c879b051f5acb000125e810_tr_1657109052596.jpeg",
+      "alt": "600 gr",
+      "price": 14.99,
+      "category":"firindan"
+    },   {
+      "id": 87,
+      "title": "Uno Tost Ekmeği",
+      "image": "https://cdn.getir.com/product/5f732abc256958314ff3e84d_tr_1612851563923.jpeg",
+      "alt": "600 gr",
+      "price": 14.99,
+      "category":"firindan"
+    },   {
+      "id": 88,
+      "title": "Uno Kruvasan",
+      "image": "https://market-product-images-cdn.getirapi.com/product/f742aede-84f6-4064-b6db-edbf8316e16f.jpg",
+      "alt": "1 paket",
+      "price": 10.99,
+      "category":"firindan"
+    },   {
+      "id": 89,
+      "title": "Uno Kek",
+      "image": "https://cdn.getir.com/product/5edfbb1f2e88e73ee34991cf_tr_1602360994667.jpeg",
+      "alt": "200 gr",
+      "price": 10.99,
+      "category":"firindan"
+    },   {
+      "id": 90,
+      "title": "Yufka",
+      "image": "https://cdn.getir.com/product/5d034b03f0f49c0001399100_tr_1583742502124.jpeg",
+      "alt": "1 adet",
+      "price": 10.99,
+      "category":"firindan"
+    },   {
+      "id": 91,
+      "title": "Paket Simit",
+      "image": "https://cdn.getir.com/product/6140490cb6fed008eedf3dee_660e69f8-970e-4a41-90f0-6c5f4b584fed.jpeg",
+      "alt": "1 adet",
+      "price": 14.99,
+      "category":"firindan"
+    },   {
+      "id": 92,
+      "title": "Milfoy Hamuru",
+      "image": "https://cdn.getir.com/product/5947805593463800043cb2da_tr_1613635343854.jpeg",
+      "alt": "600 gr",
+      "price": 14.99,
+      "category":"firindan"
+    },   {
+      "id": 93,
+      "title": "Rulo Börek",
+      "image": "https://cdn.getir.com/product/62207379e89253e9250d0e54_44469895-738a-4846-a450-3e4c13f14725.jpeg",
+      "alt": "1 adet",
+      "price": 24.99,
+      "category":"firindan"
+    },   {
+      "id": 94,
+      "title": "Kuşbaşı Et",
+      "image": "https://cdn.getir.com/product/5dc02578a75859d787b3c5dd_tr_1645020299171.jpeg",
+      "alt": "1 kg",
+      "price": 120.99,
+      "category":"temel-gida"
+    },   {
+      "id": 95,
+      "title": "Kıyma",
+      "image": "https://cdn.getir.com/product/5dc0221ed75bb5206b2d21e0_tr_1584698814492.jpeg",
+      "alt": "1 kg",
+      "price": 100.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 96,
+      "title": "Makarna Fiyonk",
+      "image": "https://cdn.getir.com/product/6197bb4211b083471dfa5b70_tr_1637829497992.jpeg",
+      "alt": "500 gr",
+      "price": 8.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 97,
+      "title": "Makarna Spagetti",
+      "image": "https://cdn.getir.com/product/6197ba8c6316883bafe032e8_tr_1637825297183.jpeg",
+      "alt": "500 gr",
+      "price": 8.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 98,
+      "title": "Makarna Burgu",
+      "image": "https://cdn.getir.com/product/559fb052f462100c00461474_tr_1646318508418.jpeg",
+      "alt": "500 gr",
+      "price": 8.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 99,
+      "title": "Soslu Makarna",
+      "image": "https://cdn.getir.com/product/5ddfb4626f61f213272cc2d9_tr_1612889512226.jpeg",
+      "alt": "500 gr",
+      "price": 18.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 101,
+      "title": "Napoliten Sos",
+      "image": "https://cdn.getir.com/product/5cf2724d130f3a00011f4deb_tr_1646919751767.jpeg",
+      "alt": "300 gr",
+      "price": 26.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 102,
+      "title": "Pilavlık Pirinç",
+      "image": "https://cdn.getir.com/product/5cf2724d130f3a00011f4deb_tr_1646919751767.jpeg",
+      "alt": "1 kg",
+      "price": 17.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 103,
+      "title": "Osmancık Pirinç",
+      "image": "https://cdn.getir.com/product/588af536f2532a0004000400_tr_1608534201472.jpeg",
+      "alt": "1 kg",
+      "price": 19.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 104,
+      "title": "Baldo Pirinç",
+      "image": "https://cdn.getir.com/product/5cf2724d130f3a00011f4deb_tr_1646919751767.jpeg",
+      "alt": "1 kg",
+      "price": 17.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 105,
+      "title": "Bulgur",
+      "image": "https://cdn.getir.com/product/588af61ef2532a0004000484_tr_1564497668357.jpeg",
+      "alt": "1 kg",
+      "price": 14.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 106,
+      "title": "Kırmızı Mercimek",
+      "image": "https://cdn.getir.com/product/5bcd94162de1b21e73a57045_tr_1604685116857.jpeg",
+      "alt": "1 kg",
+      "price": 23.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 107,
+      "title": "Yeşil Mercimek",
+      "image": "https://cdn.getir.com/product/5a5771df3bcb0900046ec6a5_tr_1608534222607.jpeg",
+      "alt": "1 kg",
+      "price": 17.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 108,
+      "title": "Domates Salçası",
+      "image": "https://cdn.getir.com/product/5d03bb6736e4a5000117bbd5_tr_1654761398452.jpeg",
+      "alt": "600 gr",
+      "price": 19.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 109,
+      "title": "Heinz Ketçap",
+      "image": "https://cdn.getir.com/product/5c8786c4fad88f0001da07f4_tr_1604782016157.jpeg",
+      "alt": "400 gr",
+      "price": 21.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 110,
+      "title": "Heinz Barbekü",
+      "image": "https://cdn.getir.com/product/62bb34260a5a58557271fee2_tr_1656508834512.jpeg",
+      "alt": "400 gr",
+      "price": 22.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 111,
+      "title": "Heinz Acılı Mayonez",
+      "image": "https://cdn.getir.com/product/5dfcad20422a1a4b266b004c_tr_1636958379933.octet-stream",
+      "alt": "400 gr",
+      "price": 44.99,
+      "category":"temel-gida"
+    },   {
+      "id": 112,
+      "title": "Heinz Acılı Ketçap",
+      "image": "https://cdn.getir.com/product/617fc74b67b67feaacda7123_tr_1636957739191.jpeg",
+      "alt": "400 gr",
+      "price": 32.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 113,
+      "title": "Heinz Hardal",
+      "image": "https://cdn.getir.com/product/617fc74b67b67feaacda7123_tr_1636957739191.jpeg",
+      "alt": "400 gr",
+      "price": 46.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 114,
+      "title": "Dardanel Ton",
+      "image": "https://cdn.getir.com/product/5e9d506c122dbd7be187382f_tr_1603570919715.jpeg",
+      "alt": "2 adet",
+      "price": 58.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 115,
+      "title": "Köz Patlıcan",
+      "image": "https://cdn.getir.com/product/61f138a23e26d54c798de61d_tr_1643359182764.jpeg",
+      "alt": "800 gr",
+      "price": 27.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 116,
+      "title": "Mısır Konserve",
+      "image": "https://cdn.getir.com/product/61e6c2ff2f87ee6bfdde4b70_tr_1642776329311.jpeg",
+      "alt": "500 gr",
+      "price": 17.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 117,
+      "title": "Sinangil Un",
+      "image": "https://market-product-images-cdn.getirapi.com/product/05eb2069-a5a9-4e9d-8c7b-3f4f22c7c9ec.jpg",
+      "alt": "1500 gr",
+      "price": 24.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 118,
+      "title": "Oba Un",
+      "image": "https://cdn.getir.com/product/619bb471d6d20685f7ffe14e_tr_1638167501178.jpeg",
+      "alt": "1 kg",
+      "price": 13.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 119,
+      "title": "Mısır Yağı",
+      "image": "https://cdn.getir.com/product/60c0cbd2118f2b6934d803f7_tr_1623840837824.jpeg",
+      "alt": "1 lt",
+      "price": 44.99,
+      "category":"temel-gida"
+    }  ,   {
+      "id": 120,
+      "title": "Komili Ayçicek Yağı",
+      "image": "https://cdn.getir.com/product/566031ffbd8dab0c00937b60_tr_1640158272373.jpeg",
+      "alt": "1 lt",
+      "price": 54.99,
+      "category":"temel-gida"
+    }   ,   {
+      "id": 121,
+      "title": "Orkide Ayçicek Yağı",
+      "image": "https://cdn.getir.com/product/5ce65815fd9b330001c4a81f_tr_1634639743046.jpeg",
+      "alt": "1 lt",
+      "price": 52.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 122,
+      "title": "Komili Zeytinyağı",
+      "image": "https://cdn.getir.com/product/604b562ec3115c74a51c4526_tr_1640158353151.jpeg",
+      "alt": "1 lt",
+      "price": 64.99,
+      "category":"temel-gida"
+    } ,   {
+      "id": 123,
+      "title": "Orkide Zeytinyağı",
+      "image": "https://cdn.getir.com/product/622ef1bdb951bd5379c07a38_tr_1647265113034.jpeg",
+      "alt": "1 lt",
+      "price": 54.99,
+      "category":"temel-gida"
+    } , {
+      "id": 124,
+      "title": "İçim Tereyağı",
+      "image": "https://market-product-images-cdn.getirapi.com/product/a0983334-2757-481e-955e-8a9b0dc916c7.jpg",
+      "alt": "500 gr",
+      "price": 44.99,
+      "category":"temel-gida"
+    } , {
+      "id": 125,
+      "title": "Sütaş Tereyağı",
+      "image": "https://cdn.getir.com/product/60645b9a4b29c55e8b90cfd2_tr_1619677613821.jpeg",
+      "alt": "500 gr",
+      "price": 48.99,
+      "category":"temel-gida"
+    } , {
+      "id": 126,
+      "title": "Sek Tereyağı",
+      "image": "https://market-product-images-cdn.getirapi.com/product/b874c570-8b65-4fdf-80a1-594d3111772a.jpg",
+      "alt": "500 gr",
+      "price": 41.99,
+      "category":"temel-gida"
+    } , {
+      "id": 127,
+      "title": "Balkan Tereyağı",
+      "image": "https://cdn.getir.com/product/62a9ced2755b8b26f17b93da_tr_1655383847618.jpeg",
+      "alt": "500 gr",
+      "price": 34.99,
+      "category":"temel-gida"
+    } , {
+      "id": 128,
+      "title": "Sana Margarin",
+      "image": "https://cdn.getir.com/product/61ee7ab371bde952aeb6284c_tr_1643183111521.jpeg",
+      "alt": "500 gr",
+      "price": 9.99,
+      "category":"temel-gida"
+    } , {
+      "id": 129,
+      "title": "Teremyağ Kase Margarin",
+      "image": "https://cdn.getir.com/product/592454e00b4731000404de7a_tr_1598730647909.jpeg",
+      "alt": "500 gr",
+      "price": 12.99,
+      "category":"temel-gida"
+    } , {
+      "id": 130,
+      "title": "Nar Toz Şeker",
+      "image": "https://cdn.getir.com/product/6328734b8faaa23efde7e06c_tr_1663843109181.jpeg",
+      "alt": "1 kg",
+      "price": 15.99,
+      "category":"temel-gida"
+    } , {
+      "id": 131,
+      "title": "Irmak Toz Şeker",
+      "image": "https://cdn.getir.com/product/618942e94914e4caca46bfb9_tr_1637044500238.jpeg",
+      "alt": "1 kg",
+      "price": 16.99,
+      "category":"temel-gida"
+    } , {
+      "id": 132,
+      "title": "Nar Küp Şeker",
+      "image": "https://cdn.getir.com/product/6033cda9095ee93ee8f5820e_tr_1614164721977.jpeg",
+      "alt": "1 kg",
+      "price": 18.99,
+      "category":"temel-gida"
+    } , {
+      "id": 133,
+      "title": "Dr Oetker Pudra Şeker",
+      "image": "https://market-product-images-cdn.getirapi.com/product/59798df6-363f-4fe4-9174-7b7a2126cdbf.jpg",
+      "alt": "100 gr",
+      "price": 13.99,
+      "category":"temel-gida"
+    } , {
+      "id": 134,
+      "title": "Teremyağ Kase Margarin",
+      "image": "https://cdn.getir.com/product/592454e00b4731000404de7a_tr_1598730647909.jpeg",
+      "alt": "1 kg",
+      "price": 12.99,
+      "category":"temel-gida"
+    } , {
+      "id": 135,
+      "title": "Nar Ekşisi",
+      "image": "https://cdn.getir.com/product/62b473b5a7d3ff912055f431_tr_1656078515930.jpeg",
+      "alt": "400 ml",
+      "price": 25.99,
+      "category":"temel-gida"
+    } , {
+      "id": 136,
+      "title": "Kemal Kükrer Sirke",
+      "image": "https://cdn.getir.com/product/5c9c6c104f14220001c5bfd8_tr_1640695657524.jpeg",
+      "alt": "450 ml",
+      "price": 19.99,
+      "category":"temel-gida"
+    } , {
+      "id": 137,
+      "title": "Pul Biber",
+      "image": "https://cdn.getir.com/product/609249d95fc1de759a2b2c11_tr_1621263156635.jpeg",
+      "alt": "100 gr",
+      "price": 12.99,
+      "category":"temel-gida"
+    } , {
+      "id": 138,
+      "title": "Nane",
+      "image": "https://cdn.getir.com/product/57b31f5034aa680300fbb6eb_tr_1640621167340.jpeg",
+      "alt": "60 gr",
+      "price": 8.99,
+      "category":"temel-gida"
+    } , {
+      "id": 139,
+      "title": "Kimyon",
+      "image": "https://cdn.getir.com/product/57b31abf34aa680300fbb05c_tr_1640621200898.jpeg",
+      "alt": "50 gr",
+      "price": 25.99,
+      "category":"temel-gida"
+    } , {
+      "id": 140,
+      "title": "Karabiber",
+      "image": "https://cdn.getir.com/product/61c328f53526d834dd3b380d_tr_1640621079826.jpeg",
+      "alt": "110 gr",
+      "price": 22.99,
+      "category":"temel-gida"
+    } , {
+      "id": 141,
+      "title": "Toz Biber",
+      "image": "https://cdn.getir.com/product/5cf14641e327a40001eefafb_tr_1640621255038.jpeg",
+      "alt": "220 gr",
+      "price": 16.99,
+      "category":"temel-gida"
+    }, {
+      "id": 142,
+      "title": "Tuz",
+      "image": "https://cdn.getir.com/product/55dc28a260c7870c00381fd8_tr_1636532602748.jpeg",
+      "alt": "520 gr",
+      "price": 13.99,
+      "category":"temel-gida"
+    } , {
+      "id": 143,
+      "title": "Ezogelin Çorba",
+      "image": "https://cdn.getir.com/product/5e8463aef775ebed8889a977_tr_1648808346065.jpeg",
+      "alt": "220 gr",
+      "price": 12.99,
+      "category":"temel-gida"
+    } , {
+      "id": 144,
+      "title": "Domates Çorbası",
+      "image": "https://cdn.getir.com/product/568cca737cf4d90f006f2080_45ed51eb-3b11-43cb-882b-13570c5eeadc.jpeg",
+      "alt": "220 gr",
+      "price": 12.99,
+      "category":"temel-gida"
+    } , {
+      "id": 145,
+      "title": "Kremalı Mantar Çorbası",
+      "image": "https://cdn.getir.com/product/572227d6d4549603004b8710_05a9028d-e6e7-454f-812b-87a23227a326.jpeg",
+      "alt": "220 gr",
+      "price": 9.99,
+      "category":"temel-gida"
+    } , {
+      "id": 146,
+      "title": "Mercimek Çorbası",
+      "image": "https://cdn.getir.com/product/5cf00cd5cc444f0001d34bd4_tr_1648808376246.jpeg",
+      "alt": "220 gr",
+      "price": 11.99,
+      "category":"temel-gida"
+    } , {
+      "id": 147,
+      "title": "Şehriyeli Tavuk Çorbası",
+      "image": "https://cdn.getir.com/product/5ae99ae5a43d250004e2d271_tr_1589788486331.jpeg",
+      "alt": "220 gr",
+      "price": 13.99,
+      "category":"temel-gida"
+    } , {
+      "id": 148,
+      "title": "Krem Şanti",
+      "image": "https://cdn.getir.com/product/5ae99ae5a43d250004e2d271_tr_1589788486331.jpeg",
+      "alt": "440 gr",
+      "price": 21.99,
+      "category":"temel-gida"
+    } , {
+      "id": 149,
+      "title": "Kabartma Tozu",
+      "image": "https://cdn.getir.com/product/5ae331cd3307340004d08605_tr_1564645507269.jpeg",
+      "alt": "50 gr",
+      "price": 5.99,
+      "category":"temel-gida"
+    } , {
+      "id": 150,
+      "title": "Instant Maya",
+      "image": "https://cdn.getir.com/product/5e7db0b19c31af82968cc034_tr_1624357825701.jpeg",
+      "alt": "40 gr",
+      "price": 9.99,
+      "category":"temel-gida"
+    } , {
+      "id": 151,
+      "title": "İçim Krema %15 Yağlı",
+      "image": "https://cdn.getir.com/product/61e3353a1a626d31ee24ff08_tr_1642591320434.jpeg",
+      "alt": "220 gr",
+      "price": 19.99,
+      "category":"temel-gida"
+    } , {
+      "id": 152,
+      "title": "İçim Krema %35 Yağlı",
+      "image": "https://cdn.getir.com/product/60b6141f190bcee128ac87d6_tr_1651837891615.jpeg",
+      "alt": "220 gr",
+      "price": 22.99,
+      "category":"temel-gida"
+    } , {
+      "id": 153,
+      "title": "Tikveşli Krema",
+      "image": "https://cdn.getir.com/product/5cae01d93150750001edd9fb_tr_1652707739447.jpeg",
+      "alt": "220 gr",
+      "price": 18.99,
+      "category":"temel-gida"
+    }  , {
+      "id": 154,
+      "title": "Nestle Gofret",
+      "image": "https://cdn.getir.com/product/5f8d8a5c6d900c34c97d3348_tr_1603269058484.jpeg",
+      "alt": "40 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    } , {
+      "id": 155,
+      "title": "Nestle Classic",
+      "image": "https://cdn.getir.com/product/5c608dfc8daabb0001cf3f07_tr_1579274096142.jpeg",
+      "alt": "40 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 156,
+      "title": "Nesquik Gofret",
+      "image": "https://cdn.getir.com/product/5c608da1851b990001834ec7_1549974291553.jpeg?v=1549974294740",
+      "alt": "40 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 157,
+      "title": "Gofrik",
+      "image": "https://cdn.getir.com/product/5760f8d32a4afd0300a53361.jpeg?v=2",
+      "alt": "40 gr",
+      "price": 4.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 158,
+      "title": "Nutymax",
+      "image": "https://cdn.getir.com/product/5ced482d4a8a2a000137da66_tr_1614153131877.jpeg",
+      "alt": "44 gr",
+      "price": 6.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 159,
+      "title": "Rulokat",
+      "image": "https://cdn.getir.com/product/5bb89dab3f98e4001e22810c_tr_1608044567786.jpeg",
+      "alt": "140 gr",
+      "price": 13.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 160,
+      "title": "Ülker Sütlü",
+      "image": "https://cdn.getir.com/product/5898a207d5b34d0004dcef4b_tr_1635952123639.jpeg",
+      "alt": "80 gr",
+      "price": 8.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 161,
+      "title": "Ülker Fındıklı",
+      "image": "https://cdn.getir.com/product/63063d6727d9b0203ad6e91a_tr_1661410159168.jpeg",
+      "alt": "80 gr",
+      "price": 13.99,
+      "category":"atistirmalik"
+    }  , {
+      "id": 162,
+      "title": "Ülker Antep Fıstıklı",
+      "image": "https://cdn.getir.com/product/5898a1d0a4502d0004af9aeb_tr_1608382862110.jpeg",
+      "alt": "80 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    }, {
+      "id": 163,
+      "title": "Eti Sütlü",
+      "image": "https://cdn.getir.com/product/5f35689ed22e631113817179_tr_1644822749089.jpeg",
+      "alt": "80 gr",
+      "price": 9.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 164,
+      "title": "Eti Fındıklı",
+      "image": "https://cdn.getir.com/product/5f561c7a5139390f8e89012e_tr_1644822665540.jpeg",
+      "alt": "80 gr",
+      "price": 13.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 165,
+      "title": "Eti Karamelli",
+      "image": "https://cdn.getir.com/product/61ee52489c1637bee87e5dcf_tr_1643115509677.jpeg",
+      "alt": "80 gr",
+      "price": 11.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 166,
+      "title": "Eti Antep Fıstıklı",
+      "image": "https://cdn.getir.com/product/5f5621538639958f1fd3c05f_tr_1653658678532.jpeg",
+      "alt": "80 gr",
+      "price": 16.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 167,
+      "title": "Bounty",
+      "image": "https://cdn.getir.com/product/5614e19d88047e0c00c22797_tr_1579273768508.jpeg",
+      "alt": "50 gr",
+      "price": 8.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 168,
+      "title": "Mars",
+      "image": "https://cdn.getir.com/product/5614e08a88047e0c00c22740_tr_1579273709923.jpeg",
+      "alt": "50 gr",
+      "price": 7.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 169,
+      "title": "Coco Star",
+      "image": "https://cdn.getir.com/product/5f43cbae03564256136b01a9_tr_1602360347512.jpeg",
+      "alt": "50 gr",
+      "price": 5.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 170,
+      "title": "Albeni",
+      "image": "https://cdn.getir.com/product/5c5b04940de01d0001042350_tr_1622551398627.jpeg",
+      "alt": "40 gr",
+      "price": 5.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 171,
+      "title": "Ülker Laviva",
+      "image": "https://cdn.getir.com/product/574b2108dee8a90300f18cbf_tr_1581714488358.jpeg",
+      "alt": "50 gr",
+      "price": 7.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 172,
+      "title": "Ülker Metro",
+      "image": "https://cdn.getir.com/product/574b2108dee8a90300f18cbf_tr_1581714488358.jpeg",
+      "alt": "80 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 173,
+      "title": "Tadelle Beyaz",
+      "image": "https://cdn.getir.com/product/5cb8e26ec6831800016f60db_tr_1601027737955.jpeg",
+      "alt": "80 gr",
+      "price": 14.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 174,
+      "title": "Tadelle Bitter",
+      "image": "https://cdn.getir.com/product/5cb8e250ff9117000171adab_tr_1601027788013.jpeg",
+      "alt": "80 gr",
+      "price": 14.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 175,
+      "title": "Tadelle King Size",
+      "image": "https://cdn.getir.com/product/5cb8e2daff9117000171adde_1557759373714.jpeg?v=1557759378282",
+      "alt": "140 gr",
+      "price": 18.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 176,
+      "title": "Lila Pause",
+      "image": "https://cdn.getir.com/product/5a9eaa8da2ef5d00041983e0_tr_1609123672052.jpeg",
+      "alt": "50 gr",
+      "price": 8.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 177,
+      "title": "Nutella",
+      "image": "https://cdn.getir.com/product/5d1df4b81976b40001fdc590_tr_1602050602002.jpeg",
+      "alt": "860 gr",
+      "price": 42.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 178,
+      "title": "Çokokrem",
+      "image": "https://cdn.getir.com/product/574b246be4e92303005fd117_tr_1581714675148.jpeg",
+      "alt": "280 gr",
+      "price": 23.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 179,
+      "title": "Sarelle",
+      "image": "https://cdn.getir.com/product/5cb8cafe69c3750001041dc2_tr_1580124688369.jpeg",
+      "alt": "320 gr",
+      "price": 45.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 180,
+      "title": "Ülker Susamlı",
+      "image": "https://cdn.getir.com/product/5f4415a1d7aebd4937f8e712_tr_1609905014772.jpeg",
+      "alt": "50 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 181,
+      "title": "Krispi",
+      "image": "https://cdn.getir.com/product/612645047b0ac3717a71973e_tr_1630067907875.jpeg",
+      "alt": "50 gr",
+      "price": 3.99,
+      "category":"atistirmalik"
+    }    , {
+      "id": 182,
+      "title": "Eti Crax Peynirli",
+      "image": "https://cdn.getir.com/product/5f573e6443ffa28330aebda0_tr_1599806377172.jpeg",
+      "alt": "50 gr",
+      "price": 4.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 183,
+      "title": "Eti Crax Baharatlı",
+      "image": "https://cdn.getir.com/product/5f57404354f7c765e0e02ba2_tr_1599805973043.jpeg",
+      "alt": "50 gr",
+      "price": 4.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 184,
+      "title": "Çiziviç",
+      "image": "https://cdn.getir.com/product/574b3235e4e92303005fd5f3_tr_1641909726221.jpeg",
+      "alt": "50 gr",
+      "price": 5.99,
+      "category":"atistirmalik"
+    }   , {
+      "id": 185,
+      "title": "First Karpuzlu",
+      "image": "https://cdn.getir.com/product/559bfc8347c6ab0c001ce41a_tr_1605602473428.jpeg",
+      "alt": "64 gr",
+      "price": 9.99,
+      "category":"atistirmalik"
+    }      , {
+      "id": 186,
+      "title": "First Nane",
+      "image": "https://cdn.getir.com/product/6281f16c50dd2e523600e9f3_tr_1652701592354.png",
+      "alt": "64 gr",
+      "price": 8.99,
+      "category":"atistirmalik"
+    } , {
+      "id": 187,
+      "title": "First Yeşil Nane",
+      "image": "https://cdn.getir.com/product/6281f13c28b33b3b37e72f5b_tr_1652701571116.png",
+      "alt": "64 gr",
+      "price": 8.99,
+      "category":"atistirmalik"
+    }, {
+      "id": 188,
+      "title": "Magnum Classic",
+      "image": "https://cdn.getir.com/product/6318911885a165997b1405d2_tr_1662709695281.jpeg",
+      "alt": "3 adet",
+      "price": 48.99,
+      "category":"dondurma"
+    } , {
+      "id": 189,
+      "title": "Frigola Paket",
+      "image": "https://cdn.getir.com/product/624a7131f44b3320a51594ac_tr_1649152855392.png",
+      "alt": "3 adet",
+      "price": 28.99,
+      "category":"dondurma"
+    } , {
+      "id": 190,
+      "title": "Pernigotti Classic",
+      "image": "https://cdn.getir.com/product/626bc8dd3e75f131427705f2_tr_1651243645662.jpeg",
+      "alt": "3 adet",
+      "price": 45.99,
+      "category":"dondurma"
+    } , {
+      "id": 191,
+      "title": "Magnum Cookie",
+      "image": "https://cdn.getir.com/product/5e17391e5940577fa354b2a3_tr_1618323966862.jpeg",
+      "alt": "100 ml",
+      "price": 15.99,
+      "category":"dondurma"
+    } , {
+      "id": 192,
+      "title": "Magnum Beyaz",
+      "image": "https://cdn.getir.com/product/58d38fbd09492e0004044254_tr_1618323822610.jpeg",
+      "alt": "100 ml",
+      "price": 15.99,
+      "category":"dondurma"
+    }    , {
+      "id": 193,
+      "title": "Magnum Düet",
+      "image": "https://cdn.getir.com/product/61e8237ddaafed5cc5f4c9f8_tr_1643885762259.jpeg",
+      "alt": "100 ml",
+      "price": 16.99,
+      "category":"dondurma"
+    }    , {
+      "id": 194,
+      "title": "Magnum Double Çikolata",
+      "image": "https://cdn.getir.com/product/579b4033ec61940300514099_tr_1618323887986.jpeg",
+      "alt": "100 ml",
+      "price": 15.99,
+      "category":"dondurma"
+    }    , {
+      "id": 195,
+      "title": "Magnum Double Karadut",
+      "image": "https://cdn.getir.com/product/579b4079ec619403005140d7_tr_1618323916323.jpeg",
+      "alt": "100 ml",
+      "price": 15.99,
+      "category":"dondurma"
+    }    , {
+      "id": 196,
+      "title": "Algida Toblerone",
+      "image": "https://cdn.getir.com/product/61ee9616745c31f68263c529_tr_1643872260620.jpeg",
+      "alt": "100 ml",
+      "price": 14.99,
+      "category":"dondurma"
+    }    , {
+      "id": 197,
+      "title": "Nogger",
+      "image": "https://cdn.getir.com/product/63186525992fa306384d108c_tr_1662549731320.jpeg",
+      "alt": "120 ml",
+      "price": 11.99,
+      "category":"dondurma"
+    }    , {
+      "id": 198,
+      "title": "Pernigotti Classic",
+      "image": "https://cdn.getir.com/product/626bc8dd3e75f131427705f2_tr_1651243645662.jpeg",
+      "alt": "140 ml",
+      "price": 14.99,
+      "category":"dondurma"
+    }    , {
+      "id": 199,
+      "title": "Cornetto Antep Fıstıklı",
+      "image": "https://cdn.getir.com/product/59b665f9e5960a0004ce2a5a_tr_1609122128188.jpeg",
+      "alt": "140 ml",
+      "price": 14.99,
+      "category":"dondurma"
+    }   , {
+      "id": 200,
+      "title": "Pernigotti Kakaolu",
+      "image": "https://cdn.getir.com/product/622f574ecbaa3734a2d515ae_tr_1652191572870.jpeg",
+      "alt": "3x140 ml",
+      "price": 25.99,
+      "category":"dondurma"
+    }  , {
+      "id": 201,
+      "title": "Pernigotti Karamel",
+      "image": "https://cdn.getir.com/product/60c079561f1e45179e4710e9_tr_1648451379281.jpeg",
+      "alt": "3x140 ml",
+      "price": 25.99,
+      "category":"dondurma"
+    }  , {
+      "id": 202,
+      "title": "Algida keyif",
+      "image": "https://cdn.getir.com/product/62b432e8d24a1e41a6c5734a_tr_1656601790296.jpeg",
+      "alt": "4x140 ml",
+      "price": 25.99,
+      "category":"dondurma"
+    }   , {
+      "id": 203,
+      "title": "Cornetto Çikolata",
+      "image": "https://cdn.getir.com/product/62e256da461d21443a6d6324_tr_1660044006253.jpeg",
+      "alt": "3x124",
+      "price": 45.99,
+      "category":"dondurma"
+    }   , {
+      "id": 204,
+      "title": "Magnum Mini Classic",
+      "image": "https://cdn.getir.com/product/5ff4299a0098716d5c4e10a3_tr_1653657982115.jpeg",
+      "alt": "6'lı",
+      "price": 55.99,
+      "category":"dondurma"
+    }   , {
+      "id": 205,
+      "title": "Magnum Mini Badem",
+      "image": "https://cdn.getir.com/product/559fef68f462100c00461dbf_tr_1653658143248.jpeg",
+      "alt": "6'lı",
+      "price": 55.99,
+      "category":"dondurma"
+    }   , {
+      "id": 206,
+      "title": "Magnum Mini Double",
+      "image": "https://cdn.getir.com/product/559fef68f462100c00461dbf_tr_1653658143248.jpeg",
+      "alt": "6'lı",
+      "price": 55.99,
+      "category":"dondurma"
+    }   , {
+      "id": 207,
+      "title": "Magnum Mini Düet",
+      "image": "https://cdn.getir.com/product/61e81c2d48c3ec2023a19c1d_tr_1653657953418.jpeg",
+      "alt": "6'li",
+      "price": 45.99,
+      "category":"dondurma"
+    } , {
+      "id": 208,
+      "title": "Carte d'Or İsviçre",
+      "image": "https://cdn.getir.com/product/61ee9a6dfb83cb48b21dd4bc_tr_1643381512830.jpeg",
+      "alt": "850 ml",
+      "price": 49.99,
+      "category":"dondurma"
+    }, {
+      "id": 209,
+      "title": "Carte d'Or Extra Cookie",
+      "image": "https://cdn.getir.com/product/601be38c9ea47d09ccc13774_953f215f-209f-4f49-8ab6-0f633df61421.jpeg",
+      "alt": "850 ml",
+      "price": 49.99,
+      "category":"dondurma"
+    }, {
+      "id": 210,
+      "title": "Carte d'Or Çikolata",
+      "image": "https://cdn.getir.com/product/593e7bbef863e90004a70395_tr_1590158400421.jpeg",
+      "alt": "850 ml",
+      "price": 49.99,
+      "category":"dondurma"
+    }, {
+      "id": 211,
+      "title": "Carte d'Or Meyve Şöleni",
+      "image": "https://cdn.getir.com/product/58d3b2cf09492e000404520a_tr_1609410559908.png",
+      "alt": "850 ml",
+      "price": 49.99,
+      "category":"dondurma"
+    }, {
+      "id": 212,
+      "title": "Carte d'Or Cheesecake",
+      "image": "https://cdn.getir.com/product/61ee9ca1acadf70385155a80_tr_1643129730587.jpeg",
+      "alt": "850 ml",
+      "price": 49.99,
+      "category":"dondurma"
+    }, {
+      "id": 213,
+      "title": "Sek Süt",
+      "image": "https://cdn.getir.com/product/59b14d42b573340004d1a143_tr_1643353155945.jpeg",
+      "alt": "850 ml",
+      "price": 12.99,
+      "category":"dondurma"
+    }, {
+      "id": 214,
+      "title": "Sütaş Süt",
+      "image": "https://cdn.getir.com/product/58230def5b31d60004487d4d_tr_1641902525485.jpeg",
+      "alt": "850 ml",
+      "price": 13.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 215,
+      "title": "Sütaş Light Süt",
+      "image": "https://cdn.getir.com/product/582310505b31d60004487ebe_tr_1641902071677.jpeg",
+      "alt": "850 ml",
+      "price": 14.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 216,
+      "title": "İçim Kaşar Peyniri",
+      "image": "https://cdn.getir.com/product/5ced482dd349d10001e7052e_tr_1623651913199.jpeg",
+      "alt": "600 gr",
+      "price": 49.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 217,
+      "title": "İçim Süzme Peyniri",
+      "image": "https://cdn.getir.com/product/62d6bb2480a647353c8321a3_tr_1658400438155.jpeg",
+      "alt": "500 gr",
+      "price": 34.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 218,
+      "title": "Beyaz Peyniri",
+      "image": "https://cdn.getir.com/product/58c02729adec2b0004629154_tr_1641910128387.jpeg",
+      "alt": "500 gr",
+      "price": 37.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 219,
+      "title": "Sütaş Süzme Peyniri",
+      "image": "https://cdn.getir.com/product/62bc0294dc60a2f30dfdbddb_tr_1656619783405.jpeg",
+      "alt": "600 gr",
+      "price": 41.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 220,
+      "title": "Bahçıvan Süzme Peyniri",
+      "image": "https://cdn.getir.com/product/5ce65823a72a950001cc88c0_tr_1609902381949.jpeg",
+      "alt": "500 gr",
+      "price": 34.99,
+      "category":"sut-urunleri"
     }
-
+    , {
+      "id": 221,
+      "title": "Balkan Süzme Peyniri",
+      "image": "https://cdn.getir.com/product/61eef33ed76216cee720efb7_tr_1643287424730.jpeg",
+      "alt": "500 gr",
+      "price": 32.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 222,
+      "title": "Sek Kaşar Peyiniri",
+      "image": "https://cdn.getir.com/product/622404caa14b3cd6715e56dd_tr_1646896358143.jpeg",
+      "alt": "600 gr",
+      "price": 32.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 223,
+      "title": "Sütaş Kaşar Peyniri",
+      "image": "https://cdn.getir.com/product/62bc0df9df86f299f5dac9c9_tr_1656619727987.jpeg",
+      "alt": "600 gr",
+      "price": 34.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 224,
+      "title": "İçim Kaşar Peyniri",
+      "image": "https://market-product-images-cdn.getirapi.com/product/08834556-8c1e-49ed-9c5a-c88048528f05.jpg",
+      "alt": "600 gr",
+      "price": 33.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 225,
+      "title": "İçim Yoğurt",
+      "image": "https://cdn.getir.com/product/5ced482e4a8a2a000137da76_tr_1652192589133.jpeg",
+      "alt": "500 gr",
+      "price": 21.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 226,
+      "title": "Sütaş Yoğurt ",
+      "image": "https://cdn.getir.com/product/5e74833d9ae11d1802f9cc2a_tr_1608043847847.jpeg",
+      "alt": "1200 gr",
+      "price": 32.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 227,
+      "title": "Eker Yoğurt",
+      "image": "https://cdn.getir.com/product/59e87cdcaee4410004c89a0e_tr_1628073520893.jpeg",
+      "alt": "500 gr",
+      "price": 26.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 228,
+      "title": "Sek Yoğurt",
+      "image": "https://cdn.getir.com/product/5d03bb6736e4a5000117bbf6_tr_1608043802171.jpeg",
+      "alt": "300 gr",
+      "price": 25.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 229,
+      "title": "Sek Tereyağı",
+      "image": "https://market-product-images-cdn.getirapi.com/product/b874c570-8b65-4fdf-80a1-594d3111772a.jpg",
+      "alt": "200 gr",
+      "price": 32.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 230,
+      "title": "Sütaş Tereyağı",
+      "image": "https://cdn.getir.com/product/60645b9a4b29c55e8b90cfd2_tr_1619677613821.jpeg",
+      "alt": "240 gr",
+      "price": 33.99,
+      "category":"sut-urunleri"
+    }, {
+      "id": 231,
+      "title": "Knorr Mac & Cheese",
+      "image": "https://cdn.getir.com/product/623da1151dc8a94f26dd8629_tr_1649071065593.jpeg",
+      "alt": "240 gr",
+      "price": 33.99,
+      "category":"yiyecek"
+    }, {
+      "id": 232,
+      "title": "Indomie Sebzeli Noodle",
+      "image": "https://cdn.getir.com/product/6231877621fa2902f3d6a499_3875f1f1-70eb-4d3f-b009-d6225a7da2a4.jpeg",
+      "alt": "3x75 gr",
+      "price": 17.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 233,
+      "title": "Indomie Special Noodle",
+      "image": "https://cdn.getir.com/product/6230a69b84cf3b5d893a945d_eb5de317-1795-4c67-9214-69279db86cfa.jpeg",
+      "alt": "3x75 gr",
+      "price": 17.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 234,
+      "title": "Nohutlu Pirin Pilavı",
+      "image": "https://cdn.getir.com/product/603cc327a83d22f3ba3715f8_tr_1614678959890.jpeg",
+      "alt": "240 gr",
+      "price": 13.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 235,
+      "title": "Bulgurlu Pirinç Pilavı",
+      "image": "https://cdn.getir.com/product/5c6d74056af39d00015df18d_tr_1617198871772.jpeg",
+      "alt": "240 gr",
+      "price": 13.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 236,
+      "title": "Napoliten Soslu Makarna",
+      "image": "https://cdn.getir.com/product/5ddfb4626f61f213272cc2d9_tr_1612889512226.jpeg",
+      "alt": "240 gr",
+      "price": 13.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 237,
+      "title": "Arabiata Soslu Makarna",
+      "image": "https://cdn.getir.com/product/5e41708cc30e40722b6519f9_tr_1612889496946.jpeg",
+      "alt": "240 gr",
+      "price": 14.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 238,
+      "title": "Erpiliç Piliç Nugget",
+      "image": "https://cdn.getir.com/product/5fd36bac787c4d7ab2f5691f_tr_1644851459529.jpeg",
+      "alt": "340 gr",
+      "price": 27.50,
+      "category":"yiyecek"
+    }    , {
+      "id": 239,
+      "title": "Erpiliç Piliç Şinitzel",
+      "image": "https://cdn.getir.com/product/5fd36a05788daad64a1aba58_tr_1614867188998.jpeg",
+      "alt": "340 gr",
+      "price": 27.50,
+      "category":"yiyecek"
+    }    , {
+      "id": 240,
+      "title": "Erpiliç Piliç Cordon Bleu",
+      "image": "https://cdn.getir.com/product/5fd36db735ab68597af60c56_tr_1614864637263.jpeg",
+      "alt": "340 gr",
+      "price": 27.50,
+      "category":"yiyecek"
+    }    , {
+      "id": 241,
+      "title": "Jambon Cheddar Mega",
+      "image": "https://cdn.getir.com/product/5ced482a4a8a2a000137da42_tr_1621925969442.jpeg",
+      "alt": "240 gr",
+      "price": 54.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 242,
+      "title": "Tavuk Teriyaki",
+      "image": "https://cdn.getir.com/product/5ced482a4a8a2a000137da42_tr_1621925969442.jpeg",
+      "alt": "240 gr",
+      "price": 43.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 243,
+      "title": "Kaşarlı Salamlı",
+      "image": "https://market-product-images-cdn.getirapi.com/product/f796ab27-3b8c-47e4-b6cf-e793afe052ff.jpg",
+      "alt": "240 gr",
+      "price": 33.99,
+      "category":"yiyecek"
+    }    , {
+      "id": 244,
+      "title": "Tada Peynir & Salam",
+      "image": "https://cdn.getir.com/product/62da8d47bc52f922edf8b5e5_tr_1663663119131.jpeg",
+      "alt": "240 gr",
+      "price": 33.99,
+      "category":"yiyecek"
+    }  , {
+      "id": 245,
+      "title": "Dardanel Ton Balığı",
+      "image": "https://cdn.getir.com/product/62fa0c58aa9791836f79f133_tr_1662017645931.jpeg",
+      "alt": "320 gr",
+      "price": 55.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 246,
+      "title": "Dardanel Mısırlı Ton",
+      "image": "https://cdn.getir.com/product/576a6a9510200a0300f77876_tr_1622021168135.jpeg",
+      "alt": "140 gr",
+      "price": 15.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 247,
+      "title": "Tat Mısır",
+      "image": "https://cdn.getir.com/product/5a279c82895861000453f34f_tr_1654589363034.jpeg",
+      "alt": "460 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 248,
+      "title": "Tada Közlenmiş Patlıcan",
+      "image": "https://cdn.getir.com/product/61f138a23e26d54c798de61d_tr_1643359182764.jpeg",
+      "alt": "650 gr",
+      "price": 36.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 249,
+      "title": "Tada Yaprak Sarma",
+      "image": "https://cdn.getir.com/product/61e6b7a3202b40dcfb7ac0e2_tr_1642768294294.jpeg",
+      "alt": "660 gr",
+      "price": 38.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 250,
+      "title": "Tat Bezelye",
+      "image": "https://cdn.getir.com/product/6303af6442b34e7e19fdfeb6_tr_1661256260208.jpeg",
+      "alt": "860 gr",
+      "price": 31.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 251,
+      "title": "Tat Salatalık Turşusu",
+      "image": "https://cdn.getir.com/product/5a279a26f5a2790004ee21d7_tr_1654590147666.jpeg",
+      "alt": "660 gr",
+      "price": 41.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 252,
+      "title": "Pizza King",
+      "image": "https://cdn.getir.com/product/5a279a26f5a2790004ee21d7_tr_1654590147666.jpeg",
+      "alt": "4'lü",
+      "price": 33.99,
+      "category":"yiyecek"
+    }     , {
+      "id": 253,
+      "title": "Pizza King",
+      "image": "https://cdn.getir.com/product/5a279a26f5a2790004ee21d7_tr_1654590147666.jpeg",
+      "alt": "4'lü",
+      "price": 45.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 254,
+      "title": "Taş Fırın Gurme Pizza",
+      "image": "https://cdn.getir.com/product/61260260ba568d698dabec27_tr_1629968122691.jpeg",
+      "alt": "4'lü",
+      "price": 52.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 256,
+      "title": "Perfetto Pizza Jalapenolu",
+      "image": "https://cdn.getir.com/product/63031b4f8270257b7a0edd89_tr_1661432240509.jpeg",
+      "alt": "4'lü",
+      "price": 76.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 256,
+      "title": "Pizza King",
+      "image": "https://cdn.getir.com/product/5a279a26f5a2790004ee21d7_tr_1654590147666.jpeg",
+      "alt": "4'lü",
+      "price": 23.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 257,
+      "title": "Superfresh Pizza Tost",
+      "image": "https://cdn.getir.com/product/6125fee25289db4dc932b6a7_tr_1648106320234.jpeg",
+      "alt": "250 gr",
+      "price": 33.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 258,
+      "title": "Feast Pizza Mundo Sucuklu",
+      "image": "https://cdn.getir.com/product/5cf14640e327a40001eefaed_tr_1661337547499.jpeg",
+      "alt": "450 gr",
+      "price": 76.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 259,
+      "title": "Oreo Cheesecake",
+      "image": "https://cdn.getir.com/product/6290d1610de84f175cc3b93c_tr_1655223428342.jpeg",
+      "alt": "400 gr",
+      "price": 33.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 260,
+      "title": "Milka Lava Cake",
+      "image": "https://cdn.getir.com/product/62d7f76eb12f141191f4487a_tr_1658927121227.jpeg",
+      "alt": "200 gr",
+      "price": 33.99,
+      "category":"yiyecek"
+    }       , {
+      "id": 261,
+      "title": "Mantımis Bohça Mantı",
+      "image": "https://cdn.getir.com/product/62d7f76eb12f141191f4487a_tr_1658927121227.jpeg",
+      "alt": "400 gr",
+      "price": 53.99,
+      "category":"yiyecek"
+    } , {
+      "id": 262,
+      "title": "Superfresh Mantı",
+      "image": "https://cdn.getir.com/product/62d7f76eb12f141191f4487a_tr_1658927121227.jpeg",
+      "alt": "400 gr",
+      "price": 31.99,
+      "category":"yiyecek"
+    }, {
+      "id": 263,
+      "title": "Eker Supangle",
+      "image": "https://cdn.getir.com/product/59e88898aee4410004c8a3fe_290fe7b4-cc29-46a3-9f9a-0b2fe533ee88.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    }, {
+      "id": 264,
+      "title": "Eker Sütlaç",
+      "image": "https://cdn.getir.com/product/59e889329f82e90004d07874_e3564ecc-018c-4cad-8bad-b14173047352.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    } , {
+      "id": 265,
+      "title": "Eker Tavukgöğsü",
+      "image": "https://cdn.getir.com/product/59f713e6459b2f00042f16fe_5e4d5836-b231-4c8d-ae10-a4e853f0e7f8.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    } , {
+      "id": 266,
+      "title": "Eker Kazandibi",
+      "image": "https://cdn.getir.com/product/5a575cc455bf870004d0c0f9_79f43f1f-4e1e-40f2-8408-8a2e2a94bae1.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    } , {
+      "id": 267,
+      "title": "Eker Profiterol",
+      "image": "https://cdn.getir.com/product/5cf27251130f3a00011f4e23_9fdda351-3177-414b-9436-73423495b27e.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    } , {
+      "id": 268,
+      "title": "Eker Portakallı & Bademl",
+      "image": "https://cdn.getir.com/product/61d6da5c7b2165ccd9d6ca50_543eb128-a6dd-4b42-aaa2-7611c40934f9.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    } , {
+      "id": 269,
+      "title": "Eker Fındıklı & Beyaz Çikolatalı",
+      "image": "https://cdn.getir.com/product/61d6db081efec9fda6bf22cd_1377eda6-5529-4d8d-9ab6-2762e05d8959.jpeg",
+      "alt": "150 gr",
+      "price": 12.99,
+      "category":"yiyecek"
+    } , {
+      "id": 270,
+      "title": "Doğanay & Çiğ Köfte",
+      "image": "https://cdn.getir.com/product/631f318951d3fe65ab27996a_tr_1663061145985.jpeg",
+      "alt": "2 ürün",
+      "price": 18.99,
+      "category":"yiyecek"
+    }, {
+      "id": 271,
+      "title": "Tadım Yer Fıstıklı",
+      "image": "https://cdn.getir.com/product/5bcdb7e78098cb0035cd16e5_tr_1609904590331.jpeg",
+      "alt": "30 gr",
+      "price": 6.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 272,
+      "title": "Tadım Antep Fıstıklı",
+      "image": "https://cdn.getir.com/product/58247e50daab3d00044a1fb3_tr_1609904538035.jpeg",
+      "alt": "30 gr",
+      "price": 6.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 273,
+      "title": "Tadım Hurmalı Bar",
+      "image": "https://cdn.getir.com/product/6020f0b5aa64ab8e1b9867d4_tr_1613474104081.jpeg",
+      "alt": "30 gr",
+      "price": 4.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 273,
+      "title": "Nesfit Çilekli",
+      "image": "https://cdn.getir.com/product/58fa20e19fc5e500045db0e7_tr_1598732094749.jpeg",
+      "alt": "32 gr",
+      "price": 8.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 274,
+      "title": "Fellas Duble Kakao",
+      "image": "https://market-product-images-cdn.getirapi.com/product/8c774bd8-79a6-452b-af5b-dab6c3de9109.jpg",
+      "alt": "40 gr",
+      "price": 17.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 275,
+      "title": "Fellas Fındık ve Kakao",
+      "image": "https://market-product-images-cdn.getirapi.com/product/0311cfab-2c6e-411c-9a5c-9f4634742204.jpg",
+      "alt": "40 gr",
+      "price": 16.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 276,
+      "title": "Züber Fındıklı Meyve Bar",
+      "image": "https://cdn.getir.com/product/5c40c45fd673cf0001ad2aaf_tr_1624876341725.jpeg",
+      "alt": "30 gr",
+      "price": 16.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 277,
+      "title": "Züber Fıstıklı Meyve Bar",
+      "image": "https://cdn.getir.com/product/5925a9006f741b0004a6e996_tr_1624876217136.jpeg",
+      "alt": "30 gr",
+      "price": 16.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 278,
+      "title": "Lifalif Kuru Yemişli Yulaf",
+      "image": "https://cdn.getir.com/product/5f355b0d4491685ce0993fa7_tr_1655739275710.jpeg",
+      "alt": "30 gr",
+      "price": 8.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 279,
+      "title": "Lifalif Bitter Yulaf",
+      "image": "https://cdn.getir.com/product/5f354d8f0d08a040a0775e40_tr_1655739295047.jpeg",
+      "alt": "30 gr",
+      "price": 8.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 280,
+      "title": "Uniq2go Muzlu Protein Bar",
+      "image": "https://cdn.getir.com/product/627b70c1d42772546d550572_tr_1652425752601.jpeg",
+      "alt": "50 gr",
+      "price": 26.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 281,
+      "title": "Uniq2go Bademli Maxi Bar",
+      "image": "https://cdn.getir.com/product/627b70c1d42772546d550572_tr_1652425752601.jpeg",
+      "alt": "50 gr",
+      "price": 26.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 282,
+      "title": "Mixmey Mix Şeftali Erik",
+      "image": "https://cdn.getir.com/product/6245b8b9b77d84913c75a282_tr_1649162980610.jpeg",
+      "alt": "30 gr",
+      "price": 11.99,
+      "category":"kahvaltilik"
+    }, {
+      "id": 283,
+      "title": "Eti Form Çok Tahıllı",
+      "image": "https://cdn.getir.com/product/5f355953250d5b81e421511d_tr_1609404043464.jpeg",
+      "alt": "34 gr",
+      "price": 11.99,
+      "category":"fit-form"
+    }, {
+      "id": 284,
+      "title": "Eti Form Domates & Zeytin & Kekik",
+      "image": "https://cdn.getir.com/product/6225daf31379e6984c6f3f06_tr_1646823484958.jpeg",
+      "alt": "35 gr",
+      "price": 12.99,
+      "category":"fit-form"
+    }, {
+      "id": 285,
+      "title": "Eti Form Limon Lifli Kepekli",
+      "image": "https://cdn.getir.com/product/5f3557e7ee4a8126f304d1b1_tr_1609404051841.jpeg",
+      "alt": "55 gr",
+      "price": 13.99,
+      "category":"fit-form"
+    }, {
+      "id": 286,
+      "title": "Eti Form Bitter Çikolatalı",
+      "image": "https://cdn.getir.com/product/5f8d8507c82fb7399732ba3d_tr_1661959441195.jpeg",
+      "alt": "30 gr",
+      "price": 7.99,
+      "category":"fit-form"
+    }, {
+      "id": 287,
+      "title": "Saf Pirinç Patlaklı",
+      "image": "https://cdn.getir.com/product/5dcc04f20c4924250db7dfc8_4b20407e-6bf0-4493-b3c9-e6db14553a6a.jpeg",
+      "alt": "60 gr",
+      "price": 11.99,
+      "category":"fit-form"
+    }, {
+      "id": 288,
+      "title": "Çiğ Kaju Fıstığı",
+      "image": "https://cdn.getir.com/product/5cdc2569010a1b00019749f1_tr_1609397743567.jpeg",
+      "alt": "140 gr",
+      "price": 25.99,
+      "category":"fit-form"
+    }, {
+      "id": 289,
+      "title": "İşlenmiş Kaju Fıstığı",
+      "image": "https://cdn.getir.com/product/5ccaf95a1a1763000175b15a_tr_1580905514048.jpeg",
+      "alt": "130 gr",
+      "price": 36.99,
+      "category":"fit-form"
+    }, {
+      "id": 290,
+      "title": "Kavrulmuş Fındık İçi",
+      "image": "https://cdn.getir.com/product/5ccaf5adb1ef240001728415_tr_1580904859149.jpeg",
+      "alt": "170 gr",
+      "price": 27.99,
+      "category":"fit-form"
+    }, {
+      "id": 291,
+      "title": "Çiğ Badem İçi",
+      "image": "https://cdn.getir.com/product/5f7478a2a833bc6e144544fc_tr_1601908113553.jpeg",
+      "alt": "170 gr",
+      "price": 17.99,
+      "category":"fit-form"
+    }, {
+      "id": 292,
+      "title": "Kurutulmuş Kayısı",
+      "image": "https://cdn.getir.com/product/5bf2b008355c320018c7fdff_tr_1609397783878.jpeg",
+      "alt": "170 gr",
+      "price": 27.99,
+      "category":"fit-form"
+    }, {
+      "id": 293,
+      "title": "Festival Karışık Kuruyemiş",
+      "image": "https://cdn.getir.com/product/5c1774471b2e520008747183_tr_1609397705706.jpeg",
+      "alt": "170 gr",
+      "price": 37.99,
+      "category":"fit-form"
+    }, {
+      "id": 294,
+      "title": "Çiğ Karışık Kuruyemiş",
+      "image": "https://cdn.getir.com/product/576d59636960bf0300525585_tr_1609397597523.jpeg",
+      "alt": "170 gr",
+      "price": 27.99,
+      "category":"fit-form"
+    }, {
+      "id": 295,
+      "title": "Naturel Çiğ Karışık",
+      "image": "https://cdn.getir.com/product/5f74835396ec8055550f4c3a_tr_1609397885515.jpeg",
+      "alt": "170 gr",
+      "price": 27.99,
+      "category":"fit-form"
+    }, {
+      "id": 296,
+      "title": "Kavrulmuş Antep Fıstığı",
+      "image": "https://cdn.getir.com/product/5ccaf547b1ef240001728373_tr_1580905624787.jpeg",
+      "alt": "170 gr",
+      "price": 37.99,
+      "category":"fit-form"
+    }, {
+      "id": 297,
+      "title": "Special K Klasik",
+      "image": "https://cdn.getir.com/product/5ccaf547b1ef240001728373_tr_1580905624787.jpeg",
+      "alt": "470 gr",
+      "price": 37.99,
+      "category":"fit-form"
+    }, {
+      "id": 298,
+      "title": "Kellogg's Yulaf Ezmesi",
+      "image": "https://cdn.getir.com/product/606c60fbf17f74dbc9869a15_tr_1618593935315.jpeg",
+      "alt": "470 gr",
+      "price": 37.99,
+      "category":"fit-form"
+    }, {
+      "id": 299,
+      "title": "Namet Hindi Füme 7/24",
+      "image": "https://cdn.getir.com/product/5e12dd13306efa9fe7e76ff3_tr_1609904461078.jpeg",
+      "alt": "120 gr",
+      "price": 13.99,
+      "category":"fit-form"
+    }, {
+      "id": 300,
+      "title": "Namet Piliç Füme",
+      "image": "https://cdn.getir.com/product/5ceae0329d3ea8000196e0cc_tr_1609425192758.jpeg",
+      "alt": "80 gr",
+      "price": 7.99,
+      "category":"fit-form"
+    }, {
+      "id": 301,
+      "title": "Polonez Hindi Füme Et",
+      "image": "https://cdn.getir.com/product/5901c54a9d21350004cf6c4f_tr_1602360505822.jpeg",
+      "alt": "80 gr",
+      "price": 8.99,
+      "category":"fit-form"
+    }, {
+      "id": 302,
+      "title": "Polonez Dana Jambon",
+      "image": "https://cdn.getir.com/product/5a86dbe8aec00c000434c9bf_tr_1603571499901.jpeg",
+      "alt": "80 gr",
+      "price": 7.99,
+      "category":"fit-form"
+    }, {
+      "id": 303,
+      "title": "Alpro Badem İçeceği",
+      "image": "https://cdn.getir.com/product/5ce65820fd9b330001c4a933_tr_1614239550003.jpeg",
+      "alt": "1 lt",
+      "price": 67.99,
+      "category":"fit-form"
+    }, {
+      "id": 304,
+      "title": "Colgate İkilisi Orta",
+      "image": "https://cdn.getir.com/product/6318af9483931172ea7bda1b_tr_1662624127618.jpeg",
+      "alt": "2 adet",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 305,
+      "title": "Duş Paketi",
+      "image": "https://market-product-images-cdn.getirapi.com/product/68511d71-a0f2-4f45-9baf-357258991cdd.jpg",
+      "alt": "2 adet",
+      "price": 34.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 306,
+      "title": "Colgate Paketi",
+      "image": "https://market-product-images-cdn.getirapi.com/product/4a66e730-a270-45e1-83c4-90c3c333e8be.jpg",
+      "alt": "2 adet",
+      "price": 75.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 307,
+      "title": "Colgate Diş Macunu Paketi",
+      "image": "https://cdn.getir.com/product/624f59b84908004a331e2f34_tr_1649854701461.jpeg",
+      "alt": "2 adet",
+      "price": 83.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 308,
+      "title": "Signal Diş Temizlik Paketi",
+      "image": "https://market-product-images-cdn.getirapi.com/product/6e5ba703-4bf9-4d94-9e10-b40a69c1dedc.jpg",
+      "alt": "2 adet",
+      "price": 77.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 309,
+      "title": "Signal White Now",
+      "image": "https://cdn.getir.com/product/55983f77b1dc700c006a7243_77206e3c-cf0d-4fb5-8a87-2384500a5a75.jpeg",
+      "alt": "1 adet",
+      "price": 61.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 310,
+      "title": "Signal Üçlü Koruma",
+      "image": "https://cdn.getir.com/product/602bd6acddfb96dcb899ce5c_tr_1624351221618.jpeg",
+      "alt": "1 adet",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 311,
+      "title": "Sensodyne Onarım",
+      "image": "https://cdn.getir.com/product/5ae9a962fe59200004001762_tr_1630574523606.jpeg",
+      "alt": "1 adet",
+      "price": 64.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 312,
+      "title": "Elidor Onarıcı Bakım Şampuan",
+      "image": "https://cdn.getir.com/product/61e01228e399a53c051ec20b_tr_1650032972231.jpeg",
+      "alt": "500 ml",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 313,
+      "title": "Elidor Avokado Saç Kremi",
+      "image": "https://market-product-images-cdn.getirapi.com/product/73df7c75-cde9-4efd-8bae-a947398de814.png",
+      "alt": "500 ml",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    } , {
+      "id": 314,
+      "title": "Elidor Güçlü ve Parlak Şampuan",
+      "image": "https://cdn.getir.com/product/61e0104fe76e66ab94137c5c_aae2df4e-2f82-4af2-9540-20b7e236359b.jpeg",
+      "alt": "500 ml",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 315,
+      "title": "Gliss Intense Therapy Şampuan",
+      "image": "https://cdn.getir.com/product/5fac0502b39ac97e8981433b_tr_1609398425221.jpeg",
+      "alt": "500 ml",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 316,
+      "title": "Clear Men Dökülme Karşıtı",
+      "image": "https://cdn.getir.com/product/6194ac3dce90b2b3cd48873d_tr_1637242152391.jpeg",
+      "alt": "500 ml",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 317,
+      "title": "Clear Men Cool Sport Şampuan",
+      "image": "https://cdn.getir.com/product/6194b30eab365c5ff9c57040_ead24c4a-9874-4a22-ab50-1b92badc01a5.jpeg",
+      "alt": "500 ml",
+      "price": 49.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 318,
+      "title": "Hyalüronik Asit Duş Jeli",
+      "image": "https://cdn.getir.com/product/622a49bdfdc72846ead997d3_tr_1650877512097.jpeg",
+      "alt": "500 ml",
+      "price": 41.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 319,
+      "title": "Feel the Massage Duş Jeli",
+      "image": "https://cdn.getir.com/product/5c3f54d399f6570001f27fdc_tr_1606806277466.jpeg",
+      "alt": "500 ml",
+      "price": 42.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 320,
+      "title": "Feel the Glow Cilt Yenileyici Duş Jeli",
+      "image": "https://cdn.getir.com/product/5e9468e2246ffc44d0a471e4_tr_1613467720721.jpeg",
+      "alt": "500 ml",
+      "price": 63.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 321,
+      "title": "Böğürtlen Keyfi Duş Jeli",
+      "image": "https://cdn.getir.com/product/5ce6581ba72a950001cc8793_tr_1647341139002.jpeg",
+      "alt": "500 ml",
+      "price": 43.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 322,
+      "title": "Kotex Uzun",
+      "image": "https://cdn.getir.com/product/5ce6581ba72a950001cc8793_tr_1647341139002.jpeg",
+      "alt": "2x18",
+      "price": 43.99,
+      "category":"kisisel-bakim"
+    }  , {
+      "id": 323,
+      "title": "Kotex Günlük",
+      "image": "https://cdn.getir.com/product/620c9aaeaec54c160fff96a8_tr_1645113860131.jpeg",
+      "alt": "2x32",
+      "price": 99.99,
+      "category":"kisisel-bakim"
+    }  , {
+      "id": 324,
+      "title": "Kotex Gece",
+      "image": "https://cdn.getir.com/product/620bf21ccaa71af55cbbbc0a_tr_1645113736579.jpeg",
+      "alt": "2x6",
+      "price": 33.99,
+      "category":"kisisel-bakim"
+    }, {
+      "id": 325,
+      "title": "Domestos & Cif Paketi",
+      "image": "https://market-product-images-cdn.getirapi.com/product/2de23dfa-bb92-49bc-b888-0f6726e4c65f.jpg",
+      "alt": "2 ürün",
+      "price": 45.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 326,
+      "title": "Cillit Bang Doğal Sprey Mutfak",
+      "image": "https://market-product-images-cdn.getirapi.com/product/2de23dfa-bb92-49bc-b888-0f6726e4c65f.jpg",
+      "alt": "2 ürün",
+      "price": 64.99,
+      "category":"ev-bakim"
+    }   , {
+      "id": 327,
+      "title": "Cif & Selpak İkilisi",
+      "image": "https://cdn.getir.com/product/620d0caa4ea5ac40d2a408dd_tr_1645166623946.jpeg",
+      "alt": "2 ürün",
+      "price": 43.99,
+      "category":"ev-bakim"
+    }   , {
+      "id": 328,
+      "title": "Bref Power Aktiv Çam",
+      "image": "https://cdn.getir.com/product/620d0caa4ea5ac40d2a408dd_tr_1645166623946.jpeg",
+      "alt": "2 ürün",
+      "price": 56.99,
+      "category":"ev-bakim"
+    }   , {
+      "id": 329,
+      "title": "Persil & Vernel Şakayık",
+      "image": "https://cdn.getir.com/product/6041f9f08ba2925d14ef6f96_tr_1615217746767.jpeg",
+      "alt": "2 ürün",
+      "price": 85.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 330,
+      "title": "Omo Active Fresh",
+      "image": "https://cdn.getir.com/product/5ac784d956352c00043526e6_578f645e-e4f3-47e2-9e6b-2b777109a1bb.jpeg",
+      "alt": "3 kg",
+      "price": 74.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 331,
+      "title": "Persil Hijyen",
+      "image": "https://cdn.getir.com/product/60815b072907bdfeb99845d7_tr_1619624123757.jpeg",
+      "alt": "3 kg",
+      "price": 52.99,
+      "category":"ev-bakim"
+    } , {
+      "id": 332,
+      "title": "Ariel Parlak Renkler",
+      "image": "https://cdn.getir.com/product/618297fba7b621fe95ebe19e_tr_1636958159714.jpeg",
+      "alt": "3 kg",
+      "price": 73.99,
+      "category":"ev-bakim"
+    } , {
+      "id": 333,
+      "title": "Bingo Matik Renkli & Beyaz",
+      "image": "https://cdn.getir.com/product/61e80426a92d89042c9b0384_tr_1653979406219.jpeg",
+      "alt": "3 kg",
+      "price": 64.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 334,
+      "title": "Solo Tuvalet Kağıdı",
+      "image": "https://cdn.getir.com/product/60a4b1baa415b3197743e314_tr_1621694073698.jpeg",
+      "alt": "2'li",
+      "price": 17.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 335,
+      "title": "Selpak Tuvalet Kağıdı",
+      "image": "https://cdn.getir.com/product/595b8c52fca4ec0004417ee8_tr_1601369369934.jpeg",
+      "alt": "8'li",
+      "price": 37.99,
+      "category":"ev-bakim"
+    }  , {
+      "id": 336,
+      "title": "Sofia Tuvalet Kağıdı",
+      "image": "https://cdn.getir.com/product/5ce6581aa72a950001cc8780_tr_1609398540791.jpeg",
+      "alt": "8'li",
+      "price": 46.99,
+      "category":"ev-bakim"
+    }  , {
+      "id": 337,
+      "title": "Solo Kağıt Havlu",
+      "image": "https://cdn.getir.com/product/60a67d32fca6274387762237_tr_1622014381055.jpeg",
+      "alt": "8'li",
+      "price": 55.99,
+      "category":"ev-bakim"
+    }  , {
+      "id": 338,
+      "title": "Selpak Kağıt Havlu",
+      "image": "https://cdn.getir.com/product/5a77491150157200046f1f10_tr_1601369602646.jpeg",
+      "alt": "12'li",
+      "price": 73.99,
+      "category":"ev-bakim"
+    }  , {
+      "id": 339,
+      "title": "Maylo Dev Havlu",
+      "image": "https://cdn.getir.com/product/5ce65815a72a950001cc8751_tr_1626418218305.jpeg",
+      "alt": "8'li",
+      "price": 27.99,
+      "category":"ev-bakim"
+    }  , {
+      "id": 340,
+      "title": "Selpak Süper Soft",
+      "image": "https://cdn.getir.com/product/566eccc7f9facb0f00b1b638_tr_1580399286724.jpeg",
+      "alt": "8'li",
+      "price": 33.99,
+      "category":"ev-bakim"
+    }  , {
+      "id": 341,
+      "title": "Finish Quantum",
+      "image": "https://cdn.getir.com/product/61d54f22cedd7a805f3733cb_tr_1641492645617.jpeg",
+      "alt": "32'li",
+      "price": 122.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 342,
+      "title": "Finish Quantum Max Limon",
+      "image": "https://cdn.getir.com/product/60a7527d8f9e2249f3e4df59_tr_1624882816278.jpeg",
+      "alt": "32'li",
+      "price": 152.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 343,
+      "title": "Fairy Platinum Plus",
+      "image": "https://cdn.getir.com/product/60472abe70288a4915478912_tr_1650444014218.jpeg",
+      "alt": "32'li",
+      "price": 112.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 344,
+      "title": "Fairy Platinum",
+      "image": "https://cdn.getir.com/product/5eb3d3d7e6cdaa778915477b_tr_1650443905707.jpeg",
+      "alt": "32'li",
+      "price": 136.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 345,
+      "title": "Pril Hepsi 1 Arada Extra",
+      "image": "https://cdn.getir.com/product/5e26bd388f2c3502b592c107_tr_1591196717852.jpeg",
+      "alt": "32'li",
+      "price": 111.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 346,
+      "title": "Pril Gold Tablet",
+      "image": "https://cdn.getir.com/product/600e6892d238651d260387eb_tr_1611743048866.jpeg",
+      "alt": "32'li",
+      "price": 122.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 347,
+      "title": "Krem Sıvı Sabun",
+      "image": "https://cdn.getir.com/product/5e6b59d5370b07ce0c123ee1_tr_1603570571382.jpeg",
+      "alt": "300 ml",
+      "price": 54.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 348,
+      "title": "Raid Böceksavar Max",
+      "image": "https://cdn.getir.com/product/5a71d1e9baaaad0004841f3f_836fe98f-b1c9-4d1c-8b8f-88f7270bb107.jpeg",
+      "alt": "300 ml",
+      "price": 39.99,
+      "category":"ev-bakim"
+    } , {
+      "id": 349,
+      "title": "Detan Maxi Böcek İlacı",
+      "image": "https://cdn.getir.com/product/5d34c56e37c7df000106a4b0_tr_1622044163336.jpeg",
+      "alt": "300 ml",
+      "price": 46.99,
+      "category":"ev-bakim"
+    }, {
+      "id": 350,
+      "title": "Oksijen Gazetesi",
+      "image": "https://cdn.getir.com/product/601aa63801fc587c37a38e66_tr_1663164684560.jpeg",
+      "alt": "1 adet",
+      "price": 6.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 351,
+      "title": "Milliyet Mimarlık",
+      "image": "https://cdn.getir.com/product/61fe7aaa652ef86be8e6ee4c_tr_1662357729561.jpeg",
+      "alt": "1 adet",
+      "price": 6.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 352,
+      "title": "All About History",
+      "image": "https://cdn.getir.com/product/5fd10d865606116dd3465984_tr_1662357202627.jpeg",
+      "alt": "1 adet",
+      "price": 6.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 353,
+      "title": "Su Pompası",
+      "image": "https://cdn.getir.com/product/599fdb62c577ee0004dc9d97_tr_1650771363415.jpeg",
+      "alt": "1 adet",
+      "price": 46.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 354,
+      "title": "Detan Maxi Böcek İlacı",
+      "image": "https://cdn.getir.com/product/5d34c56e37c7df000106a4b0_tr_1622044163336.jpeg",
+      "alt": "4'lü",
+      "price": 32.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 355,
+      "title": "Duracell Kalın",
+      "image": "https://cdn.getir.com/product/57ab075a25459a03009b4c03_tr_1580718943036.jpeg",
+      "alt": "4'lü",
+      "price": 75.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 356,
+      "title": "Duracell Kalın Kalem Pil",
+      "image": "https://cdn.getir.com/product/624c113cba8c56e6749587af_tr_1649404473166.jpeg",
+      "alt": "4'lü",
+      "price": 34.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 357,
+      "title": "Duracell İnce",
+      "image": "https://cdn.getir.com/product/57ab080887014a03008aaebd_tr_1597245028415.jpeg",
+      "alt": "4'lü",
+      "price": 24.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 358,
+      "title": "Duracell D",
+      "image": "https://cdn.getir.com/product/5ab8e0cb5049a90004f73e8d_tr_1580719074171.jpeg",
+      "alt": "4'lü",
+      "price": 34.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 359,
+      "title": "Varta Longlife Power Kalın",
+      "image": "https://cdn.getir.com/product/5be2c1f4639e4400197a3c89_tr_1659085824636.jpeg",
+      "alt": "4'lü",
+      "price": 46.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 360,
+      "title": "Varta AA Kalın Kalem Pilı",
+      "image": "https://cdn.getir.com/product/620df7a2bf56a7792da87713_tr_1645113368937.jpeg",
+      "alt": "4'lü",
+      "price": 46.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 361,
+      "title": "LOL Hediyeli Top",
+      "image": "https://market-product-images-cdn.getirapi.com/product/5a05fa9d-4422-4df1-815b-ff12ee561a6b.jpg",
+      "alt": "1 adet",
+      "price": 64.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 362,
+      "title": "LOL Hediyeli Bavul",
+      "image": "https://cdn.getir.com/product/630714cd6add3b951bf7626b_tr_1662625284144.jpeg",
+      "alt": "1 adet",
+      "price": 89.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 363,
+      "title": "My Little Pony Mini Figür",
+      "image": "https://market-product-images-cdn.getirapi.com/product/91e25853-ef1e-41e0-b53b-6bcbad79a360.jpg",
+      "alt": "1 adet",
+      "price": 146.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 364,
+      "title": "Philips Led Beyaz",
+      "image": "https://cdn.getir.com/product/5d3013c5f963ae0001b38395_tr_1649145027421.jpeg",
+      "alt": "1 adet",
+      "price": 24.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 365,
+      "title": "Osram Led Sarı",
+      "image": "https://cdn.getir.com/product/5aba404939eca30004755e8a.jpeg?v=1525861034005",
+      "alt": "1 adet",
+      "price": 23.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 365,
+      "title": "Johnson's Baby Defter",
+      "image": "https://cdn.getir.com/product/61234a0db010ab42ea4d6cde_tr_1629731867970.jpeg",
+      "alt": "1 adet",
+      "price": 8.99,
+      "category":"ev-yasam"
+    } , {
+      "id": 366,
+      "title": "Jelatinli Kürdan",
+      "image": "https://cdn.getir.com/product/61234a0db010ab42ea4d6cde_tr_1629731867970.jpeg",
+      "alt": "500 adet",
+      "price": 16.99,
+      "category":"ev-yasam"
+    } , {
+      "id": 367,
+      "title": "Baston Şemsiye",
+      "image": "https://cdn.getir.com/product/5da022805bc8397010c92acd_tr_1580892882724.jpeg",
+      "alt": "1 adet",
+      "price": 68.99,
+      "category":"ev-yasam"
+    }, {
+      "id": 368,
+      "title": "Taks Type-c Kablo",
+      "image": "https://cdn.getir.com/product/62c5a8a7641e4fa4c324267c_tr_1660027623888.jpeg",
+      "alt": "100 cm",
+      "price": 54.99,
+      "category":"teknoloji"
+    }, {
+      "id": 369,
+      "title": "Taks USB Kablo",
+      "image": "https://cdn.getir.com/product/62c5a5f7762d7e0f6ff550fa_tr_1660027082112.jpeg",
+      "alt": "100 cm",
+      "price": 54.99,
+      "category":"teknoloji"
+    }, {
+      "id": 370,
+      "title": "Taks iPhone Kablo",
+      "image": "https://cdn.getir.com/product/62c599aaadda0b93457862b3_tr_1660117548718.jpeg",
+      "alt": "100 cm",
+      "price": 54.99,
+      "category":"teknoloji"
+    }, {
+      "id": 371,
+      "title": "ttec Pop Kulakiçi Kulaklık",
+      "image": "https://cdn.getir.com/product/62591875cbb88325c7a12ce2_tr_1650953705155.jpeg",
+      "alt": "Siyah",
+      "price": 174.99,
+      "category":"teknoloji"
+    }, {
+      "id": 372,
+      "title": "Whiskas 1 Yaş Üstü Sığır Etli",
+      "image": "https://cdn.getir.com/product/55983faab1dc700c006a724d_tr_1601931914145.jpeg",
+      "alt": "100 gr",
+      "price": 16.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 373,
+      "title": "Whiskas 1 Yaş Üstü Somonlu",
+      "image": "https://cdn.getir.com/product/55983faab1dc700c006a724d_tr_1601931914145.jpeg",
+      "alt": "100 gr",
+      "price": 17.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 374,
+      "title": "Whiskas 1 Yaş Üstü Biftekli",
+      "image": "https://cdn.getir.com/product/55983faab1dc700c006a724d_tr_1601931914145.jpeg",
+      "alt": "100 gr",
+      "price": 19.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 375,
+      "title": "Purina One 1-12 Ay Tavuklu",
+      "image": "https://cdn.getir.com/product/57f3652fbbfa040003d6c4f2_tr_1621955614522.jpeg",
+      "alt": "100 gr",
+      "price": 19.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 376,
+      "title": "Purina One Kısır Somonlu",
+      "image": "https://cdn.getir.com/product/5ab4b21481179a000461d17c_tr_1601931749594.jpeg",
+      "alt": "100 gr",
+      "price": 18.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 377,
+      "title": "Purina One Yetişkin Tavuklu",
+      "image": "https://cdn.getir.com/product/5ab4b21481179a000461d17c_tr_1601931749594.jpeg",
+      "alt": "100 gr",
+      "price": 12.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 378,
+      "title": "Proline Yavru Tavuklu",
+      "image": "https://cdn.getir.com/product/5bd6985ff2c319001eddde27_tr_1601931626876.jpeg",
+      "alt": "2 kg",
+      "price": 53.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 379,
+      "title": "Pedigree Yetişkin Sığır Etli",
+      "image": "https://cdn.getir.com/product/577fa0a491436203000e300a_tr_1601931559263.jpeg",
+      "alt": "2 kg",
+      "price": 77.99,
+      "category":"evcil-hayvan"
+    } , {
+      "id": 380,
+      "title": "Jazzy Köpek Maması Tavuklu",
+      "image": "https://cdn.getir.com/product/62dfff3c50bdd37bbb441101_tr_1659072200025.jpeg",
+      "alt": "2 kg",
+      "price": 72.99,
+      "category":"evcil-hayvan"
+    } , {
+      "id": 381,
+      "title": "Pedigree Yetişkin Biftekli & Sebzeli",
+      "image": "https://cdn.getir.com/product/5a27a01bf5a2790004ee27ec_tr_1601931526568.jpeg",
+      "alt": "2 kg",
+      "price": 52.99,
+      "category":"evcil-hayvan"
+    }, {
+      "id": 382,
+      "title": "Muhabbet Kuşu Yemi",
+      "image": "https://cdn.getir.com/product/5e33dbdca5688e42741fd700_tr_1585651818298.jpeg",
+      "alt": "400 gr",
+      "price": 27.99,
+      "category":"evcil-hayvan"
+    }                           
+    
   ]

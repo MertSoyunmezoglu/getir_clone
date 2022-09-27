@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { ContextProvider } from "context/GlobalContext";
+import React, { useEffect, useState } from "react";
 import { Collapse } from "react-collapse";
 
 import { IoIosArrowDown } from "react-icons/io";
@@ -8,23 +9,25 @@ import SideBarSubItem from "./SideBarSubItem";
 export default function SideBarItem({
   category: { title, image, items, pathTitle },
 }) {
+  const { state, increase, decrease, removeFromCart,setOrder,handleClick } = ContextProvider();
   const [isOpen, setIsOpen] = useState(false);
+
+
 
   const toggleCollapse = () => {
     setIsOpen(!isOpen);
   };
   const pathname = window.location.pathname.split("/")[1];
-  console.log(pathname);
   const pathname2 = window.location.pathname.split("/")[2];
-  const pathname3 = window.location.pathname.split("/")[3];
-  console.log(pathname3);
+  const pathname3 = window.location.pathname;
+
 
 
   return (
     <section>
       <nav className=" block   rounded-lg ">
         {pathname === "kategoriler" ? (
-          <NavLink to={`/${pathname}/${pathTitle.toLowerCase()}`}>
+          <NavLink onClick={() => handleClick(pathname3)} to={`/${pathname}/${pathTitle.toLowerCase()}`}>
             <button
               onClick={toggleCollapse}
               className="   grid grid-cols-3   items-start  transition w-64 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-center p-0.5 m-0.5  "
@@ -48,7 +51,7 @@ export default function SideBarItem({
             </button>
           </NavLink>
         ) : (
-          <NavLink to={`/${pathname}/${pathname2}/${pathTitle.toLowerCase()}`}>
+          <NavLink onClick={() => handleClick(pathname3)} to={`/${pathname}/${pathname2}/${pathTitle.toLowerCase()}`}>
             <button
               onClick={toggleCollapse}
               className="   grid grid-cols-3   items-start  transition w-64 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-center p-0.5 m-0.5  "
