@@ -1,5 +1,5 @@
 import ApplyNow from "components/ApplyNow";
-import Cards from "components/Cards";
+import Cards from "components/ui/cards/CardsRouting";
 
 import Footer from "components/Footer";
 
@@ -7,8 +7,8 @@ import React from "react";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 import HeroSection from "components/HeroSection";
-import Categories from "components/Categories";
-import Header from "components/Header";
+import Categories from "components/ui/categories/Categories";
+import Header from "components/ui/header/Header";
 
 export default function Yemek() {
   const [bazaarSection, setBazaarSection] = useState(true);

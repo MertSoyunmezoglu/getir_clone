@@ -1,20 +1,13 @@
 import React, { useEffect, useState } from "react";
 import categoryHome from "api/categories.json";
-import HomeCategory from "./ui/categories/HomeCategory";
-import Title from "./ui/Title";
-import BazaarCategory from "./ui/categories/BazaarCategory";
-import categoryBazaar from "api/categoriesbazaar.json";
+import HomeCategory from "./HomeCategory";
+import Title from "../Title";
 
-export default function Categories({ homeCategory, bazaarCategory }) {
+export default function Categories({ homeCategory  }) {
   const [categories, setCategories] = useState([]);
-  const [categoriesBazaar, setCategoriesBazaar] = useState([]);
 
   useEffect(() => {
     setCategories(categoryHome);
-  }, []);
-
-  useEffect(() => {
-    setCategoriesBazaar(categoryBazaar);
   }, []);
 
   return (
@@ -26,11 +19,6 @@ export default function Categories({ homeCategory, bazaarCategory }) {
             homeCategory === true &&
             categories.map((category, index) => (
               <HomeCategory key={index} category={category} />
-            ))}
-          {categoriesBazaar &&
-            bazaarCategory === true &&
-            categoriesBazaar.map((category, index) => (
-              <BazaarCategory key={index} category={category} />
             ))}
         </div>
       </div>

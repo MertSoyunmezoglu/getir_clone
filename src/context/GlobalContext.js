@@ -5,9 +5,12 @@ export const GlobalContext = createContext();
 
 export function GlobalContextProvider({ children }) {
   const [phoneCheck, setPhoneCheck] = useState(false);
-  const [order, setOrder] = useState("");
+  const [address, setAddress] = useState("");
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
+  const [order,setOrder] = useState("");
+
   const [pathes, setPathes] = useState("");
   const [location, setLocation] = useState("");
   const [state, setState] = useState({
@@ -15,7 +18,7 @@ export function GlobalContextProvider({ children }) {
     cart: [],
     list: [],
   });
-
+ 
   useEffect(() => {
     if (window.location.pathname.split("/")[1] === "kategoriler") {
       setPathes(window.location.pathname.split("/")[2]);
@@ -27,6 +30,20 @@ export function GlobalContextProvider({ children }) {
   const handleClick = () => {
     setLocation(window.location.pathname);
   };
+  const paths = [
+    { path: "/", subPath: "kategoriler" },
+    { path: "/yemek", subPath: "/restoranlar" },
+    { path: "/buyuk", subPath: "/kategoriler" },
+    { path: "/su", subPath: "/kategoriler" },
+    { path: "/carsi", subPath: "/isletmeler" },
+  ];
+  const pathname = window.location.pathname;
+  const found = paths.find((path) => path.path === pathname);
+  
+  const totalCartAmount = [state.cart
+  .reduce((total, price) => total + price.count * price.price, 0)
+  .toFixed(2)];
+  console.log(totalCartAmount);
 
   const addToCart = (product) =>
     setState({
@@ -72,8 +89,6 @@ export function GlobalContextProvider({ children }) {
       cart: state.cart.filter((cartItem) => cartItem.id !== id),
     });
 
-
-
   function formatPhoneNumber(value) {
     if (!value) return value;
     const phoneNumber = value.replace(/[^\0-9]/g, "");
@@ -86,7 +101,8 @@ export function GlobalContextProvider({ children }) {
       return `${phoneNumber.slice(0, 3)} ${phoneNumber.slice(4)}`;
     }
   }
-
+ 
+   
   return (
     <GlobalContext.Provider
       value={{
@@ -98,14 +114,18 @@ export function GlobalContextProvider({ children }) {
         increase,
         decrease,
         removeFromCart,
-        setOrder,
         order,
+        setOrder,
         number,
         setNumber,
         name,
-        pathes,
         setName,
+        email,
+        setEmail,
+        pathes,
         handleClick,
+        pathname,found,totalCartAmount,
+        address, setAddress
       }}
     >
       {children}

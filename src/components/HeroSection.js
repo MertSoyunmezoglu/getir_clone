@@ -51,7 +51,7 @@ export default function HeroSection({
         {bigSection === true ? <BigContent /> : null}
         {waterSection === true ? <WaterContent /> : null}
       </div>
-      {bazaarSection === true ? <BazaarContent /> : null}
+      
     </div>
   );
 }

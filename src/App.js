@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+import Header from "./components/ui/header/Header";
 
 import { Link, NavLink, Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
@@ -10,7 +10,7 @@ import { useSelector } from "react-redux";
 import Page404 from "components/404";
 import { useEffect, useState } from "react";
 import ProtectedRoute from "authentication/ProtectedRoute";
-import Login from "authentication/Login";
+
 import PhoneSignUp from "authentication/PhoneSignUp";
 import Signup from "authentication/Signup";
 
@@ -22,6 +22,8 @@ import BuyukLayout from "pages/buyuk";
 import Buyuk from "pages/buyuk/Buyuk";
 import SuLayout from "pages/su";
 import Su from "pages/su/Su";
+import AccountLayout from "pages/account";
+import Account from "pages/account/Account";
 import { UserAuthContextProvider } from "context/UserAuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -30,6 +32,13 @@ import Isletmeler from "pages/subPages/Isletmeler";
 import Restoranlar from "pages/yemek/Restoranlar";
 import { GlobalContextProvider } from "context/GlobalContext";
 import category from "api/categories.json";
+import Address from "pages/account/Address";
+import Favorites from "pages/account/Favorites";
+import BillingInfo from "pages/account/BillingInfo";
+import PaymentMethods from "pages/payment/PaymentMethods";
+import Contact from "pages/account/Contact";
+import PastOrdersList from "pages/account/PastOrdersList";
+import Payment from "pages/payment/Payment";
 
 function App() {
   const { open, data } = useSelector((state) => state.modal);
@@ -49,7 +58,6 @@ function App() {
           <Routes>
             <Route path="/phonesignup" element={<PhoneSignUp />} />
             <Route path="/signup" element={<Signup />} />
-            <Route path="/login" element={<Login />} />
 
             <Route path="/" element={<HomeLayout />}>
               <Route index={true} element={<Home />} />
@@ -106,12 +114,11 @@ function App() {
                 }
               />
               <Route path=":list" element={<Kategoriler />}>
-              <Route path=":sublist" element={<Kategoriler />}>
-                <Route path=":id" element={<Kategoriler />} />
+                <Route path=":sublist" element={<Kategoriler />}>
+                  <Route path=":id" element={<Kategoriler />} />
+                </Route>
               </Route>
             </Route>
-            </Route>
-
             <Route path="/carsi" element={<Carsi />} />
             <Route
               path="/carsi/isletmeler"
@@ -121,7 +128,18 @@ function App() {
                 </ProtectedRoute>
               }
             />
-
+             
+              <Route path="/hesap" element={<ProtectedRoute><AccountLayout /></ProtectedRoute>}>
+                <Route index={true} element={<Account />} />
+                <Route path="adreslerim" element={<Address />} />
+                <Route path="favori-urunlerim" element={<Favorites />} />
+                <Route path="gecmis-siparislerim" element={<PastOrdersList />} />
+                <Route path="odeme-yontemlerim" element={<PaymentMethods />} />
+                <Route path="fatura" element={<BillingInfo />} />
+                <Route path="iletisim-tercihleri" element={<Contact />} />
+              </Route>
+             
+              <Route path="/odeme" element={<ProtectedRoute><Payment /></ProtectedRoute>}/>
             <Route path="*" element={<Page404 />} />
           </Routes>
         </UserAuthContextProvider>

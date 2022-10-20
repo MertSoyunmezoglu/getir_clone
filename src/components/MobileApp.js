@@ -32,7 +32,7 @@ function MobileApp() {
           </div>
         </div>
         <div className="self-end mt-4">
-          <img src="https://getir.com/_next/static/images/phoneLanding-88c033545710c4808054072689e187d7.png" />
+          <img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png" />
         </div>
       </div>
     </>

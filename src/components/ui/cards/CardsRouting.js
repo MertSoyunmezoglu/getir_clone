@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
 import cardsData from "api/cards";
-import HomeCard from "./ui/cards/HomeCard";
-import FoodCard from "./ui/cards/FoodCard";
-import BigCard from "./ui/cards/BigCard";
-import BazaarCard from "./ui/cards/BazaarCard";
-import WaterCard from "./ui/cards/WaterCard";
+import HomeCard from "./HomeCard";
+import FoodCard from "./FoodCard";
+import BigCard from "./BigCard";
+import WaterCard from "./WaterCard";
 
 export default function Cards({
   foodCard,
   homeCard,
   bigCard,
   waterCard,
-  bazaarCard,
 }) {
   const [cards, setCards] = useState([]);
 
@@ -34,9 +32,6 @@ export default function Cards({
       {cards.length &&
         waterCard === true &&
         cards.map((card, index) => <WaterCard key={index} card={card} />)}
-      {cards.length &&
-        bazaarCard === true &&
-        cards.map((card, index) => <BazaarCard key={index} card={card} />)}
     </div>
   );
 }

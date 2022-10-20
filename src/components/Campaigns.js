@@ -19,10 +19,9 @@ export default function Campaigns({
   waterBanner,
   foodBanner,
   validHomeBanner,
-  validMallsBanner,
-  validFoodBanner,
+
 }) {
-  function NextBtn({ className, onClick }) {
+  function NextBtn({onClick }) {
     return (
       <button
         className={`absolute top-1/2 -left-6 -translate-y-1/2 text-brand-color hover:text-yellow-500`}
@@ -34,7 +33,7 @@ export default function Campaigns({
     );
   }
 
-  function PrevBtn({ className, onClick }) {
+  function PrevBtn({  onClick }) {
     return (
       <button
         className={`absolute top-1/2 -right-6  -translate-y-1/2 text-brand-color hover:text-yellow-500`}
@@ -144,12 +143,7 @@ export default function Campaigns({
           banners.map((banner, index) => (
             <WaterCampaigns banner={banner} index={index} />
           ))}
-          
-        {banners.length &&
-          waterBanner === true &&
-          banners.map((banner, index) => (
-            <WaterCampaigns banner={banner} index={index} />
-          ))}
+      
           {banners.length &&
             validHomeBanner === true &&
             banners.map((banner, index) => (

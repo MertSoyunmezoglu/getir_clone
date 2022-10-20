@@ -1,18 +1,11 @@
 import ApplyNow from "components/ApplyNow";
 import Campaigns from "components/Campaigns";
-import Cards from "components/Cards";
-
-
-
+import Cards from "components/ui/cards/CardsRouting";
 import React from "react";
 import { useState } from "react";
-
 import burgervid from "../../assets/burgervid.mp4";
-
-
-
 import LocationForm from "forms/LocationForm";
-
+import Footer from "components/Footer";
 
 export default function YemekLayout() {
   const [foodCard, setFoodCard] = useState(true);
@@ -20,9 +13,6 @@ export default function YemekLayout() {
 
   return (
     <div className="yemek">
-
-
-      
       <div className=" sm:block w-full  object-cover h-[600px] relative mx-auto  overflow-hidden ">
         <video src={burgervid} autoPlay loop muted></video>
         <LocationForm />
@@ -33,8 +23,7 @@ export default function YemekLayout() {
         <Cards foodCard={foodCard} />
         <ApplyNow />
       </div>
-      
-      
+      <Footer />
     </div>
   );
 }

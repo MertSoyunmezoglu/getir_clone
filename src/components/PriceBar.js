@@ -1,4 +1,4 @@
-import { ContextProvider } from "context/GlobalContext";
+
 import React from "react";
 import PriceBarBig from "./ui/pricebar/PriceBarBig";
 import PriceBarHome from "./ui/pricebar/PriceBarHome";

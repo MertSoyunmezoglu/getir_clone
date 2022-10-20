@@ -73,7 +73,7 @@ export default function Footer() {
               <a href="https://www.eticaret.gov.tr/siteprofil/A8C52359B2F14075B6829557FC4306B1/getircom">
                 <img
                   className="w-20 mx-3 pl-1 "
-                  src="https://getir.com/_next/static/images/etbis-33c159729adc8b4e2b946310f038d2f4.png"
+                  src="https://cdn.getir.com/getirweb-images/common/etbis.png"
                   alt="Etbis"
                 />{" "}
               </a>
@@ -84,7 +84,7 @@ export default function Footer() {
           <div className=" container  md:-ml-16 xl:-ml-24  text-md  py-6  flex  ">
             © 2022 Getir
             <span className="relative before:w-1 ml-5 before:h-1   before:rounded-3xl before:bg-primary-brand-color before:absolute before:-left-3 before:top-1/2 before:-translate-y-1/2 ">
-              {" "}
+             
             </span>
             <a
               className=" text-primary-brand-color  text-sm mt-0.5"

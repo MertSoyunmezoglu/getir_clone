@@ -60,6 +60,7 @@ const PhoneSignUp = () => {
     } catch (err) {
       setError(err.message);
     }
+   
   };
 
   return (
@@ -74,7 +75,7 @@ const PhoneSignUp = () => {
                   id="phone-input-container"
                   defaultCountry="TR"
                   display="none"
-                  value={number}
+                  
                   onChange={setNumber}
                   placeholder="Telefon Numarası"
                 />

@@ -12,7 +12,7 @@ import { ContextProvider } from "../context/GlobalContext";
 
 const Signup = () => {
   const [selected, setSelected] = useState("TR");
-  const [email, setEmail] = useState("");
+
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
 
@@ -22,14 +22,14 @@ const Signup = () => {
 
 
   const { signUp } = useUserAuth();
- const {  pathname, found, formatPhoneNumber,setPhoneCheck,phoneCheck,name, setName } = ContextProvider();
+ const {  pathname, found,email, formatPhoneNumber,setPhoneCheck,phoneCheck,name, setName,setNumber,setEmail } = ContextProvider();
 
   let navigate = useNavigate();
-console.log(pathname);
+
   const handleInput = (e) => {
     const formattedPhoneNumber = formatPhoneNumber(e.target.value);
     setInputValue(formattedPhoneNumber);
-    
+    setNumber(formattedPhoneNumber);
   };
   
   useEffect(() => {
@@ -42,6 +42,7 @@ console.log(pathname);
   }, [inputValue])
 
   const handleSubmit = async (e) => {
+    
     e.preventDefault();
     setError("");
     try {
@@ -49,8 +50,7 @@ console.log(pathname);
       if(pathname===found.path)
       { navigate(found.path + found.subPath);}
       else{navigate("kategoriler");}
-      console.log(name);
-   
+      
       modalClose();
     } catch (err) {
       setError(err.message);
@@ -100,7 +100,7 @@ console.log(pathname);
                   required
                   type="text"
                   maxLength={11}
-                  value={inputValue}
+
                   onChange={handleInput}
                   className={` flex-nowrap border-2 peer  hover:border-primary-brand-color   border-gray-300  rounded-md h-14 w-[322px]    ${
                     phoneCheck === true ? "focus:border-red-400 " : "null"

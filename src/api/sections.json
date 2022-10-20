@@ -2,27 +2,37 @@
 
     {
         "id": 1,
-        "image": "https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg",
-        "imageHeroBig":"https://getir.com/_next/static/images/market-7-8f621120b0e2786fad8389cd5b1718be.jpg"
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-1.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-1.jpg"
       },
       {
         "id": 2,
-        "image": "https://getir.com/_next/static/images/getir-mainpage-4-1751ad2d8fb42a88742d6751938da7e7.jpg",
-        "imageHeroBig":"https://getir.com/_next/static/images/market-6-61d65d55307e0c0da7bc7fe928951ba3.jpg"
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-2.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-2.jpg"
       },
       {
         "id": 3,
-        "image": "https://getir.com/_next/static/images/getir-mainpage-3-ffd1e98c5da51809f9adcc3a4a37d751.jpg",
-        "imageHeroBig":"https://getir.com/_next/static/images/market-5-9585774ecca123da206c87c36f01e0e8.jpg"
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-3.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-3.jpg"
       },
       {
         "id": 4,
-        "image": "https://getir.com/_next/static/images/getir-mainpage-2-7c23764275cdaf14d7b6cf15ebbdd0c1.jpg",
-        "imageHeroBig":"https://getir.com/_next/static/images/market-4-084f26811a2ec79bfcac5582e29db80d.jpg"
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-4.jpg"
       },
       {
         "id": 5,
-        "image": "https://getir.com/_next/static/images/getir-mainpage-1-757eca6a46304def60cabce74d3f20a2.jpg",
-        "imageHeroBig":"https://getir.com/_next/static/images/market-3-40a5665bd2f5bf388061e0c2f3ca4a4b.jpg"
-      }  
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-1.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-5.jpg"
+      },
+      {
+        "id": 6,
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-2.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-6.jpg"
+      }  ,
+      {
+        "id": 7,
+        "image": "https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-3.jpg",
+        "imageHeroBig":"https://cdn.getir.com/getirweb-images/common/hero-posters/market-7.jpg"
+      }     
 ]

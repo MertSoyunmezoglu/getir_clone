@@ -1,6 +1,6 @@
 import Campaigns from "components/Campaigns";
-import Cards from "components/Cards";
-import Categories from "components/Categories";
+import Cards from "components/ui/cards/CardsRouting";
+import Categories from "components/ui/categories/Categories";
 
 import HeroSection from "components/HeroSection";
 import MobileApp from "components/MobileApp";

@@ -2,13 +2,13 @@ import React from 'react'
 import {Link, useNavigate} from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 
-import Header from 'components/Header';
+import Header from 'components/ui/header/Header';
 import HeroSection from 'components/HeroSection';
-import Categories from 'components/Categories';
+import Categories from 'components/ui/categories/Categories';
 import Campaigns from 'components/Campaigns';
 
 import MobileApp from 'components/MobileApp';
-import Cards from 'components/Cards';
+import Cards from 'components/ui/cards/CardsRouting';
 import Footer from 'components/Footer';
 
 import { useState } from 'react';
