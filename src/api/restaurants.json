@@ -1,0 +1,93 @@
+
+ [
+    {
+      "id": 1,
+    "title":"Tantunim33 Tantuni & Dürüm (Merkez Mah.)",
+    "rate":4.7,
+    "restaurantimg":"https://cdn.getiryemek.com/restaurants/1661760180144_1125x522.jpeg",
+    "whatEat":"https://cdn.getiryemek.com/recommendation/ne-yesem-tab-1%20%281%29.jpeg",
+    "time":"45-60 dk",
+    "minValue":"60,00" 
+    },
+    {
+        "id": 2,
+      "title":"Komagene Etsiz Çiğ Köfte (Çarşı Mah.)",
+      "rate":3.6,
+      "restaurantimg":"https://cdn.getiryemek.com/restaurants/1663229950065_1125x522.jpeg",
+      "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+      "time":"10-35 dk",
+      "minValue":"70,00" 
+      },
+      {
+        "id": 3,
+      "title":"Hacıoğlu Lahmacun & Kebap (Yeni Mah.)",
+      "rate":4.2,
+      "restaurantimg":"https://cdn.getiryemek.com/restaurants/1665134182723_1125x522.jpeg",
+      "whatEat":"https://cdn.getiryemek.com/recommendation/ne-yesem-tab-2%20%281%29.jpeg",
+      "time":"20-30 dk",
+      "minValue":"100,00"
+      },
+      {
+        "id": 4,
+      "title":"McDonald's (Doğu Mah.)",
+      "rate":3.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1591282000737_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"45-55 dk",
+        "minValue":"60,00" 
+      },
+      {
+        "id": 5,
+      "title":"Cajun Corner (Batı Mah.)",
+      "rate":4.4,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1659096847759_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"50-60 dk",
+        "minValue":"80,00" 
+      },
+      {
+        "id": 6,
+      "title":"Dönerci Celal Usta Döner (Karlıktepe Mah.)",
+      "rate":4.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1664525074937_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"30-45 dk",
+        "minValue":"120,00" 
+      },
+      {
+        "id": 7,
+      "title":"Ercan Burger (Doğu Mah.)",
+      "rate":4.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1664611119751_1125x522.webp",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"40-45 dk",
+        "minValue":"75,00" 
+      },
+      {
+        "id": 8,
+      "title":"YavuzBey İskender&Kebap Salonu (Çınardere Mah.)",
+      "rate":4.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1646916960485_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"30-45 dk",
+        "minValue":"120,00" 
+      },
+      {
+        "id": 9,
+      "title":"Little Ceasers (Bahçelievler Mah.)",
+      "rate":4.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1568289839702_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"30-45 dk",
+        "minValue":"120,00" 
+      },
+      {
+        "id": 10,
+      "title":"Chinese & Sushi Express (Kordonboyu Mah.)",
+      "rate":4.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1615551862480_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"30-45 dk",
+        "minValue":"120,00" 
+      }
+]

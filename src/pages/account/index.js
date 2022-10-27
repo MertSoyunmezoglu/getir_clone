@@ -1,11 +1,11 @@
-import Footer from "components/Footer";
+import Footer from "components/ui/footer/Footer";
 import Header from "components/ui/header/Header";
 import Search from "components/Search";
  
 import React, { useEffect } from "react";
 
 import { Outlet } from "react-router-dom";
-import Options from "./options/Options";
+import Options from "../../components/ui/profile/Options";
 
 export default function AccountLayout() {
   

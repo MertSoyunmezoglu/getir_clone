@@ -1,5 +1,5 @@
 
-import Footer from "components/Footer";
+import Footer from "components/ui/footer/Footer";
 import React from "react";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
@@ -11,6 +11,7 @@ export default function YemekLayout() {
   const [foodBanner, setFoodBanner] = useState(true);
 
   return (
+    <>
     <div className="yemek">
       <Header />
       <Helmet>
@@ -20,6 +21,7 @@ export default function YemekLayout() {
       <Outlet />
       
     </div>
+    </>
     
   );
 }

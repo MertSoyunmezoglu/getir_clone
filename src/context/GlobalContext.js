@@ -1,6 +1,6 @@
 import { createContext, React, useContext, useEffect, useState } from "react";
 import products from "api/products.json";
-
+import { useWindowWidth } from "@react-hook/window-size";
 export const GlobalContext = createContext();
 
 export function GlobalContextProvider({ children }) {
@@ -10,7 +10,7 @@ export function GlobalContextProvider({ children }) {
   const [email, setEmail] = useState("");
   const [number, setNumber] = useState("");
   const [order,setOrder] = useState("");
-
+  const windowWidth = useWindowWidth();
   const [pathes, setPathes] = useState("");
   const [location, setLocation] = useState("");
   const [state, setState] = useState({
@@ -125,7 +125,7 @@ export function GlobalContextProvider({ children }) {
         pathes,
         handleClick,
         pathname,found,totalCartAmount,
-        address, setAddress
+        address, setAddress,windowWidth
       }}
     >
       {children}

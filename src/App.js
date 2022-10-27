@@ -1,21 +1,12 @@
-import Header from "./components/ui/header/Header";
-
-import { Link, NavLink, Route, Routes } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
-
-import Carsi from "pages/Carsi";
-
-import Modal from "components/Modal";
+import { Route, Routes } from "react-router-dom";
+import Modal from "components/modals/BaseModal";
 import { useSelector } from "react-redux";
 import Page404 from "components/404";
-import { useEffect, useState } from "react";
 import ProtectedRoute from "authentication/ProtectedRoute";
-
 import PhoneSignUp from "authentication/PhoneSignUp";
 import Signup from "authentication/Signup";
-
-import HomeLayout from "pages/anasayfa";
-import Home from "pages/anasayfa/Home";
+import HomeLayout from "pages/mainpage";
+import Home from "pages/mainpage/Home";
 import YemekLayout from "pages/yemek";
 import Yemek from "pages/yemek/Yemek";
 import BuyukLayout from "pages/buyuk";
@@ -27,11 +18,9 @@ import Account from "pages/account/Account";
 import { UserAuthContextProvider } from "context/UserAuthContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Kategoriler from "pages/subPages/Kategoriler";
-import Isletmeler from "pages/subPages/Isletmeler";
-import Restoranlar from "pages/yemek/Restoranlar";
+import Kategoriler from "pages/subpages/Kategoriler";
+import Restoranlar from "pages/subpages/Restoranlar";
 import { GlobalContextProvider } from "context/GlobalContext";
-import category from "api/categories.json";
 import Address from "pages/account/Address";
 import Favorites from "pages/account/Favorites";
 import BillingInfo from "pages/account/BillingInfo";
@@ -42,11 +31,6 @@ import Payment from "pages/payment/Payment";
 
 function App() {
   const { open, data } = useSelector((state) => state.modal);
-  const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-    setCategories(category);
-  }, []);
 
   return (
     <>
@@ -55,6 +39,7 @@ function App() {
       <GlobalContextProvider>
         <UserAuthContextProvider>
           {open && <Modal name={open} data={data} />}
+
           <Routes>
             <Route path="/phonesignup" element={<PhoneSignUp />} />
             <Route path="/signup" element={<Signup />} />
@@ -119,27 +104,32 @@ function App() {
                 </Route>
               </Route>
             </Route>
-            <Route path="/carsi" element={<Carsi />} />
+
             <Route
-              path="/carsi/isletmeler"
+              path="/hesap"
               element={
                 <ProtectedRoute>
-                  <Isletmeler />
+                  <AccountLayout />
+                </ProtectedRoute>
+              }
+            >
+              <Route index={true} element={<Account />} />
+              <Route path="adreslerim" element={<Address />} />
+              <Route path="favori-urunlerim" element={<Favorites />} />
+              <Route path="gecmis-siparislerim" element={<PastOrdersList />} />
+              <Route path="odeme-yontemlerim" element={<PaymentMethods />} />
+              <Route path="fatura" element={<BillingInfo />} />
+              <Route path="iletisim-tercihleri" element={<Contact />} />
+            </Route>
+
+            <Route
+              path="/odeme"
+              element={
+                <ProtectedRoute>
+                  <Payment />
                 </ProtectedRoute>
               }
             />
-             
-              <Route path="/hesap" element={<ProtectedRoute><AccountLayout /></ProtectedRoute>}>
-                <Route index={true} element={<Account />} />
-                <Route path="adreslerim" element={<Address />} />
-                <Route path="favori-urunlerim" element={<Favorites />} />
-                <Route path="gecmis-siparislerim" element={<PastOrdersList />} />
-                <Route path="odeme-yontemlerim" element={<PaymentMethods />} />
-                <Route path="fatura" element={<BillingInfo />} />
-                <Route path="iletisim-tercihleri" element={<Contact />} />
-              </Route>
-             
-              <Route path="/odeme" element={<ProtectedRoute><Payment /></ProtectedRoute>}/>
             <Route path="*" element={<Page404 />} />
           </Routes>
         </UserAuthContextProvider>

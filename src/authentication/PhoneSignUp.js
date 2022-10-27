@@ -6,7 +6,7 @@ import PhoneInput from "react-phone-number-input";
 import { useUserAuth } from "../context/UserAuthContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { modalClose } from "helper";
+import { modalClose } from "helper/helper";
 import { ContextProvider } from "context/GlobalContext";
 
 const PhoneSignUp = () => {
@@ -125,7 +125,7 @@ const PhoneSignUp = () => {
                 <label className=" mx-3 relative block group">
                 <input
                   required
-                  type="password"
+                  type="text"
                   className=" border-2 peer  border-gray-300  rounded-md h-14  w-full  hover:border-primary-brand-color "
                   onChange={(e) => setOtp(e.target.value)}
                 />

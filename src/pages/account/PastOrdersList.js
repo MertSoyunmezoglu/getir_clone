@@ -1,4 +1,4 @@
-import Orders from 'components/Orders'
+import Orders from 'components/ui/order/Orders'
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import { FcHome } from 'react-icons/fc'

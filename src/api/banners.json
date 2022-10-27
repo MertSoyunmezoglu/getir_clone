@@ -5,7 +5,11 @@
   "image": "https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1629378026496.jpeg",
   "imageBig" : "https://cdn.getir.com/promos/62a9e25038509018c7aa500b_banner_tr_1658227253437.jpeg",
   "imageWater":"https://cdn.getir.com/misc/6041e10d78933524001d4046_banner_tr_1632818257569.jpeg",
-  "validHome":"https://cdn.getir.com/promos/62ed26d5b111ed272e69ddf3_banner_tr_1659936868424.jpeg"
+  "validHome":"https://cdn.getir.com/promos/62ed26d5b111ed272e69ddf3_banner_tr_1659936868424.jpeg",
+  "imageFood":"https://cdn.getiryemek.com/promo%2F1664529487942_sbx-banner_eylul_re2_V1%20(2).jpg",
+  "validBig":"https://cdn.getir.com/promos/632c787676f36317d40c4c3c_banner_tr_1664195038189.jpeg"
+
+  
 },
 
 { 
@@ -13,7 +17,9 @@
   "image": "https://cdn.getir.com/misc/611e4a50c270af509cd486b5_banner_tr_1629375115516.jpeg",
   "imageBig" : "https://cdn.getir.com/misc/611e67605cf744c8c6b2a368_banner_tr_1654704221088.jpeg",
   "imageWater":"https://cdn.getir.com/misc/603f2cae35e2441f767cd890_banner_tr_1647264253828.jpeg",
-  "validHome":"https://cdn.getir.com/misc/62eccf05f195d8d148deb6ed_banner_tr_1659780547324.jpeg"
+  "validHome":"https://cdn.getir.com/promos/63471f2db9dfb84f2494c53c_banner_tr_1665605600441.jpeg",
+  "imageFood":"https://cdn.getiryemek.com/promo%2F1666374589895_popeyes_ekim_hero_banner-tr.png",
+  "validBig":"https://cdn.getir.com/misc/63496a30be53d15f051841f4_banner_tr_1665755736185.jpeg"
 },
 
 {
@@ -21,7 +27,9 @@
   "image": "https://cdn.getir.com/misc/5fb524d4c725f1530045cefc_banner_tr_1609343376255.jpeg",
   "imageBig" : "https://cdn.getir.com/misc/62152d4dec212ba4186356be_banner_tr_1649138690922.jpeg",
   "imageWater":"https://cdn.getir.com/misc/6167d1573e571c50b7b7f0ac_banner_tr_1644589298993.jpeg",
-  "validHome":"https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1655191370129.jpeg"
+  "validHome":"https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1655191370129.jpeg",
+  "imageFood":"https://cdn.getiryemek.com/promo%2F1664974870337_GY_Hero_Komagene_Banner_TR.png",
+  "validBig":"https://cdn.getir.com/promos/63358d4ccef2c869f25cb8bc_banner_tr_1664892839992.jpeg"
 },
 
 {
@@ -29,6 +37,8 @@
   "image": "https://cdn.getir.com/misc/6069cee3f7be2b6472dc8b5f_banner_tr_1629921878792.jpeg",
   "imageBig" : "https://cdn.getir.com/misc/62a0cbe978ab4566649da256_banner_tr_1654705156487.jpeg",
   "imageWater":"https://cdn.getir.com/misc/6041e17e8ba2923214ef6c6d_banner_tr_1632818421011.jpeg",
-  "validHome":"https://cdn.getir.com/misc/62eb6a010e82a38b08de10e7_banner_tr_1659595305133.jpeg"
+  "validHome":"https://cdn.getir.com/misc/62eb6a010e82a38b08de10e7_banner_tr_1659595305133.jpeg",
+  "imageFood":"https://cdn.getiryemek.com/promo%2F1664562320488_tab4_banner_re2-_marka0_15_eng.jpg",
+  "validBig":"https://cdn.getir.com/misc/633c09f4f9f08a3807445c11_banner_tr_1665668809924.jpeg"
 }
  ]

@@ -1,23 +1,14 @@
-import { useEffect, useState } from "react";
-
-
-
-
-
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useUserAuth } from "context/UserAuthContext";
 import MainHeader from "./MainHeader";
-import authHeader from "./authHeader";
+import AuthHeader from "./AuthHeader";
 
 export default function Header() {
- 
   const { user } = useUserAuth();
 
-
-
   return (
-    <div className="bg-brand-color ">
-      <div className="  container mx-auto h-12  flex items-center justify-center sm:justify-between">
+    <div  >
+      <div className="    px-32 h-12 bg-brand-color flex items-center justify-center sm:justify-between">
         <div className="flex gap-3  items-center  justify-between pt-2 ">
           <nav>
             {!user ? (
@@ -89,7 +80,7 @@ export default function Header() {
             )}
           </nav>
         </div>
-      {user ?<authHeader/> : <MainHeader/>} 
+        {user ? <AuthHeader /> : <MainHeader />}
       </div>
     </div>
   );

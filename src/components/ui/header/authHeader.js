@@ -1,19 +1,14 @@
 import React, { useState } from "react";
-
 import { BiGlobe } from "react-icons/bi";
 import { HiGift } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
- 
 import { useWindowWidth } from "@react-hook/window-size";
- 
-import Profile from "../Profile";
+import Profile from "../profile/Profile";
 
-export default function ValidHeader() {
+export default function AuthHeader() {
 
   const windowWidth = useWindowWidth();
- 
   const [click, setClick] = useState(false);
-
 
   const toggleClick = () => {
     setClick(!click);

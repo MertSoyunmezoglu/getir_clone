@@ -1,4 +1,4 @@
-import GetOrder from "components/ui/GetOrder";
+import GetOrder from "components/ui/order/GetOrder";
 import { ContextProvider } from "context/GlobalContext";
 import React from "react";
 import { HiPlus } from "react-icons/hi";

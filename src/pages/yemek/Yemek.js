@@ -1,11 +1,12 @@
 import ApplyNow from "components/ApplyNow";
-import Campaigns from "components/Campaigns";
-import Cards from "components/ui/cards/CardsRouting";
+import Campaigns from "components/ui/campaigns/CampaignsRouter";
+import Cards from "components/ui/cards/CardsRouter";
 import React from "react";
 import { useState } from "react";
 import burgervid from "../../assets/burgervid.mp4";
-import LocationForm from "forms/LocationForm";
-import Footer from "components/Footer";
+import LocationForm from "components/forms/LocationForm";
+import Footer from "components/ui/footer/Footer";
+import Title from "helper/Title";
 
 export default function YemekLayout() {
   const [foodCard, setFoodCard] = useState(true);
@@ -19,11 +20,12 @@ export default function YemekLayout() {
       </div>
 
       <div className="container mx-auto bg-gray-100  ">
+      <Title>Mutfaklar</Title>
         <Campaigns foodBanner={foodBanner} />
         <Cards foodCard={foodCard} />
         <ApplyNow />
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }

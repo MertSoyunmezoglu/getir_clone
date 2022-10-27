@@ -17,6 +17,7 @@
     }
    
 }
+
 .flag-select button {
 @apply h-14 border-2 border-gray-300 md:pl-1 md:ml-4 gap-y-1 font-medium bg-white md:-mr-4 transition-colors  hover:border-secondary-brand-color
 }
@@ -29,7 +30,10 @@
     height: 100vh;
 
 }
-
+.text-xxs{
+    font-size: 0.70rem/* 12px */;   
+    line-height: 0.75rem/* 16px */;
+}
 .border-x-y{
     border-left-width: 1px;
     border-right-width: 1px;

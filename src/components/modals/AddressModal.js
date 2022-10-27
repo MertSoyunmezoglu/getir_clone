@@ -4,7 +4,7 @@ import { Form } from "react-bootstrap";
 
 import "react-toastify/dist/ReactToastify.css";
 
-import { modalClose } from "helper";
+import { modalClose } from "helper/helper";
 import { ContextProvider } from "context/GlobalContext";
 
 const AddressModal = () => {

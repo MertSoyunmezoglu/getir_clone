@@ -7,7 +7,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ReactFlagsSelect from "react-flags-select";
 import { CgDanger } from "react-icons/cg";
-import { modalClose } from "helper";
+import { modalClose } from "helper/helper";
 import { ContextProvider } from "../context/GlobalContext";
 
 const Signup = () => {

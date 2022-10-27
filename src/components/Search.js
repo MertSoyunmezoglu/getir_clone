@@ -1,13 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { BsSearch } from "react-icons/bs";
-import {FcHome } from "react-icons/fc";
+import { FcHome } from "react-icons/fc";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
+
 export default function Search() {
+  
   return (
     <div className=" w-full  h-[4.5rem] bg-primary-brand-color ">
-      <div className="container  flex justify-between">
-        <div>
+      <div className="container grid grid-cols-7 justify-between">
+        <div className=" col-span-2">
           <NavLink to="/kategoriler">
             <button
               type="submit"
@@ -18,41 +20,40 @@ export default function Search() {
           </NavLink>
         </div>
 
-        <div className="  items-center mr-52 z-10 flex">
+        <div className=" col-span-5  items-center  z-10 flex">
           <form>
             <div class="relative">
               <div class="flex absolute inset-y-0 left-0 items-center pl-8  pointer-events-none">
-                <BsSearch color= '#5d3ebc' />
+                <BsSearch color="#5d3ebc" />
               </div>
 
               <div class="flex absolute inset-y-0 right-16 items-center   pointer-events-none">
-             <button className="relative flex gap-2 cursor-pointer">
-             <FcHome size={20} /> Ev 
-             <MdOutlineArrowForwardIos size={24} color= '#5d3ebc' />
-             </button> 
-            </div>
+                <button className="relative flex gap-2 cursor-pointer">
+                  <FcHome size={20} /> Ev
+                  <MdOutlineArrowForwardIos size={24} color="#5d3ebc" />
+                </button>
+              </div>
               <input
                 type="search"
                 id="default-search"
-                class="block px-72 h-12 pl-12 ml-4 mr-12 z-20 text-sm text-gray-600 bg-gray-50 rounded-l-xl rounded-r-3xl border-none    "
+                class="block px-52 h-10 pl-12 ml-4 mr-12 z-20 text-sm text-gray-600 bg-gray-50 rounded-l-xl rounded-r-3xl border-none    "
                 placeholder="Ürün ara"
                 required
               />
-      
 
               <div className="">
-               
                 <button
                   type="submit"
-                  class="absolute  -z-10  top-0 -right-12  w-32 h-12 text-sm font-semibold text-white bg bg-brand-yellow rounded-r-lg   focus:ring-4 focus:outline-none  "
-                > 
-                  <span class=" ml-8 tracking-wider text-primary-brand-color">TVS 10 dk</span>
+                  class="absolute  -z-10  top-0 -right-12  w-32 h-10 text-sm font-semibold text-white bg bg-brand-yellow rounded-r-lg   focus:ring-4 focus:outline-none  "
+                >
+                  <span class=" ml-8 tracking-wider text-primary-brand-color">
+                    TVS 10 dk
+                  </span>
                 </button>
               </div>
             </div>
           </form>
         </div>
-        <div></div>
       </div>
     </div>
   );

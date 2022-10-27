@@ -3,7 +3,7 @@ import { useMemo } from 'react'
 import {GoogleMap, useLoadScript, Marker} from '@react-google-maps/api'
 import { BsSearch } from 'react-icons/bs';
 import { BiCrosshair } from 'react-icons/bi';
-import {modalClose} from 'helper';
+import {modalClose} from 'helper/helper';
 export default function Maps() {
     const {isLoaded} = useLoadScript({googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,});
     if(!isLoaded) return <div>'Loading...'</div>;
