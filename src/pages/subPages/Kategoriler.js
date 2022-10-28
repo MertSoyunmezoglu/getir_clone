@@ -4,8 +4,10 @@ import { useState } from "react";
 import Search from "components/Search";
 import PriceBar from "components/ui/pricebar/PriceBar";
 import MainGrid from "pages/subpages/MainGrid";
+import { ContextProvider } from "context/GlobalContext";
 
 function Kategoriler( ) {
+  const {windowWidth}= ContextProvider();
   const [validHomeBanner ] = useState(true);
   const [validBigBanner] = useState(true);
    const pathname = window.location.pathname;
@@ -13,8 +15,8 @@ function Kategoriler( ) {
   return (
     <div>
       <Search />
-      <PriceBar />
-      <div className=" container mx-auto">
+      {windowWidth<640?null:<PriceBar />}
+      <div className=" xl:container mt-8 mx-auto">
        { pathname === "/kategoriler" ?  <Campaigns validHomeBanner={validHomeBanner} /> :
        <Campaigns validBigBanner={validBigBanner} />}
       </div>

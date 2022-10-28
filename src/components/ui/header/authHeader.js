@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import { BiGlobe } from "react-icons/bi";
 import { HiGift } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
-import { useWindowWidth } from "@react-hook/window-size";
 import Profile from "../profile/Profile";
+import { ContextProvider } from "context/GlobalContext";
 
 export default function AuthHeader() {
 
-  const windowWidth = useWindowWidth();
+  const {windowWidth} = ContextProvider()
   const [click, setClick] = useState(false);
 
   const toggleClick = () => {
@@ -15,7 +15,7 @@ export default function AuthHeader() {
   };
  
   return (
-    <nav className=" hidden sm:flex   gap-x-8 ml-8">
+    <nav className=" hidden sm:flex   gap-x-6  ">
       <button className=" text-white  text-opacity-80 flex items-center gap-1  xl:text-base font-medium transition-all  hover:text-opacity-100">
         <BiGlobe size={20} /> {windowWidth > 1024 && "Türkçe (TR)"}
       </button>

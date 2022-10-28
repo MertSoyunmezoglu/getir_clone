@@ -4,10 +4,10 @@ import { BiGlobe } from "react-icons/bi";
 import { HiUserAdd } from "react-icons/hi";
 import { FaUser } from "react-icons/fa";
 import store from "store";
-import { useWindowWidth } from "@react-hook/window-size";
+import { ContextProvider } from 'context/GlobalContext';
 
 export default function MainHeader() {
-    const windowWidth = useWindowWidth();
+  const {windowWidth} = ContextProvider()
     const handleRegisterModal = () => {
         store.dispatch(openModal({ name: "register" }));
       };

@@ -14,14 +14,14 @@ export default function RestaurantList({}) {
         restaurants.map((restaurant) => (
           <ul>
             <li key={restaurant.title}>
-              <div className="w-full h-40 rounded-lg bg-white flex relative items-center overflow-hidden my-4 px-4">
-                <button className="gap-y-10 flex-col hidden sm:flex">
+              <div className="w-full sm:h-40 h-60 rounded-lg bg-white md:flex relative items-center overflow-hidden my-4  sm:px-4">
+                <button className="gap-y-10 w-full  md:w-auto sm:flex">
                   <img
                     src={restaurant.restaurantimg}
                     alt="Kampanyalar"
-                    className="rounded-lg w-60 h-28"
+                    className="rounded-lg w-full md:w-auto h-48   sm:h-28"
                   />
-                  <span className="relative sm:absolute  left-48 top-6 z-[40] flex items-center">
+                  <span className="   absolute  md:left-48 right-4 top-0 md:top-6 z-[40] flex items-center">
                     <AiOutlineHeart
                       className=" text-white  opacity-80 m-4 hover:text-primary-brand-color transition-all "
                       size={28}
@@ -35,19 +35,19 @@ export default function RestaurantList({}) {
                     />
                   </div>
                 </button>
-                <div className=" justify-between  ">
-                  <div className="relative top-8 border w-20 gap-x-1 rounded-sm shadow-md text-primary-brand-color text-xs   h-5 bg-white font-bold sm:absolute right-4 bottom-2  z-[40] flex items-center">
+                <div className=" sm:justify-between ">
+                  <div className=" sm:top-8 border relative bottom-2 ml-6 sm:right-6  w-20 gap-x-1 rounded-sm  shadow-md text-primary-brand-color text-xs   h-5 bg-white font-bold  sm:absolute right-4  z-[40] flex items-center">
                     <AiTwotoneStar className="  ml-1 " size={12} />{" "}
                     {restaurant.rate}
                     <div className=" text-gray-500">
                       ({Math.round((Math.random() / 2) * 1000)}+)
                     </div>
                   </div>
-                  <button className="  relative w-72 mx-2 text-left -top-10 text-base font-semibold text-primary-brand-color truncate">
-                    {restaurant.title}
+                  <button className="  relative  md:w-44 lg:w-full xl:w-72  mx-2 text-left -top-14 sm:-top-10  font-semibold text-primary-brand-color truncate">
+                    <span className=" lg:text-sm   text-xxs">{restaurant.title}</span>
                   </button>
                 </div>
-                <div className="relative right-72 top-14">
+                <div className=" absolute translate-x-56 left-32 sm:left-4 mx-8 block bottom-0 sm:top-28  ">
                   <span>
                     <img
                       src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iOCIgY3k9IjgiIHI9IjgiIGZpbGw9IiMxRDc4MUQiLz4KPHBhdGggZD0iTTUuMzMzNSA0Ljk1MzEySDguNjAyODdDOS4yOTE0OCA0Ljk1MzEyIDkuODA5NDMgNS4xMjE5NCAxMC4xNTY3IDUuNDU5NThDMTAuNTA0IDUuNzkxMjkgMTAuNjc3NyA2LjI1OTI1IDEwLjY3NzcgNi44NjM0NEMxMC42Nzc3IDcuNzE2NDIgMTAuMzE4NCA4LjI4NTA3IDkuNTk5ODUgOC41Njk0TDEwLjg1NzMgMTEuMDQ4NEg5LjQ0NzE2TDguMzYwMzYgOC43NzM3Nkg2LjYzNTg2VjExLjA0ODRINS4zMzM1VjQuOTUzMTJaTTguNDg2MTEgNy42OTg2NUM4Ljc2NzU0IDcuNjk4NjUgOC45ODMxIDcuNjI0NiA5LjEzMjggNy40NzY1MkM5LjI4MjUgNy4zMjg0MyA5LjM1NzM0IDcuMTI0MDcgOS4zNTczNCA2Ljg2MzQ0QzkuMzU3MzQgNi42MDI4MSA5LjI4MjUgNi40MDE0MSA5LjEzMjggNi4yNTkyNUM4Ljk4MzEgNi4xMTcwOCA4Ljc2NzU0IDYuMDQ2IDguNDg2MTEgNi4wNDZINi42MzU4NlY3LjY5ODY1SDguNDg2MTFaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"

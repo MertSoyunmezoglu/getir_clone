@@ -28,8 +28,8 @@ export default function MainForm() {
     }
   }
   return (
-    <div className="  ml-12  rounded-lg text-center w-[400px] h-[200px]  bg-gray-50  ">
-      <h4 className="text-primary-brand-color font-semibold text-center mt-6  text-md ">
+    <div className="    rounded-lg text-center md:w-[400px] w-[600px]   px-20 md:px-0   h-[200px]  bg-gray-50  ">
+      <h4 className="text-primary-brand-color  font-semibold text-center mt-6  text-md ">
         Giriş Yap veya Kayıt Ol
       </h4>
       <div className="flex mt-3 ml-1  gap-2 ">

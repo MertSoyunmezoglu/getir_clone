@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <div  >
-      <div className="    px-32 h-12 bg-brand-color flex items-center justify-center sm:justify-between">
+      <div className="   sm:px-8 lg:px-24 h-12 bg-brand-color flex items-center justify-center sm:justify-between">
         <div className="flex gap-3  items-center  justify-between pt-2 ">
           <nav>
             {!user ? (

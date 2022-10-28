@@ -31,8 +31,8 @@ export default function LocationForm({ show }) {
     }
   }
   return (
-    <div className=" absolute inset-0  sm:px-8 justify-end mr-16 flex items-center">
-      <div className="   rounded-lg text-center w-[395px] pt-5  h-[365px] mx-12 bg-gray-50  ">
+    <div className=" absolute  inset-4   sm:px-8 object-cover   justify-center sm:justify-end sm:mr-16 flex items-center">
+      <div className="   rounded-lg text-center  md:w-[395px] pt-5  h-[365px]  bg-gray-50  ">
         <div>
           {show === true ? null : (
             <h4 className="text-primary-brand-color font-semibold tracking-normal text-center mb-4  text-md">
@@ -88,7 +88,7 @@ export default function LocationForm({ show }) {
             selected={selected}
             className="flag-select"
           />
-          <label className=" mx-5 relative block group">
+          <label className=" sm:mx-5 relative block group">
             <input
               required
               type="text"

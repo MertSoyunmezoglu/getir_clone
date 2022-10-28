@@ -6,10 +6,11 @@ import PastOrders from "components/ui/order/PastOrders";
 import FoodSideBar from "components/ui/sidebar/food/FoodSideBar";
 import Footer from "components/ui/footer/Footer";
 import RestaurantList from "components/ui/RestaurantList";
-import EmptyBasket from "components/ui/basket/EmptyBasket";
 import Basket from "components/ui/basket/Basket";
+import { ContextProvider } from "context/GlobalContext";
 
 export default function Restoranlar() {
+  const {windowWidth}= ContextProvider();
   const [validFoodBanner, setValidFoodBanner] = useState(true);
   const [exploreBanner, setExploreBanner] = useState(true);
   const [foodBanner, setFoodBanner] = useState(true);
@@ -18,21 +19,24 @@ export default function Restoranlar() {
     <>
       <Search />
 
-      <div className=" container mx-auto">
-        <Title>Kampanyalar</Title>
+      <div className=" xl:container mt-8  mx-auto">
+        
         <Campaigns validFoodBanner={validFoodBanner} />
         <Title>Keşfet</Title>
         <Campaigns exploreBanner={exploreBanner} />
         <Title>Mutfaklar</Title> <Campaigns foodBanner={foodBanner} />
-        <div className="grid grid-cols-8 gap-4 my-8">
-          <div className="  col-span-2">
+        <div className="md:grid   md:grid-cols-8 gap-4  xl:mx-0 mx-10 ">
+          <div className="   md:col-span-2">
             <Title>Ne Yesem?</Title>
             <Campaigns whatEatBanner={whatEatBanner} />
-            <Title>Filtreler</Title>
-            <FoodSideBar />
+            {windowWidth>640 ?   (  <div>
+              <Title>Filtreler</Title>
+              <FoodSideBar />
+            </div>):null}
+         
           </div>
-          <div className=" mt-10 col-span-4"><RestaurantList/></div>
-          <div className=" col-span-2 ">
+          <div className="  md:col-span-6 xl:col-span-4 mt-10"><RestaurantList/></div>
+          <div className=" xl:col-span-2 hidden  xl:block ">
           <div className="  mt-5 mx-auto w-64   "> <Basket/></div>
            
           </div>

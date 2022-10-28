@@ -18,7 +18,7 @@ export default function PriceBarBig() {
         </div>
         <div className="  col-4 ml-56 h-16 w-full bg-pricebar-bg  "></div>
 
-        <div className="overflow-hidden before:w-auto before:h-16 before:mt-[120px] before:z-10 before:bg-gradient-to-r before:ml-[420px] before:from-white before:to-transparent before:absolute before:inset-0"></div>
+        <div className="overflow-hidden before:w-auto before:h-16 before:mt-[88px] sm:before:mt-[120px] before:z-10 before:bg-gradient-to-r before:ml-[420px] before:from-white before:to-transparent before:absolute before:inset-0"></div>
       </div>
     </>
   );

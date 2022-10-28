@@ -30,7 +30,7 @@ export default function SideBarItem({
           <NavLink onClick={() => handleClick(pathname3)} to={`/${pathname}/${pathTitle.toLowerCase()}`}>
             <button
               onClick={toggleCollapse}
-              className="   grid grid-cols-3   items-start  transition w-64 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-left p-0.5 m-0.5  "
+              className="   grid grid-cols-3  gap-x-4  text-center sm:items-start  transition w-full ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color sm:text-left p-0.5 m-0.5  "
             >
               <span className="  justify-between    tracking-normal">
                 <img
@@ -39,10 +39,10 @@ export default function SideBarItem({
                   className=" w-8 h-8  border-x-y border-opacity-30 rounded-lg "
                 />
               </span>
-              <span className=" font-semibold  -ml-10  mt-1 text-md ">{title}</span>
+              <span className=" font-semibold mt-2  relative  md:left-2/4 lg:left-1/4  md:-ml-12  lg:text-sm">{title}</span>
 
               <span
-                className={`transition-all    ml-14 flex mt-2 mx-auto transform text-gray-400 ${
+                className={`transition-all relative left-1/3 flex mt-2 mx-auto transform text-gray-400 ${
                   isOpen ? " rotate-180 " : ""
                 }`}
               >
@@ -54,7 +54,7 @@ export default function SideBarItem({
           <NavLink onClick={() => handleClick(pathname3)} to={`/${pathname}/${pathname2}/${pathTitle.toLowerCase()}`}>
           <button
           onClick={toggleCollapse}
-          className="   grid grid-cols-3   items-start  transition w-64 ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color text-left p-0.5 m-0.5  "
+          className="  grid grid-cols-3  gap-x-4  text-center sm:items-start  transition w-full ml-1 focus:bg-purple-100 hover:bg-purple-100 text-gray-700   hover:text-primary-brand-color sm:text-left p-0.5 m-0.5  "
         >
           <span className="  justify-between  tracking-normal">
             <img
@@ -63,10 +63,10 @@ export default function SideBarItem({
               className=" w-8 h-8  border-x-y border-opacity-30 rounded-lg "
             />
           </span>
-          <span className=" font-semibold  -ml-10  mt-1 text-md ">{title}</span>
+          <span className=" font-semibold mt-2  relative  md:left-2/4 lg:left-1/4  md:-ml-12  lg:text-sm ">{title}</span>
 
           <span
-            className={`transition-all  ml-14 flex mt-2 mx-auto transform text-gray-400 ${
+            className={`transition-all relative left-1/3 flex mt-2 mx-auto transform text-gray-400 ${
               isOpen ? " rotate-180 " : ""
             }`}
           >

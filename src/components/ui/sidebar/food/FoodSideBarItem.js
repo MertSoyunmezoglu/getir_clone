@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Collapse } from "react-collapse";
-import { useWindowWidth } from "@react-hook/window-size";
 import { IoIosArrowDown } from "react-icons/io";
+import { ContextProvider } from "context/GlobalContext";
 
 export default function FoodSideBarItem({ title, items, index }) {
   const [isOpen, setIsOpen] = useState(true);
 
-  const windowWidth = useWindowWidth();
+  const {windowWidth} = ContextProvider()
   const toggleCollapse = () => {
     if (windowWidth < 2160) {
       setIsOpen(!isOpen);

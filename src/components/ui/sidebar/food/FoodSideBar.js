@@ -1,10 +1,9 @@
+import { ContextProvider } from "context/GlobalContext";
 import React from "react";
-import { useWindowWidth } from "@react-hook/window-size";
-
 import FoodSiBarItem from "./FoodSideBarItem";
 
 export default function FoodSideBar() {
-  const windowWidth = useWindowWidth();
+  const {windowWidth} = ContextProvider()
   const menus = [
     {
       title: "Sıralama ",

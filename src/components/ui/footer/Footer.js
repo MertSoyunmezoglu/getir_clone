@@ -1,9 +1,10 @@
 import React from "react";
 import FooterMenu from "components/ui/footer/FooterMenu";
 import { BsFacebook, BsTwitter, BsInstagram, BsGlobe } from "react-icons/bs";
-import { useWindowWidth } from "@react-hook/window-size";
+import { ContextProvider } from "context/GlobalContext";
+
 export default function Footer() {
-  const windowWidth = useWindowWidth();
+  const {windowWidth} = ContextProvider()
   const menus = [
     {
       title: "Getir'i keşfedin! ",

@@ -8,7 +8,7 @@ import HomeContent from "./herocontent/HomeContent";
 import BigHero from "./BigHero";
 import BigContent from "./herocontent/BigContent";
 import WaterContent from "./herocontent/WaterContent";
-import { ContextProvider } from "context/GlobalContext";
+ 
 
 
 
@@ -17,7 +17,7 @@ export default function HeroSection({
   bigSection,
   waterSection,
 }) {
-  const { windowWidth} = ContextProvider();
+ 
   const [sections, setSections] = useState("");
 
   useEffect(() => {

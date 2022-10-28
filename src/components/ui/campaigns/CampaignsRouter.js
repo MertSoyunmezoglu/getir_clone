@@ -51,7 +51,26 @@ export default function Campaigns({
       </button>
     );
   }
-  
+  function  PrevNone(props) {
+    const { className, style } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "none", background: "green" }}
+         
+      />
+    );
+  }
+  function  NextNone(props) {
+    const { className, style } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "none", background: "green" }}
+         
+      />
+    );
+  }
   const [banners, setBanners] = useState("");
   const [restaurants, setRestaurants] = useState("");
   const [kitchens, setKitchens] = useState("");
@@ -120,7 +139,7 @@ export default function Campaigns({
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
     ],
@@ -140,13 +159,13 @@ export default function Campaigns({
       {
         breakpoint: 1280,
         settings: {
-          slidesToShow: 6,
+          slidesToShow: 3,
         },
       },
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
         },
       },
       {
@@ -157,8 +176,8 @@ export default function Campaigns({
       },
     ],
 
-    nextArrow: <PrevBtn />,
-    prevArrow: <NextBtn />,
+    prevArrow:<PrevNone/>,
+    nextArrow:<NextNone/>,
   };
   const foodWhatEat = {
     dots: true,
@@ -168,7 +187,8 @@ export default function Campaigns({
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    arrow:false
+    prevArrow:<PrevNone/>,
+    nextArrow:<NextNone/>,
   };
   return (
     <div className="  bg-slate-100 w-auto">

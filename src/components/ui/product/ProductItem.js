@@ -6,8 +6,8 @@ export default function ProductItem({ product }) {
   const { state, addToCart, pathes } = ContextProvider();
 
   return (
-    <div className=" bg-gray-100   px-4 text-sm overflow-hidden  w-full font-semibold ">
-      <div className="grid-cols-1 grid  h-screen  box-content    overflow-y-scroll  md:text-xs sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  gap-x-0.5 gap-y-0.5  ">
+    <div className=" bg-gray-100   px-3 text-sm overflow-hidden  w-full font-semibold ">
+      <div className="grid-cols-3 grid  h-screen  box-content    overflow-y-scroll  md:text-xs sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4  gap-x-0.5 gap-y-0.5  ">
         {state.productList.map((product) =>
           product.category === pathes
             ? ( 
