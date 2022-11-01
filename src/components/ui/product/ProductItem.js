@@ -26,7 +26,7 @@ export default function ProductItem({ product }) {
                   </div>
                   <div className="   text-sm">{product.title}</div>
                   <div className=" text-gray-400 text-sm">{product.alt}</div>
-                  <div>{product.category}</div>
+                
                 </div>
               ))
             : null

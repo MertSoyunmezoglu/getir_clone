@@ -17,12 +17,12 @@ export default function AccountLayout() {
       <Search />
      
     
-      <div className=" grid grid-flow-col justify-start ">
-        <div className=" mt-24 w-80 rounded-lg  bg-white my-8 mx-24 text-base text-gray-500 opacity-90 font-semibold ">
+      <div className=" grid sm:pt-24 md:grid-cols-2 lg:grid-cols-3 grid-cols-1 justify-start mx-8 lg:mx-24 ">
+        <div className=" sm:mt-24 col-span-1 md:w-80 w-auto rounded-lg   bg-white my-8  text-base text-gray-500 opacity-90 font-semibold ">
           <Options />
         </div>
       
-       <div className="-ml-16"> <Outlet  /></div>
+       <div className=" lg:col-span-2"> <Outlet  /></div>
          
   
       </div>

@@ -65,13 +65,13 @@ const PhoneSignUp = () => {
 
   return (
     <>
-      <div className="  my-6  rounded-lg bg-white text-center w-[525px] h-[300px]    ">
+      <div className="  my-6  rounded-lg bg-white text-center w-auto h-80 sm:w-[525px] sm:h-[300px]    ">
         <div className="p-4 mt-10 ">
           <Form onSubmit={getOtp} style={{ display: !flag ? "block" : "none" }}>
             <Form.Group className="mb-3" controlId="formBasicPhone">
               <div className="border-2 w-28 flex rounded-lg pl-2 h-16  ">
                 <PhoneInput
-                  className="  gap-20 "
+                  className="  gap-20"
                   id="phone-input-container"
                   defaultCountry="TR"
                   display="none"
@@ -80,13 +80,13 @@ const PhoneSignUp = () => {
                   placeholder="Telefon Numarası"
                 />
 
-                <span className=" absolute flex top-36 left-20  text-base items-center">
+                <span className=" absolute flex md:-mt-1 mt-1 top-32 md:top-36  left-20  text-base items-center">
                   +90
                 </span>
               </div>
               <div id="recaptcha-container" className="mt-2 flex "></div>
             </Form.Group>
-            <div className="button-right mr-3">
+            <div className="button-right ">
               <button
                 type="submit"
                 className=" bg-brand-yellow     h-16 text-secondary-brand-color hover:text-brand-yellow hover:bg-secondary-brand-color w-full  flex items-center transition-all justify-center rounded-xl font-semibold text-lg font-sans"
@@ -145,7 +145,7 @@ const PhoneSignUp = () => {
           </Form>
         </div>
         <div
-          className="p-6 -m-3 mt-3 tracking-wide  box  text-center text-gray-500 bg-slate-100"
+          className="p-6 -m-3 mt-2 tracking-wide  box  text-center text-gray-500 bg-slate-100"
           style={{ display: flag ? "none" : "block" }}
         >
           Hala kayıt olmadınız mı?{" "}

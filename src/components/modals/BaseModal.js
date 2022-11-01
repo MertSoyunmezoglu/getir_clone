@@ -37,7 +37,7 @@ function Modal({ name }) {
         <div className="fixed inset-0 overflow-y-scroll">
           <div className="flex min-h-full items-center justify-center  text-center w-full">
             <Dialog.Panel className="  max-w-xl transform overflow-hidden rounded-lg bg-white p-2 py-8 text-left align-middle shadow-xl transition-all">
-              <label className="  relative block group text-xl font-semibold text-center mt-2   text-primary-brand-color justify-between items-center ">
+              <label className="  relative block group text-sm  sm:text-xl font-semibold text-center pt-1   text-primary-brand-color justify-between items-center ">
                 {currentModal.name === "login" && "Giriş yap veya kayıt ol"}
                 {/*currentModal.name==="login" && setUpRecaptcha ===false &&  "giriş "  verify otp için farklı bir label gelmeli*/}
                 {currentModal.name === "maps" && "Teslimat Adresi Ekleyin"}

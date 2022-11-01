@@ -7,7 +7,7 @@ export default function Header() {
   const { user } = useUserAuth();
 
   return (
-    <div  >
+    <div  className="sm:fixed w-full z-50" >
       <div className="   sm:px-8 lg:px-24 h-12 bg-brand-color flex items-center justify-center sm:justify-between">
         <div className="flex gap-3  items-center  justify-between pt-2 ">
           <nav>

@@ -13,10 +13,12 @@ function Kategoriler( ) {
    const pathname = window.location.pathname;
 
   return (
-    <div>
+    <div >
       <Search />
-      {windowWidth<640?null:<PriceBar />}
-      <div className=" xl:container mt-8 mx-auto">
+      {windowWidth<640?null:  
+        <PriceBar  />
+       }
+      <div className=" xl:container md:pt-32 mx-auto">
        { pathname === "/kategoriler" ?  <Campaigns validHomeBanner={validHomeBanner} /> :
        <Campaigns validBigBanner={validBigBanner} />}
       </div>

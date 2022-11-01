@@ -2,12 +2,12 @@
  [
     {
       "id": 1,
-    "title":"Tantunim33 Tantuni & Dürüm (Merkez Mah.)",
-    "rate":4.7,
-    "restaurantimg":"https://cdn.getiryemek.com/restaurants/1661760180144_1125x522.jpeg",
-    "whatEat":"https://cdn.getiryemek.com/recommendation/ne-yesem-tab-1%20%281%29.jpeg",
-    "time":"45-60 dk",
-    "minValue":"60,00" 
+      "title":"Little Ceasers (Bahçelievler Mah.)",
+      "rate":4.8,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1568289839702_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
+        "time":"30-45 dk",
+        "minValue":"120,00" 
     },
     {
         "id": 2,
@@ -74,13 +74,14 @@
       },
       {
         "id": 9,
-      "title":"Little Ceasers (Bahçelievler Mah.)",
-      "rate":4.8,
-        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1568289839702_1125x522.jpeg",
-        "whatEat":"https://cdn.getiryemek.com/recommendation/neyesem-tab-3%20%281%29.jpeg",
-        "time":"30-45 dk",
-        "minValue":"120,00" 
+        "title":"Tantunim33 Tantuni & Dürüm (Merkez Mah.)",
+        "rate":4.7,
+        "restaurantimg":"https://cdn.getiryemek.com/restaurants/1661760180144_1125x522.jpeg",
+        "whatEat":"https://cdn.getiryemek.com/recommendation/ne-yesem-tab-1%20%281%29.jpeg",
+        "time":"45-60 dk",
+        "minValue":"60,00" 
       },
+
       {
         "id": 10,
       "title":"Chinese & Sushi Express (Kordonboyu Mah.)",

@@ -23,7 +23,7 @@ export default function Profile({click}) {
     {click && (
         <div className="opacity-0  invisible  dropdown-menu transition-all duration-300 transform origin-top-right -translate-y-2 scale-95">
           <div
-            className="absolute right-0 w-72  origin-top-right bg-white border border-gray-200 divide-y divide-gray-100  shadow-lg outline-none"
+            className="absolute z-50 right-0 w-72  origin-top-right bg-white border border-gray-200 divide-y divide-gray-100  shadow-lg outline-none"
             aria-labelledby="headlessui-menu-button-1"
             id="headlessui-menu-items-117"
             role="menu"

@@ -12,8 +12,8 @@ export default function Account() {
     <Helmet>
     <title>Hesabım | Getir</title>
   </Helmet>
-        <div className="  mt-16 w-[36rem]   h-52   rounded-lg bg-white">
-          <button className=" ml-[32rem] -mb-2 bg-white shadow-md    w-8 h-8  flex items-center justify-center border border-gray-200 rounded-md">
+        <div className="  mt-16 w-[36rem] mb-12   h-52   rounded-lg bg-white">
+          <button className=" ml-[32rem]   -mb-2 bg-white shadow-md    w-8 h-8  flex items-center justify-center border border-gray-200 rounded-md">
             <BsPencilSquare className=" text-primary-brand-color" size={18} />
           </button>
 

@@ -11,7 +11,7 @@ export default function Categories() {
   }, []);
 
   return (
-    <div className="bg-white   pr-10  w-full h-screen  overflow-y-scroll box-content overflow-x-hidden  rounded-lg">
+    <div className="bg-white   pr-10  w-full md:h-screen  overflow-y-scroll box-content overflow-x-hidden  rounded-lg">
       <div >
         <div  >
           {categories &&

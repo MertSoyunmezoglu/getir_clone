@@ -19,9 +19,9 @@ export default function Restoranlar() {
     <>
       <Search />
 
-      <div className=" xl:container mt-8  mx-auto">
+      <div className=" xl:container   mx-auto">
         
-        <Campaigns validFoodBanner={validFoodBanner} />
+        <div className=" md:pt-36 pt-8"><Campaigns validFoodBanner={validFoodBanner} /></div>
         <Title>Keşfet</Title>
         <Campaigns exploreBanner={exploreBanner} />
         <Title>Mutfaklar</Title> <Campaigns foodBanner={foodBanner} />

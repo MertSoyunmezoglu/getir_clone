@@ -71,13 +71,13 @@ const Signup = () => {
 
   return (
     <>
-      <div className="    rounded-lg text-center w-[500px] h-[630px]  bg-white  ">
+      <div className="    rounded-lg text-center sm:w-[500px] w-auto sm:h-[630px] h-auto  bg-white  ">
         <div className="p-4 box">
 
 
           <Form onSubmit={handleSubmit}>
             <Form.Group
-              className="flex mt-4 mb-3 gap-5"
+              className="flex mt-4 mb-3 gap-0 sm:gap-5"
               controlId="formBasicNumber"
             >
               <ReactFlagsSelect
@@ -95,14 +95,14 @@ const Signup = () => {
                 selected={selected}
                 className="flag-select -ml-1"
               />
-              <label className=" mx-3  relative block group">
+              <label className=" mx-2  relative block group">
                 <input
                   required
                   type="text"
                   maxLength={11}
 
                   onChange={handleInput}
-                  className={` flex-nowrap border-2 peer  hover:border-primary-brand-color   border-gray-300  rounded-md h-14 w-[322px]    ${
+                  className={` flex-nowrap border-2 peer  hover:border-primary-brand-color   border-gray-300  rounded-md h-14 w-auto sm:w-[322px]    ${
                     phoneCheck === true ? "focus:border-red-400 " : "null"
                   } `}
                 />
@@ -175,8 +175,8 @@ const Signup = () => {
                   className="border-2 w-7 h-7 border-gray-300  rounded-md  ml-2 hover:border-primary-brand-color transition-all "
                   onChange={(e) => setRule(e.target.checked)}
                 />
-                <span className="text-left text-sm ml-4 text-gray-400 font-semibold">
-                  Getir'in bana özel kampanya, tanıtım ve fırsatlarından <br />{" "}
+                <span className="text-left text-xxs sm:text-sm ml-4 text-gray-400 font-semibold">
+                  Getir'in bana özel kampanya, tanıtım ve fırsatlarından  
                   haberdar olmak istiyorum{" "}
                 </span>
               </label>

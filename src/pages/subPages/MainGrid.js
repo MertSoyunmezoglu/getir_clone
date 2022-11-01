@@ -6,6 +6,7 @@ import ProductItem from "../../components/ui/product/ProductItem";
 import Title from "../../helper/Title";
 import { ContextProvider } from "context/GlobalContext";
 import GetOrder from "components/ui/order/GetOrder";
+import { NavLink } from "react-router-dom";
 
 export default function MainGrid() {
   const {windowWidth,totalCartAmount} = ContextProvider()
@@ -28,7 +29,12 @@ export default function MainGrid() {
       <Basket />
     </aside>
      )}
-     {windowWidth > 640 ? null :<aside> <div className=" w-full mt-4 flex justify-between flex-col"><GetOrder totalCartAmount={totalCartAmount}/></div></aside>}
+     {windowWidth > 640 ? null :<aside> <div className=" w-full mt-4 flex justify-between flex-col">    {totalCartAmount > 0 && (
+      <NavLink to="/odeme">
+     
+     <GetOrder totalCartAmount={totalCartAmount} /> 
+      </NavLink>
+    )}</div></aside>}
     </div>
   );
 }

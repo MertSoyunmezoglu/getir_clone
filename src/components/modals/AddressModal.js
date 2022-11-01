@@ -20,12 +20,12 @@ const AddressModal = () => {
 
   return (
     <>
-      <div className="    rounded-lg text-center w-[500px] h-[340px]  bg-white  ">
-      <label>Lütfen Adres Bilgilerinizi Ekleyiniz</label>
-        <div className="p-4 box">
+      <div className="   sm:text-base text-xxs rounded-lg text-center  w-auto sm:w-[500px] h-auto  bg-white  ">
+      <div className="  sm:text-xl text-lg  mr-4  text-primary-brand-color font-semibold" >Adres</div>
+        <div className="p-4 ">
           <Form onSubmit={handleSubmit} >
           
-            <Form.Group className="mb-5 mt-12" controlId="textarea">
+            <Form.Group className="mb-5 mt-4 sm:mt-12" controlId="textarea">
               <label className=" mx-3 relative block group"> 
                 <input
                   required
@@ -34,7 +34,7 @@ const AddressModal = () => {
                  onChange={(e) => setName(e.target.value)}
                 />
 
-                <span className=" absolute select-none pointer-event -top-16 left-3 h-full text text-md text-gray-500 flex items-center peer-focus:text-primary-brand-color  text-md peer-focus:h-36 mt-1 peer-focus:text-xs transition-all peer-valid:h-36 ml-2 peer-valid:text-xs peer-valid:text-secondary-brand-color">
+                <span className=" absolute select-none pointer-event   -top-16 sm:left-3 left-0 h-full    text-md text-gray-500 flex items-center peer-focus:text-primary-brand-color  peer-focus:h-36 mt-1 peer-focus:text-xxs transition-all peer-valid:h-36 ml-2 peer-valid:text-xxs peer-valid:text-secondary-brand-color">
                 Lütfen açık adres bilgilerinizi giriniz.
                 </span>
               </label>
@@ -46,7 +46,7 @@ const AddressModal = () => {
                 type="Submit"
                 className=" bg-primary-brand-color mt-1 h-14 text-white hover:bg-secondary-brand-color w-full flex items-center transition-all justify-center rounded-xl font-semibold text-lg font-sans"
               >
-                Kayıt Ol
+                Kaydet
               </button>
             </div>
           </Form>

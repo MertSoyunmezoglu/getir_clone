@@ -3,9 +3,9 @@ import React, { useState } from "react";
 export default function PriceBarBig() {
   return (
     <>
-      <div className=" flex   bg-white  h-16 mb-4  sm:flex-row sm:pl-12 items-center  ">
-        <div className=" gap-32 flex ml-12">
-          <div className="  bg-getir-bag-home   h-9 w-10 mb-2">
+    <div className=" flex -mb-28  pt-48 bg-white  h-16   sm:flex-row sm:pl-12 items-center  ">
+    <div className=" gap-32 flex ml-12">
+          <div className="  bg-getir-bag-home   h-9 w-9 mb-20">
             <label className="ml-12 text-gray-500 text-xs">MİNİMUM </label>
             <span className="ml-12 flex font-semibold text-md">₺70,00</span>
           </div>
@@ -16,9 +16,9 @@ export default function PriceBarBig() {
             </span>
           </div>
         </div>
-        <div className="  col-4 ml-56 h-16 w-full bg-pricebar-bg  "></div>
+        <div className="   col-4 ml-60 mb-24 h-24 w-full bg-pricebar-bg   "></div>
 
-        <div className="overflow-hidden before:w-auto before:h-16 before:mt-[88px] sm:before:mt-[120px] before:z-10 before:bg-gradient-to-r before:ml-[420px] before:from-white before:to-transparent before:absolute before:inset-0"></div>
+        <div className="overflow-hidden before:w-auto  before:h-[72px] before:mt-[88px] sm:before:mt-[120px] before:z-10 before:bg-gradient-to-r before:ml-[420px] before:from-white before:to-transparent before:absolute before:inset-0"></div>
       </div>
     </>
   );

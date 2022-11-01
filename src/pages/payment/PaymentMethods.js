@@ -4,9 +4,9 @@ import PaymentOptions from "./PaymentOptions";
 
 export default function PaymentMethods() {
   return (
-    <div className="  mt-16  ">
+    <div className="  md:mt-16  ">
       Ödeme Yöntemlerim
-      <div className=" text-sm  w-[36rem] mt-2 h-40  font-semibold rounded-lg bg-white">
+      <div className=" text-sm sm:w-[28rem] md:w-[36rem] w-auto mt-2 h-48 mb-4  font-semibold rounded-lg bg-white">
        <PaymentOptions/>
       </div>
     </div>

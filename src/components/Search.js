@@ -7,6 +7,7 @@ import { MdOutlineArrowForwardIos } from "react-icons/md";
 export default function Search() {
   
   return (
+    <div className=" w-full sm:fixed sm:mt-12 z-40">
     <div className=" w-auto  sm:px-10   sm:h-[4.5rem] bg-primary-brand-color ">
       <div className="lg:container  grid sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-7 justify-center sm:justify-between">
         <div className=" sm:col-span-1 lg:col-span-1 xl:col-span-2 hidden sm:block">
@@ -20,10 +21,10 @@ export default function Search() {
           </NavLink>
         </div>
 
-        <div className="sm:col-span-3 lg:col-span-3 xl:col-span-5 mr-16 sm:mr-0   items-center  z-10 flex">
+        <div className="sm:col-span-3 lg:col-span-3 xl:col-span-5 mr-12 sm:mr-0   items-center  z-10 flex">
           <form>
             <div class="relative w-full">
-              <div class="flex absolute inset-y-0 left-0 items-center pl-8  pointer-events-none">
+              <div class="flex absolute inset-y-0 left-0 items-center pl-4  pointer-events-none">
                 <BsSearch color="#5d3ebc" />
               </div>
 
@@ -36,7 +37,7 @@ export default function Search() {
               <input
                 type="search"
                 id="default-search"
-                class="block px-44 h-10 pl-12 ml-4 mr-12 z-20 text-sm text-gray-600 bg-gray-50 rounded-l-xl rounded-r-3xl border-none    "
+                class="block px-auto sm:w-96 h-10 pl-16  mr-12 z-20 text-sm text-gray-600 bg-gray-50 rounded-l-xl rounded-r-3xl border-none    "
                 placeholder="Ürün ara"
                 required
               />
@@ -55,6 +56,7 @@ export default function Search() {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 }

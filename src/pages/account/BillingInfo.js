@@ -4,12 +4,12 @@ import { HiPlus } from "react-icons/hi";
 
 export default function BillingInfo() {
   return (
-    <div className="  mt-16  ">
+    <div className="  md:mt-16 mb-12  ">
       <Helmet>
         <title>Fatura Bilgilerim | Getir</title>
       </Helmet>
       Fatura Bilgileri
-      <div className=" text-sm  w-[36rem] mt-2 h-32  font-semibold rounded-lg bg-white">
+      <div className=" text-sm  lg:w-[36rem] sm:w-[28rem] w-auto mt-2 h-32  font-semibold rounded-lg bg-white">
         <div className=" text-center  text-gray-600     pt-2    ">
           Fatura Bilginiz yok.
         </div>

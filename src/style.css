@@ -42,7 +42,7 @@
 
 }
 #phone-input-container {
-    @apply h-16 w-[350px] flex border-2 hover:border-primary-brand-color transition-all  border-gray-200 rounded-md flex-col items-center justify-center
+    @apply h-16 w-auto sm:w-[350px] flex border-2 hover:border-primary-brand-color transition-all  border-gray-200 rounded-md flex-col items-center justify-center
 }
    
 video{

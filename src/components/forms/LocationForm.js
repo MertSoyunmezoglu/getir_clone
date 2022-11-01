@@ -116,7 +116,7 @@ export default function LocationForm({ show }) {
         ) : null}
         <button
           type="submit"
-          className=" bg-brand-yellow ml-5 mt-2 h-12 text-secondary-brand-color hover:text-brand-yellow hover:bg-secondary-brand-color w-[360px] flex items-center transition-all justify-center rounded-md font-semibold text-md font-sans"
+          className=" bg-brand-yellow sm:ml-5 mt-2 h-12 text-secondary-brand-color hover:text-brand-yellow hover:bg-secondary-brand-color w-[360px] flex items-center transition-all justify-center rounded-md font-semibold text-md font-sans"
         >
           Telefon numarası ile devam et{" "}
         </button>

@@ -28,11 +28,11 @@ export default function MainForm() {
     }
   }
   return (
-    <div className="    rounded-lg text-center md:w-[400px] w-[600px]   px-20 md:px-0   h-[200px]  bg-gray-50  ">
+    <div className="    md:rounded-lg text-center md:w-[400px]  w-full   sm:px-20 md:px-0  h-auto sm:h-[200px]  bg-gray-50  ">
       <h4 className="text-primary-brand-color  font-semibold text-center mt-6  text-md ">
         Giriş Yap veya Kayıt Ol
       </h4>
-      <div className="flex mt-3 ml-1  gap-2 ">
+      <div className="flex mt-3 sm:ml-1 ml-6  gap-x-2 ">
         {" "}
         <ReactFlagsSelect
           countries={["US", "GB", "TR", "FR", "DE", "IT"]}
@@ -47,7 +47,7 @@ export default function MainForm() {
           placeholder="Select Country"
           onSelect={(code) => setSelected(code)}
           selected={selected}
-          className="flag-select w-30 "
+          className="flag-select w-auto "
         />
         <label className=" mx-5 relative block group">
           <input
@@ -57,7 +57,7 @@ export default function MainForm() {
             maxLength={11}
             value={inputValue}
             onChange={(e) => handleInput(e)}
-            className={`border-2 peer  border-gray-300  rounded-md h-14  w-60  hover:border-primary-brand-color  ${
+            className={`border-2 peer  border-gray-300  rounded-md h-14 w-full sm:w-60  hover:border-primary-brand-color  ${
               inputValue.length < 11 ? "focus:border-red-400 " : "null"
             } `}
           />
@@ -66,7 +66,7 @@ export default function MainForm() {
               <CgDanger size={24} />
             </span>
           ) : null}
-          <span className=" absolute -top-1 left-0 h-full px-2 text-sm text-gray-500 flex items-center peer-focus:text-primary-brand-color  text-md peer-focus:h-5 mt-1 peer-focus:text-xs transition-all peer-valid:h-5 ml-2 peer-valid:text-xs peer-valid:text-secondary-brand-color">
+          <span className=" absolute -top-1 left-0 h-full   px-2 text-sm text-gray-500 flex items-center peer-focus:text-primary-brand-color  text-md peer-focus:h-5 mt-1 peer-focus:text-xs transition-all peer-valid:h-5 ml-2 peer-valid:text-xs peer-valid:text-secondary-brand-color">
             Telefon Numarası
           </span>
         </label>
@@ -78,7 +78,7 @@ export default function MainForm() {
       ) : null}
       <button
         type="submit"
-        className=" bg-brand-yellow ml-5 mt-1 mb-4  h-12 text-secondary-brand-color hover:text-brand-yellow hover:bg-secondary-brand-color w-[360px] flex items-center transition-all justify-center rounded-md font-semibold text-md font-sans"
+        className=" bg-brand-yellow sm:ml-5   mt-1 sm:mb-4  h-12 text-secondary-brand-color hover:text-brand-yellow hover:bg-secondary-brand-color w-full sm:w-[360px] flex items-center transition-all justify-center sm:rounded-md font-semibold text-md font-sans"
       >
         Telefon numarası ile devam et{" "}
       </button>
