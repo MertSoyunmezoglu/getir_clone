@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { BsSearch } from "react-icons/bs";
 import { FcHome } from "react-icons/fc";
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import PaymentOptions from "./PaymentOptions";

@@ -11,3 +11,4 @@ export default function Page404({lost }) {
     </div>
   )
 }
+ 

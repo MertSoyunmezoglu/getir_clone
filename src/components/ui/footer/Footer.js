@@ -4,7 +4,7 @@ import { BsFacebook, BsTwitter, BsInstagram, BsGlobe } from "react-icons/bs";
 import { ContextProvider } from "context/GlobalContext";
 
 export default function Footer() {
-  const {windowWidth} = ContextProvider()
+  const { windowWidth } = ContextProvider();
   const menus = [
     {
       title: "Getir'i keşfedin! ",

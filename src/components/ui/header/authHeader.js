@@ -6,23 +6,22 @@ import Profile from "../profile/Profile";
 import { ContextProvider } from "context/GlobalContext";
 
 export default function AuthHeader() {
-
-  const {windowWidth} = ContextProvider()
+  const { windowWidth } = ContextProvider();
   const [click, setClick] = useState(false);
 
   const toggleClick = () => {
     setClick(!click);
   };
- 
+
   return (
-    <nav className=" hidden sm:flex   gap-x-6  ">
-      <button className=" text-white  text-opacity-80 flex items-center gap-1  xl:text-base font-medium transition-all  hover:text-opacity-100">
+    <nav className=" hidden sm:flex gap-x-6  ">
+      <button className=" text-white  text-opacity-80 flex items-center gap-1 xl:text-base font-medium transition-all  hover:text-opacity-100">
         <BiGlobe size={20} /> {windowWidth > 1024 && "Türkçe (TR)"}
       </button>
-      <button className=" text-white  text-opacity-80 flex  xl:text-base  items-center gap-1  transition-all   hover:text-opacity-100">
+      <button className=" text-white  text-opacity-80 flex  xl:text-base  items-center gap-1 transition-all hover:text-opacity-100">
         <HiGift size={20} /> {windowWidth > 1024 && " Kampanyalar"}
       </button>
-      <button className=" text-white  text-opacity-80 flex  xl:text-base  items-center gap-1    hover:text-opacity-100">
+      <button className=" text-white  text-opacity-80 flex  xl:text-base  items-center gap-1 hover:text-opacity-100">
         <div className=" bg-brand-color  justify-center z-40 ">
           <div className="flex items-center justify-center ">
             <div className=" relative inline-block text-left dropdown">
@@ -53,12 +52,11 @@ export default function AuthHeader() {
                   </svg>
                 </button>
               </span>
-             <Profile click={click}/>
+              <Profile click={click} />
             </div>
           </div>
         </div>
       </button>
     </nav>
-   
   );
 }

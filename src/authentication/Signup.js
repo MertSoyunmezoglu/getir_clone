@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Form, Alert } from "react-bootstrap";
-import { Button } from "react-bootstrap";
 import { useUserAuth } from "../context/UserAuthContext";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -12,17 +11,23 @@ import { ContextProvider } from "../context/GlobalContext";
 
 const Signup = () => {
   const [selected, setSelected] = useState("TR");
-
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
-
   const [rule, setRule] = useState(false);
   const [inputValue, setInputValue] = useState("");
-
-
-
   const { signUp } = useUserAuth();
- const {  pathname, found,email, formatPhoneNumber,setPhoneCheck,phoneCheck,name, setName,setNumber,setEmail } = ContextProvider();
+  const {
+    pathname,
+    found,
+    email,
+    formatPhoneNumber,
+    setPhoneCheck,
+    phoneCheck,
+    name,
+    setName,
+    setNumber,
+    setEmail,
+  } = ContextProvider();
 
   let navigate = useNavigate();
 
@@ -31,26 +36,26 @@ const Signup = () => {
     setInputValue(formattedPhoneNumber);
     setNumber(formattedPhoneNumber);
   };
-  
-  useEffect(() => {
-    if( inputValue.length >=1 && inputValue.length < 11  ){
-      setPhoneCheck(true)
-    }else{
-      setPhoneCheck(false)
-    }
 
-  }, [inputValue])
+  useEffect(() => {
+    if (inputValue.length >= 1 && inputValue.length < 11) {
+      setPhoneCheck(true);
+    } else {
+      setPhoneCheck(false);
+    }
+  }, [inputValue]);
 
   const handleSubmit = async (e) => {
-    
     e.preventDefault();
     setError("");
     try {
-      await signUp(email, password, name, );
-      if(pathname===found.path)
-      { navigate(found.path + found.subPath);}
-      else{navigate("kategoriler");}
-      
+      await signUp(email, password, name);
+      if (pathname === found.path) {
+        navigate(found.path + found.subPath);
+      } else {
+        navigate("kategoriler");
+      }
+
       modalClose();
     } catch (err) {
       setError(err.message);
@@ -73,8 +78,6 @@ const Signup = () => {
     <>
       <div className="    rounded-lg text-center sm:w-[500px] w-auto sm:h-[630px] h-auto  bg-white  ">
         <div className="p-4 box">
-
-
           <Form onSubmit={handleSubmit}>
             <Form.Group
               className="flex mt-4 mb-3 gap-0 sm:gap-5"
@@ -100,13 +103,12 @@ const Signup = () => {
                   required
                   type="text"
                   maxLength={11}
-
                   onChange={handleInput}
                   className={` flex-nowrap border-2 peer  hover:border-primary-brand-color   border-gray-300  rounded-md h-14 w-auto sm:w-[322px]    ${
                     phoneCheck === true ? "focus:border-red-400 " : "null"
                   } `}
                 />
-                {phoneCheck === true  ? (
+                {phoneCheck === true ? (
                   <span className=" absolute text-red-600 top-4 right-0 h-full px-4">
                     <CgDanger size={24} />
                   </span>
@@ -114,7 +116,7 @@ const Signup = () => {
                 <span className=" absolute -top-1 left-0 h-full px-2 text-md text-gray-500 flex items-center text-md peer-focus:h-5  ml-2 peer-focus:mt-1 peer-valid:mt-1 peer-focus:text-xs transition-all peer-valid:h-5 peer-valid:text-xs peer-valid:text-secondary-brand-color">
                   Telefon Numarası
                 </span>
-                {phoneCheck === true  ? (
+                {phoneCheck === true ? (
                   <span className=" text-xs  text-red-600">
                     Lütfen geçerli bir telefon numarası giriniz.
                   </span>
@@ -176,7 +178,7 @@ const Signup = () => {
                   onChange={(e) => setRule(e.target.checked)}
                 />
                 <span className="text-left text-xxs sm:text-sm ml-4 text-gray-400 font-semibold">
-                  Getir'in bana özel kampanya, tanıtım ve fırsatlarından  
+                  Getir'in bana özel kampanya, tanıtım ve fırsatlarından
                   haberdar olmak istiyorum{" "}
                 </span>
               </label>
@@ -223,7 +225,10 @@ const Signup = () => {
         </div>
         <div className="p-6 -m-3 mt-3 tracking,wide  box  text-center text-gray-500 bg-slate-100">
           Getir'e üyeyseniz{" "}
-          <Link to="/login" className=" text-primary-brand-color text-md font-semibold">
+          <Link
+            to="/login"
+            className=" text-primary-brand-color text-md font-semibold"
+          >
             Giriş Yap
           </Link>
         </div>

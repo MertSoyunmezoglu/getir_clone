@@ -5,12 +5,7 @@ import FoodCard from "./FoodCard";
 import BigCard from "./BigCard";
 import WaterCard from "./WaterCard";
 
-export default function Cards({
-  foodCard,
-  homeCard,
-  bigCard,
-  waterCard,
-}) {
+export default function Cards({ foodCard, homeCard, bigCard, waterCard }) {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {

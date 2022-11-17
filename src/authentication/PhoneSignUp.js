@@ -11,14 +11,13 @@ import { ContextProvider } from "context/GlobalContext";
 
 const PhoneSignUp = () => {
   const [error, setError] = useState("");
-
   const [flag, setFlag] = useState(false);
   const [otp, setOtp] = useState("");
   const [result, setResult] = useState("");
   const { setUpRecaptha } = useUserAuth();
   const navigate = useNavigate();
 
-  const {  pathname, found,number,setNumber } = ContextProvider();
+  const { pathname, found, number, setNumber } = ContextProvider();
 
   const getOtp = async (e) => {
     e.preventDefault();
@@ -53,14 +52,15 @@ const PhoneSignUp = () => {
     if (otp === "" || otp === null) return;
     try {
       await result.confirm(otp);
-      if(pathname===found.path)
-      { navigate(found.path + found.subPath);}
-      else{navigate("kategoriler");}
+      if (pathname === found.path) {
+        navigate(found.path + found.subPath);
+      } else {
+        navigate("kategoriler");
+      }
       modalClose();
     } catch (err) {
       setError(err.message);
     }
-   
   };
 
   return (
@@ -75,7 +75,6 @@ const PhoneSignUp = () => {
                   id="phone-input-container"
                   defaultCountry="TR"
                   display="none"
-                  
                   onChange={setNumber}
                   placeholder="Telefon Numarası"
                 />
@@ -110,19 +109,19 @@ const PhoneSignUp = () => {
               .
             </li>
           </ol>
-          <label className=" text-gray-400 mb-9" 
-          style={{ display: flag ? "block" : "none" }}
+          <label
+            className=" text-gray-400 mb-9"
+            style={{ display: flag ? "block" : "none" }}
           >
-          Lütfen {number} numaralı telefonuna gönderilen tek kullanımlık şifreyi giriniz.
+            Lütfen {number} numaralı telefonuna gönderilen tek kullanımlık
+            şifreyi giriniz.
           </label>
           <Form
             onSubmit={verifyOtp}
             style={{ display: flag ? "block" : "none" }}
           >
             <Form.Group className="mb-3" controlId="formBasicOtp">
-
-                
-                <label className=" mx-3 relative block group">
+              <label className=" mx-3 relative block group">
                 <input
                   required
                   type="text"
@@ -153,13 +152,11 @@ const PhoneSignUp = () => {
             Kayıt Ol
           </Link>
         </div>
-        
         <div
           className="p-6 -m-3 mt-3 tracking-wide  box  text-center text-gray-500 bg-slate-100"
           style={{ display: flag ? "block" : "none" }}
-        >
-          Şifre gelmedi mi?{" "}
-          <Link to="/signup" className=" text-primary-brand-color font-semibold">
+        >          Şifre gelmedi mi?{" "}
+          <Link  to="/signup" className=" text-primary-brand-color font-semibold" >
             Tek kullanımlık şifreyi tekrar gönder
           </Link>
         </div>
