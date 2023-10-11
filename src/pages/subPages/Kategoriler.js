@@ -3,7 +3,7 @@ import Campaigns from "components/ui/campaigns/CampaignsRouter";
 import { useState } from "react";
 import Search from "components/Search";
 import PriceBar from "components/ui/pricebar/PriceBar";
-import MainGrid from "pages/subpages/MainGrid";
+import MainGrid from "pages/subPages/MainGrid";
 import { ContextProvider } from "context/GlobalContext";
 
 function Kategoriler( ) {
